@@ -1,0 +1,16 @@
+#lang racket
+(provide Css)
+;<attr> ::= (<symbol> <string>)
+;<style> ::= (<string> <attr>*)
+;<css> ::= (<style>*)
+(define (Attr* attr*)
+  (for-each
+   (lambda (attr)
+     (printf "~s: ~a;" (car attr) (cadr attr)))
+   attr*))
+(define (Style style)
+  (printf "~a {" (car style))
+  (Attr* (cdr style))
+  (printf "}\n"))
+(define (Css css)
+  (for-each Style css))
