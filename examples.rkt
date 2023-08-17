@@ -77,3 +77,10 @@
 (define example10
   (: (:Sum (: :n := :0) :inf)
      (:inv (: :n :!)) := :e))
+(define example11
+  (: (:Lim :n :inf)
+     (Msup (:paren :1 :+ (:inv :n)) :n)
+     := :e))
+(define example12
+  (: (:type :f :A :B) :cm
+     :x ::-> (:ap0 :f :x)))
