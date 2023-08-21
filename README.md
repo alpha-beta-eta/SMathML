@@ -48,3 +48,23 @@ Here are some examples:
           ,(: cm (&>= $n $2)))))))
 ```
 <img width="685" alt="image" src="https://github.com/alpha-beta-eta/MathML/assets/95096031/abde306a-d30f-41a9-a7df-cad7d8174432">
+
+```
+(deriv
+ (det `((,$a ,$b ,$c)
+        (,$d ,$e ,$f)
+        (,$g ,$h ,$i)))
+ (&+ (&- (i* $a (det `((,$e ,$f)
+                       (,$h ,$i))))
+         (i* $b (det `((,$d ,$f)
+                       (,$g ,$i)))))
+     (i* $c (det `((,$d ,$e)
+                   (,$g ,$h)))))
+ (&- (&+ (i* $a $e $i)
+         (i* $b $f $g)
+         (i* $c $d $h))
+     (i* $c $e $g)
+     (i* $a $f $h)
+     (i* $b $d $i)))
+```
+<img width="799" alt="image" src="https://github.com/alpha-beta-eta/MathML/assets/95096031/9f0fd798-34c8-4722-a42d-a907c2c0f658">
