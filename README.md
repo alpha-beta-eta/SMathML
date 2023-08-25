@@ -76,4 +76,4 @@ Here are some examples:
                    (^ (norm (&+ $u (&i* (^ $i $k) $v)))
                       $2)))))
 ```
-![image](https://github.com/alpha-beta-eta/MathML-with-Scheme/assets/95096031/26582b40-96dc-43f0-b278-909150691c14)
+![image](https://github.com/alpha-beta-eta/MathML-with-Scheme/assets/95096031/2d62e3ca-60d3-4ef6-8b6f-0d3cd6472cd3)
