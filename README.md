@@ -1,4 +1,4 @@
-# MathML-with-Scheme
+# SMathML
 
 This is just an attempt to use MathML with Scheme.  
 Here are some examples:
