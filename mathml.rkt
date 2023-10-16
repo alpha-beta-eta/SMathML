@@ -428,6 +428,10 @@
   (Mrow x $prime))
 (define (&!in x y)
   (Mrow x $!in y))
+(define $/
+  (Mo "/" #:attr* '((lspace "0") (rspace "0"))))
+(define (&/ x y)
+  (Mrow x $/ y))
 (define (Re x)
   (ap (Mi "Re") x))
 (define (Im x)
