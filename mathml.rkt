@@ -438,6 +438,8 @@
   (Mo "/" #:attr* '((lspace "0") (rspace "0"))))
 (define (&/ x y)
   (Mrow x $/ y))
+(define (inv x)
+  (^ x $-1))
 (define (Re x)
   (ap (Mi "Re") x))
 (define (Im x)
