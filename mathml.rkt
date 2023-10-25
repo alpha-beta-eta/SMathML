@@ -54,6 +54,8 @@
 
 (define (MathB #:attr* [attr* '()] . mathml*)
   `(math ((display "block") . ,attr*) . ,mathml*))
+(define M Math)
+(define MB MathB)
 (define $ (Mrow))
 (define ^ Msup)
 (define _ Msub)
@@ -247,6 +249,7 @@
 (define $-> (Mo "&rarr;"))
 (define $->0
   (Mo "&rarr;" #:attr* '((lspace "0") (rspace "0"))))
+(define $\|-> (Mo "&mapsto;"))
 (define $<=> (Mo "&hArr;"))
 (define $part (Mi "&part;"))
 (define $compose (Mo "&compfn;"))
@@ -352,6 +355,7 @@
   (make-op $-
     (err0 '&-)
     (lambda (x) (Mrow $- x))))
+(define $-1 (&- $1))
 (define-infix*
   (&+- $+-) (&-+ $-+)
   (&i* $i*) (&d* $d*) (&c* $c*)
@@ -363,7 +367,8 @@
   (&supe $supe) (&sup $sup)
   (&union $union)
   (&<=> $<=>)
-  (&compose $compose))
+  (&compose $compose)
+  (&\|-> $\|->))
 (define (pare x)
   (Mrow $lp x $rp))
 (define (par0 x)
@@ -424,8 +429,9 @@
   (ap (Mi "tr") (par0 A)))
 (define (func f A B)
   (Mrow f (Mo ":") (&-> A B)))
+;This is a recommended practice from MathML standard.
 (define (&prime x)
-  (Mrow x $prime))
+  (Msup x $prime))
 (define (&!in x y)
   (Mrow x $!in y))
 (define $/
@@ -441,12 +447,28 @@
          (map (lambda (r)
                 (apply Mtr (map Mtd r)))
               l)))
+(define-syntax &Table
+  (syntax-rules ()
+    ((_ (x ...) ...)
+     (&table (list (list x ...) ...)))))
 (define (choice l)
   (Mrow $lc (&table l)))
+(define-syntax Choice
+  (syntax-rules ()
+    ((_ (x ...) ...)
+     (choice (list (list x ...) ...)))))
 (define (mat l)
   (brac (&table l)))
+(define-syntax Mat
+  (syntax-rules ()
+    ((_ (x ...) ...)
+     (mat (list (list x ...) ...)))))
 (define (det l)
   (vert (&table l)))
+(define-syntax Det
+  (syntax-rules ()
+    ((_ (x ...) ...)
+     (det (list (list x ...) ...)))))
 (define (deriv x y . z*)
   (apply
    Mtable
@@ -455,6 +477,22 @@
                 (Mtr (Mtd $) (Mtd $=)
                      (Mtd #:attr* '((columnalign "left")) z)))
               z*))))
+(define (deriv0 x -> y . z*)
+  (define (make-line -> e)
+    (Mtr (Mtd $) (Mtd ->)
+         (Mtd #:attr* '((columnalign "left")) e)))
+  (define line*
+    (if (null? z*)
+        '()
+        (let iter ((-> (car z*)) (e (cadr z*)) (z* (cddr z*)) (r '()))
+          (if (null? z*)
+              (reverse (cons (make-line -> e) r))
+              (iter (car z*) (cadr z*) (cddr z*)
+                    (cons (make-line -> e) r))))))
+  (apply
+   Mtable
+   (cons (Mtr (Mtd x) (Mtd ->) (Mtd #:attr* '((columnalign "left")) y))
+         line*)))
 (define (tup . x*)
   (pare (apply &cm x*)))
 (define (tu0 . x*)
@@ -473,10 +511,18 @@
   (keyword-apply
    Div '(#:attr*) '(((class "definition")))
    (B (format "定义~a." n)) " " x*))
+(define ((lemma #:n [n ""]) . x*)
+  (keyword-apply
+   Div '(#:attr*) '(((class "lemma")))
+   (B (format "引理~a." n)) " " x*))
 (define ((theorem #:n [n ""]) . x*)
   (keyword-apply
    Div '(#:attr*) '(((class "theorem")))
    (B (format "定理~a." n)) " " x*))
+(define ((corollary #:n [n ""]) . x*)
+  (keyword-apply
+   Div '(#:attr*) '(((class "corollary")))
+   (B (format "推论~a." n)) " " x*))
 (define ((example #:n [n ""]) . x*)
   (keyword-apply
    Div '(#:attr*) '(((class "example")))
@@ -493,6 +539,34 @@
   (keyword-apply
    Div '(#:attr*) '(((class "program")))
    (B (format "程序~a." n)) " " x*))
+(define ((exercise #:n [n ""]) . x*)
+  (keyword-apply
+   Div '(#:attr*) '(((class "exercise")))
+   (B (format "练习~a." n)) " " x*))
+(define Q.E.D.
+  (Div (B "Q.E.D." ) #:attr* '((style "text-align: right;"))))
+(define ((proof #:n [n ""]) . x*)
+  (keyword-apply
+   Div '(#:attr*) '(((class "proof")))
+   (B (format "证明~a." n)) " " `(,@x* ,Q.E.D.)))
+(define (disR a b c)
+  (&= (&i* a (@ (&+ b c)))
+      (&+ (&i* a b)
+          (&i* a c))))
+(define (disL a b c)
+  (&= (&i* (@ (&+ a b)) c)
+      (&+ (&i* a c)
+          (&i* b c))))
+(define (assoc* a b c)
+  (&= (&i* a (@ (&i* b c)))
+      (&i* (@ (&i* a b)) c)))
+(define (assoc+ a b c)
+  (&= (&+ a (@ (&+ b c)))
+      (&+ (@ (&+ a b)) c)))
+(define (commute* a b)
+  (&= (&i* a b) (&i* b a)))
+(define (commute+ a b)
+  (&= (&+ a b) (&+ b a)))
 (define $a_0 (_ $a $0))
 (define $a^0 (^ $a $0))
 (define $a_1 (_ $a $1))
