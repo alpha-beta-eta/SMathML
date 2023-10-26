@@ -12,11 +12,17 @@
 (define (Xml xml)
   (match xml
     ((,tag ,attr* . ,xml*)
-     (printf "<~s" tag)
-     (Attr* attr*)
-     (printf ">")
-     (for-each Xml xml*)
-     (printf "</~s>" tag))
+     (if (null? xml*)
+         (begin
+           (printf "<~s" tag)
+           (Attr* attr*)
+           (printf "/>"))
+         (begin
+           (printf "<~s" tag)
+           (Attr* attr*)
+           (printf ">")
+           (for-each Xml xml*)
+           (printf "</~s>" tag))))
     (,str
      (guard (string? str))
      (printf "~a" str))))
