@@ -12,6 +12,6 @@
                                   msup mtable mtd mtext mtr munder
                                   munderover))
                (Math `(,tag ,attr* . ,xml*)))
-              (else `(,tag ,attr* . ,(map (T math-style*) xml*))))))
+              (else `(,tag ,attr* . ,(map Tm xml*))))))
     ((text) ,(lambda (str) str))))
 (define Tm (T math-style*))
