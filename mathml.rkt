@@ -517,6 +517,7 @@
   (cur0 (apply &cm x*)))
 (define (setI a b)
   (cur0 (Mrow a $lv0 b)))
+(define setE en0)
 (define ((definition #:n [n ""]) . x*)
   (keyword-apply
    Div '(#:attr*) '(((class "definition")))
