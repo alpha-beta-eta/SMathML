@@ -50,7 +50,31 @@
         (else
          (cons (car attr*)
                (attr*-set (cdr attr*) x v)))))
+(define (set-attr* xml x v)
+  (match xml
+    ((,tag ,attr* . ,xml*)
+     `(,tag ,(attr*-set attr* x v) . ,xml*))
+    (,str
+     (guard (string? str))
+     (error 'set-attr* "does not apply to string ~s" str))))
 (define (symbol-append . x*)
   (string->symbol
    (apply string-append
           (map symbol->string x*))))
+(define (mapi f l)
+  (let m ((i 0) (l l))
+    (if (null? l)
+        '()
+        (cons (f (car l) i)
+              (m (+ i 1) (cdr l))))))
+(define (Ttable Td)
+  (define (Tt table)
+    (match table
+      ((mtable ,attr* . ,r*)
+       `(mtable ,attr* . ,(mapi Tr r*)))))
+  (define (Tr r i)
+    (match r
+      ((mtr ,attr* . ,d*)
+       `(mtr ,attr* .
+             ,(mapi (lambda (d j) (Td d i j)) d*)))))
+  Tt)
