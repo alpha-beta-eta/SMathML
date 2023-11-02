@@ -78,3 +78,8 @@
        `(mtr ,attr* .
              ,(mapi (lambda (d j) (Td d i j)) d*)))))
   Tt)
+(define Ttle
+  (Ttable (lambda (d i j)
+            (if (even? j)
+                (set-attr* d 'columnalign "right")
+                d))))

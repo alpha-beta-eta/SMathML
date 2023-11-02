@@ -477,6 +477,12 @@
   (syntax-rules ()
     ((_ (x ...) ...)
      (mat (list (list x ...) ...)))))
+(define (ma0 l)
+  (pare (&table l)))
+(define-syntax Ma0
+  (syntax-rules ()
+    ((_ (x ...) ...)
+     (ma0 (list (list x ...) ...)))))
 (define (det l)
   (vert (&table l)))
 (define-syntax Det
