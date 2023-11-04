@@ -368,13 +368,19 @@
   (make-op $+-
     (lambda () (err0 '&+-))
     (lambda (x) (Mrow $+- x))))
+(define &-+
+  (make-op $-+
+    (lambda () (err0 '&-+))
+    (lambda (x) (Mrow $-+ x))))
+(define &*
+  (make-op $*
+    (lambda () (err0 '&*))
+    (lambda (x) (Msup x $*))))
 (define-infix*
-  (&-+ $-+)
   (&i* $i*) (&d* $d*) (&c* $c*)
   (&= $=) (&:= $:=) (&!= $!=)
   (&< $<) (&> $>)
-  (&<= $<=) (&>= $>=)
-  (&-> $->) (&* $*)
+  (&<= $<=) (&>= $>=) (&-> $->)
   (&in $in) (&sube $sube) (&sub $sub)
   (&supe $supe) (&sup $sup)
   (&union $union)
