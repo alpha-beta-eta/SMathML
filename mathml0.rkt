@@ -376,7 +376,10 @@
   (make-op $*
     (lambda () (err0 '&*))
     (lambda (x) (Msup x $*))))
+(define $oplus
+  (Mo "&oplus;"))
 (define-infix*
+  (&oplus $oplus)
   (&i* $i*) (&d* $d*) (&c* $c*)
   (&= $=) (&:= $:=) (&!= $!=)
   (&< $<) (&> $>)
