@@ -60,7 +60,11 @@
 (define ^ Msup)
 (define _ Msub)
 (define _^ Msubsup)
+(define __ Munder)
+(define ^^ Mover)
+(define __^^ Munderover)
 (define ~ Mfrac)
+(define % Mtext)
 (define $a (Mi "a"))
 (define $b (Mi "b"))
 (define $c (Mi "c"))
@@ -244,6 +248,8 @@
 (define $empty (Mi "&empty;"))
 (define $union (Mo "&cup;"))
 (define $Union (Mo "&bigcup;"))
+(define $cap (Mo "&cap;"))
+(define $Cap (Mo "&bigcap;"))
 (define $prime (Mo "&prime;"))
 (define $af (Mo "&af;"))
 (define $-> (Mo "&rarr;"))
@@ -379,6 +385,7 @@
 (define $oplus
   (Mo "&oplus;"))
 (define-infix*
+  (&cap $cap)
   (&oplus $oplus)
   (&i* $i*) (&d* $d*) (&c* $c*)
   (&= $=) (&:= $:=) (&!= $!=)
