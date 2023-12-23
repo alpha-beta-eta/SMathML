@@ -1,6 +1,6 @@
 #lang racket
 (provide (all-defined-out))
-(require "mathml0.rkt" "slt.rkt")
+(require "mathml0.rkt")
 (define $a^ (&prime $a))
 (define $b^ (&prime $b))
 (define $c^ (&prime $c))
