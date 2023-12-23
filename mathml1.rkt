@@ -52642,3602 +52642,3603 @@
 (define $Psi^Omega (^ $Psi $Omega))
 (define $Omega^Omega (^ $Omega $Omega))
 (define $a:normal
-  (set-attr* $a 'mathvariant "normal"))
+  (Mi "a" #:attr* '((mathvariant "normal"))))
 (define $a:bold
-  (set-attr* $a 'mathvariant "bold"))
+  (Mi "a" #:attr* '((mathvariant "bold"))))
 (define $a:italic
-  (set-attr* $a 'mathvariant "italic"))
+  (Mi "a" #:attr* '((mathvariant "italic"))))
 (define $a:bold-italic
-  (set-attr* $a 'mathvariant "bold-italic"))
+  (Mi "a" #:attr* '((mathvariant "bold-italic"))))
 (define $a:double-struck
-  (set-attr* $a 'mathvariant "double-struck"))
+  (Mi "a" #:attr* '((mathvariant "double-struck"))))
 (define $a:bold-fraktur
-  (set-attr* $a 'mathvariant "bold-fraktur"))
+  (Mi "a" #:attr* '((mathvariant "bold-fraktur"))))
 (define $a:script
-  (set-attr* $a 'mathvariant "script"))
+  (Mi "a" #:attr* '((mathvariant "script"))))
 (define $a:bold-script
-  (set-attr* $a 'mathvariant "bold-script"))
+  (Mi "a" #:attr* '((mathvariant "bold-script"))))
 (define $a:fraktur
-  (set-attr* $a 'mathvariant "fraktur"))
+  (Mi "a" #:attr* '((mathvariant "fraktur"))))
 (define $a:sans-serif
-  (set-attr* $a 'mathvariant "sans-serif"))
+  (Mi "a" #:attr* '((mathvariant "sans-serif"))))
 (define $a:bold-sans-serif
-  (set-attr* $a 'mathvariant "bold-sans-serif"))
+  (Mi "a" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $a:sans-serif-italic
-  (set-attr* $a 'mathvariant "sans-serif-italic"))
+  (Mi "a" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $a:sans-serif-bold-italic
-  (set-attr* $a 'mathvariant "sans-serif-bold-italic"))
+  (Mi "a" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $a:monospace
-  (set-attr* $a 'mathvariant "monospace"))
+  (Mi "a" #:attr* '((mathvariant "monospace"))))
 (define $a:initial
-  (set-attr* $a 'mathvariant "initial"))
+  (Mi "a" #:attr* '((mathvariant "initial"))))
 (define $a:tailed
-  (set-attr* $a 'mathvariant "tailed"))
+  (Mi "a" #:attr* '((mathvariant "tailed"))))
 (define $a:looped
-  (set-attr* $a 'mathvariant "looped"))
+  (Mi "a" #:attr* '((mathvariant "looped"))))
 (define $a:stretched
-  (set-attr* $a 'mathvariant "stretched"))
+  (Mi "a" #:attr* '((mathvariant "stretched"))))
 (define $b:normal
-  (set-attr* $b 'mathvariant "normal"))
+  (Mi "b" #:attr* '((mathvariant "normal"))))
 (define $b:bold
-  (set-attr* $b 'mathvariant "bold"))
+  (Mi "b" #:attr* '((mathvariant "bold"))))
 (define $b:italic
-  (set-attr* $b 'mathvariant "italic"))
+  (Mi "b" #:attr* '((mathvariant "italic"))))
 (define $b:bold-italic
-  (set-attr* $b 'mathvariant "bold-italic"))
+  (Mi "b" #:attr* '((mathvariant "bold-italic"))))
 (define $b:double-struck
-  (set-attr* $b 'mathvariant "double-struck"))
+  (Mi "b" #:attr* '((mathvariant "double-struck"))))
 (define $b:bold-fraktur
-  (set-attr* $b 'mathvariant "bold-fraktur"))
+  (Mi "b" #:attr* '((mathvariant "bold-fraktur"))))
 (define $b:script
-  (set-attr* $b 'mathvariant "script"))
+  (Mi "b" #:attr* '((mathvariant "script"))))
 (define $b:bold-script
-  (set-attr* $b 'mathvariant "bold-script"))
+  (Mi "b" #:attr* '((mathvariant "bold-script"))))
 (define $b:fraktur
-  (set-attr* $b 'mathvariant "fraktur"))
+  (Mi "b" #:attr* '((mathvariant "fraktur"))))
 (define $b:sans-serif
-  (set-attr* $b 'mathvariant "sans-serif"))
+  (Mi "b" #:attr* '((mathvariant "sans-serif"))))
 (define $b:bold-sans-serif
-  (set-attr* $b 'mathvariant "bold-sans-serif"))
+  (Mi "b" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $b:sans-serif-italic
-  (set-attr* $b 'mathvariant "sans-serif-italic"))
+  (Mi "b" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $b:sans-serif-bold-italic
-  (set-attr* $b 'mathvariant "sans-serif-bold-italic"))
+  (Mi "b" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $b:monospace
-  (set-attr* $b 'mathvariant "monospace"))
+  (Mi "b" #:attr* '((mathvariant "monospace"))))
 (define $b:initial
-  (set-attr* $b 'mathvariant "initial"))
+  (Mi "b" #:attr* '((mathvariant "initial"))))
 (define $b:tailed
-  (set-attr* $b 'mathvariant "tailed"))
+  (Mi "b" #:attr* '((mathvariant "tailed"))))
 (define $b:looped
-  (set-attr* $b 'mathvariant "looped"))
+  (Mi "b" #:attr* '((mathvariant "looped"))))
 (define $b:stretched
-  (set-attr* $b 'mathvariant "stretched"))
+  (Mi "b" #:attr* '((mathvariant "stretched"))))
 (define $c:normal
-  (set-attr* $c 'mathvariant "normal"))
+  (Mi "c" #:attr* '((mathvariant "normal"))))
 (define $c:bold
-  (set-attr* $c 'mathvariant "bold"))
+  (Mi "c" #:attr* '((mathvariant "bold"))))
 (define $c:italic
-  (set-attr* $c 'mathvariant "italic"))
+  (Mi "c" #:attr* '((mathvariant "italic"))))
 (define $c:bold-italic
-  (set-attr* $c 'mathvariant "bold-italic"))
+  (Mi "c" #:attr* '((mathvariant "bold-italic"))))
 (define $c:double-struck
-  (set-attr* $c 'mathvariant "double-struck"))
+  (Mi "c" #:attr* '((mathvariant "double-struck"))))
 (define $c:bold-fraktur
-  (set-attr* $c 'mathvariant "bold-fraktur"))
+  (Mi "c" #:attr* '((mathvariant "bold-fraktur"))))
 (define $c:script
-  (set-attr* $c 'mathvariant "script"))
+  (Mi "c" #:attr* '((mathvariant "script"))))
 (define $c:bold-script
-  (set-attr* $c 'mathvariant "bold-script"))
+  (Mi "c" #:attr* '((mathvariant "bold-script"))))
 (define $c:fraktur
-  (set-attr* $c 'mathvariant "fraktur"))
+  (Mi "c" #:attr* '((mathvariant "fraktur"))))
 (define $c:sans-serif
-  (set-attr* $c 'mathvariant "sans-serif"))
+  (Mi "c" #:attr* '((mathvariant "sans-serif"))))
 (define $c:bold-sans-serif
-  (set-attr* $c 'mathvariant "bold-sans-serif"))
+  (Mi "c" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $c:sans-serif-italic
-  (set-attr* $c 'mathvariant "sans-serif-italic"))
+  (Mi "c" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $c:sans-serif-bold-italic
-  (set-attr* $c 'mathvariant "sans-serif-bold-italic"))
+  (Mi "c" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $c:monospace
-  (set-attr* $c 'mathvariant "monospace"))
+  (Mi "c" #:attr* '((mathvariant "monospace"))))
 (define $c:initial
-  (set-attr* $c 'mathvariant "initial"))
+  (Mi "c" #:attr* '((mathvariant "initial"))))
 (define $c:tailed
-  (set-attr* $c 'mathvariant "tailed"))
+  (Mi "c" #:attr* '((mathvariant "tailed"))))
 (define $c:looped
-  (set-attr* $c 'mathvariant "looped"))
+  (Mi "c" #:attr* '((mathvariant "looped"))))
 (define $c:stretched
-  (set-attr* $c 'mathvariant "stretched"))
+  (Mi "c" #:attr* '((mathvariant "stretched"))))
 (define $d:normal
-  (set-attr* $d 'mathvariant "normal"))
+  (Mi "d" #:attr* '((mathvariant "normal"))))
 (define $d:bold
-  (set-attr* $d 'mathvariant "bold"))
+  (Mi "d" #:attr* '((mathvariant "bold"))))
 (define $d:italic
-  (set-attr* $d 'mathvariant "italic"))
+  (Mi "d" #:attr* '((mathvariant "italic"))))
 (define $d:bold-italic
-  (set-attr* $d 'mathvariant "bold-italic"))
+  (Mi "d" #:attr* '((mathvariant "bold-italic"))))
 (define $d:double-struck
-  (set-attr* $d 'mathvariant "double-struck"))
+  (Mi "d" #:attr* '((mathvariant "double-struck"))))
 (define $d:bold-fraktur
-  (set-attr* $d 'mathvariant "bold-fraktur"))
+  (Mi "d" #:attr* '((mathvariant "bold-fraktur"))))
 (define $d:script
-  (set-attr* $d 'mathvariant "script"))
+  (Mi "d" #:attr* '((mathvariant "script"))))
 (define $d:bold-script
-  (set-attr* $d 'mathvariant "bold-script"))
+  (Mi "d" #:attr* '((mathvariant "bold-script"))))
 (define $d:fraktur
-  (set-attr* $d 'mathvariant "fraktur"))
+  (Mi "d" #:attr* '((mathvariant "fraktur"))))
 (define $d:sans-serif
-  (set-attr* $d 'mathvariant "sans-serif"))
+  (Mi "d" #:attr* '((mathvariant "sans-serif"))))
 (define $d:bold-sans-serif
-  (set-attr* $d 'mathvariant "bold-sans-serif"))
+  (Mi "d" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $d:sans-serif-italic
-  (set-attr* $d 'mathvariant "sans-serif-italic"))
+  (Mi "d" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $d:sans-serif-bold-italic
-  (set-attr* $d 'mathvariant "sans-serif-bold-italic"))
+  (Mi "d" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $d:monospace
-  (set-attr* $d 'mathvariant "monospace"))
+  (Mi "d" #:attr* '((mathvariant "monospace"))))
 (define $d:initial
-  (set-attr* $d 'mathvariant "initial"))
+  (Mi "d" #:attr* '((mathvariant "initial"))))
 (define $d:tailed
-  (set-attr* $d 'mathvariant "tailed"))
+  (Mi "d" #:attr* '((mathvariant "tailed"))))
 (define $d:looped
-  (set-attr* $d 'mathvariant "looped"))
+  (Mi "d" #:attr* '((mathvariant "looped"))))
 (define $d:stretched
-  (set-attr* $d 'mathvariant "stretched"))
+  (Mi "d" #:attr* '((mathvariant "stretched"))))
 (define $e:normal
-  (set-attr* $e 'mathvariant "normal"))
+  (Mi "e" #:attr* '((mathvariant "normal"))))
 (define $e:bold
-  (set-attr* $e 'mathvariant "bold"))
+  (Mi "e" #:attr* '((mathvariant "bold"))))
 (define $e:italic
-  (set-attr* $e 'mathvariant "italic"))
+  (Mi "e" #:attr* '((mathvariant "italic"))))
 (define $e:bold-italic
-  (set-attr* $e 'mathvariant "bold-italic"))
+  (Mi "e" #:attr* '((mathvariant "bold-italic"))))
 (define $e:double-struck
-  (set-attr* $e 'mathvariant "double-struck"))
+  (Mi "e" #:attr* '((mathvariant "double-struck"))))
 (define $e:bold-fraktur
-  (set-attr* $e 'mathvariant "bold-fraktur"))
+  (Mi "e" #:attr* '((mathvariant "bold-fraktur"))))
 (define $e:script
-  (set-attr* $e 'mathvariant "script"))
+  (Mi "e" #:attr* '((mathvariant "script"))))
 (define $e:bold-script
-  (set-attr* $e 'mathvariant "bold-script"))
+  (Mi "e" #:attr* '((mathvariant "bold-script"))))
 (define $e:fraktur
-  (set-attr* $e 'mathvariant "fraktur"))
+  (Mi "e" #:attr* '((mathvariant "fraktur"))))
 (define $e:sans-serif
-  (set-attr* $e 'mathvariant "sans-serif"))
+  (Mi "e" #:attr* '((mathvariant "sans-serif"))))
 (define $e:bold-sans-serif
-  (set-attr* $e 'mathvariant "bold-sans-serif"))
+  (Mi "e" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $e:sans-serif-italic
-  (set-attr* $e 'mathvariant "sans-serif-italic"))
+  (Mi "e" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $e:sans-serif-bold-italic
-  (set-attr* $e 'mathvariant "sans-serif-bold-italic"))
+  (Mi "e" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $e:monospace
-  (set-attr* $e 'mathvariant "monospace"))
+  (Mi "e" #:attr* '((mathvariant "monospace"))))
 (define $e:initial
-  (set-attr* $e 'mathvariant "initial"))
+  (Mi "e" #:attr* '((mathvariant "initial"))))
 (define $e:tailed
-  (set-attr* $e 'mathvariant "tailed"))
+  (Mi "e" #:attr* '((mathvariant "tailed"))))
 (define $e:looped
-  (set-attr* $e 'mathvariant "looped"))
+  (Mi "e" #:attr* '((mathvariant "looped"))))
 (define $e:stretched
-  (set-attr* $e 'mathvariant "stretched"))
+  (Mi "e" #:attr* '((mathvariant "stretched"))))
 (define $f:normal
-  (set-attr* $f 'mathvariant "normal"))
+  (Mi "f" #:attr* '((mathvariant "normal"))))
 (define $f:bold
-  (set-attr* $f 'mathvariant "bold"))
+  (Mi "f" #:attr* '((mathvariant "bold"))))
 (define $f:italic
-  (set-attr* $f 'mathvariant "italic"))
+  (Mi "f" #:attr* '((mathvariant "italic"))))
 (define $f:bold-italic
-  (set-attr* $f 'mathvariant "bold-italic"))
+  (Mi "f" #:attr* '((mathvariant "bold-italic"))))
 (define $f:double-struck
-  (set-attr* $f 'mathvariant "double-struck"))
+  (Mi "f" #:attr* '((mathvariant "double-struck"))))
 (define $f:bold-fraktur
-  (set-attr* $f 'mathvariant "bold-fraktur"))
+  (Mi "f" #:attr* '((mathvariant "bold-fraktur"))))
 (define $f:script
-  (set-attr* $f 'mathvariant "script"))
+  (Mi "f" #:attr* '((mathvariant "script"))))
 (define $f:bold-script
-  (set-attr* $f 'mathvariant "bold-script"))
+  (Mi "f" #:attr* '((mathvariant "bold-script"))))
 (define $f:fraktur
-  (set-attr* $f 'mathvariant "fraktur"))
+  (Mi "f" #:attr* '((mathvariant "fraktur"))))
 (define $f:sans-serif
-  (set-attr* $f 'mathvariant "sans-serif"))
+  (Mi "f" #:attr* '((mathvariant "sans-serif"))))
 (define $f:bold-sans-serif
-  (set-attr* $f 'mathvariant "bold-sans-serif"))
+  (Mi "f" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $f:sans-serif-italic
-  (set-attr* $f 'mathvariant "sans-serif-italic"))
+  (Mi "f" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $f:sans-serif-bold-italic
-  (set-attr* $f 'mathvariant "sans-serif-bold-italic"))
+  (Mi "f" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $f:monospace
-  (set-attr* $f 'mathvariant "monospace"))
+  (Mi "f" #:attr* '((mathvariant "monospace"))))
 (define $f:initial
-  (set-attr* $f 'mathvariant "initial"))
+  (Mi "f" #:attr* '((mathvariant "initial"))))
 (define $f:tailed
-  (set-attr* $f 'mathvariant "tailed"))
+  (Mi "f" #:attr* '((mathvariant "tailed"))))
 (define $f:looped
-  (set-attr* $f 'mathvariant "looped"))
+  (Mi "f" #:attr* '((mathvariant "looped"))))
 (define $f:stretched
-  (set-attr* $f 'mathvariant "stretched"))
+  (Mi "f" #:attr* '((mathvariant "stretched"))))
 (define $g:normal
-  (set-attr* $g 'mathvariant "normal"))
+  (Mi "g" #:attr* '((mathvariant "normal"))))
 (define $g:bold
-  (set-attr* $g 'mathvariant "bold"))
+  (Mi "g" #:attr* '((mathvariant "bold"))))
 (define $g:italic
-  (set-attr* $g 'mathvariant "italic"))
+  (Mi "g" #:attr* '((mathvariant "italic"))))
 (define $g:bold-italic
-  (set-attr* $g 'mathvariant "bold-italic"))
+  (Mi "g" #:attr* '((mathvariant "bold-italic"))))
 (define $g:double-struck
-  (set-attr* $g 'mathvariant "double-struck"))
+  (Mi "g" #:attr* '((mathvariant "double-struck"))))
 (define $g:bold-fraktur
-  (set-attr* $g 'mathvariant "bold-fraktur"))
+  (Mi "g" #:attr* '((mathvariant "bold-fraktur"))))
 (define $g:script
-  (set-attr* $g 'mathvariant "script"))
+  (Mi "g" #:attr* '((mathvariant "script"))))
 (define $g:bold-script
-  (set-attr* $g 'mathvariant "bold-script"))
+  (Mi "g" #:attr* '((mathvariant "bold-script"))))
 (define $g:fraktur
-  (set-attr* $g 'mathvariant "fraktur"))
+  (Mi "g" #:attr* '((mathvariant "fraktur"))))
 (define $g:sans-serif
-  (set-attr* $g 'mathvariant "sans-serif"))
+  (Mi "g" #:attr* '((mathvariant "sans-serif"))))
 (define $g:bold-sans-serif
-  (set-attr* $g 'mathvariant "bold-sans-serif"))
+  (Mi "g" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $g:sans-serif-italic
-  (set-attr* $g 'mathvariant "sans-serif-italic"))
+  (Mi "g" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $g:sans-serif-bold-italic
-  (set-attr* $g 'mathvariant "sans-serif-bold-italic"))
+  (Mi "g" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $g:monospace
-  (set-attr* $g 'mathvariant "monospace"))
+  (Mi "g" #:attr* '((mathvariant "monospace"))))
 (define $g:initial
-  (set-attr* $g 'mathvariant "initial"))
+  (Mi "g" #:attr* '((mathvariant "initial"))))
 (define $g:tailed
-  (set-attr* $g 'mathvariant "tailed"))
+  (Mi "g" #:attr* '((mathvariant "tailed"))))
 (define $g:looped
-  (set-attr* $g 'mathvariant "looped"))
+  (Mi "g" #:attr* '((mathvariant "looped"))))
 (define $g:stretched
-  (set-attr* $g 'mathvariant "stretched"))
+  (Mi "g" #:attr* '((mathvariant "stretched"))))
 (define $h:normal
-  (set-attr* $h 'mathvariant "normal"))
+  (Mi "h" #:attr* '((mathvariant "normal"))))
 (define $h:bold
-  (set-attr* $h 'mathvariant "bold"))
+  (Mi "h" #:attr* '((mathvariant "bold"))))
 (define $h:italic
-  (set-attr* $h 'mathvariant "italic"))
+  (Mi "h" #:attr* '((mathvariant "italic"))))
 (define $h:bold-italic
-  (set-attr* $h 'mathvariant "bold-italic"))
+  (Mi "h" #:attr* '((mathvariant "bold-italic"))))
 (define $h:double-struck
-  (set-attr* $h 'mathvariant "double-struck"))
+  (Mi "h" #:attr* '((mathvariant "double-struck"))))
 (define $h:bold-fraktur
-  (set-attr* $h 'mathvariant "bold-fraktur"))
+  (Mi "h" #:attr* '((mathvariant "bold-fraktur"))))
 (define $h:script
-  (set-attr* $h 'mathvariant "script"))
+  (Mi "h" #:attr* '((mathvariant "script"))))
 (define $h:bold-script
-  (set-attr* $h 'mathvariant "bold-script"))
+  (Mi "h" #:attr* '((mathvariant "bold-script"))))
 (define $h:fraktur
-  (set-attr* $h 'mathvariant "fraktur"))
+  (Mi "h" #:attr* '((mathvariant "fraktur"))))
 (define $h:sans-serif
-  (set-attr* $h 'mathvariant "sans-serif"))
+  (Mi "h" #:attr* '((mathvariant "sans-serif"))))
 (define $h:bold-sans-serif
-  (set-attr* $h 'mathvariant "bold-sans-serif"))
+  (Mi "h" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $h:sans-serif-italic
-  (set-attr* $h 'mathvariant "sans-serif-italic"))
+  (Mi "h" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $h:sans-serif-bold-italic
-  (set-attr* $h 'mathvariant "sans-serif-bold-italic"))
+  (Mi "h" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $h:monospace
-  (set-attr* $h 'mathvariant "monospace"))
+  (Mi "h" #:attr* '((mathvariant "monospace"))))
 (define $h:initial
-  (set-attr* $h 'mathvariant "initial"))
+  (Mi "h" #:attr* '((mathvariant "initial"))))
 (define $h:tailed
-  (set-attr* $h 'mathvariant "tailed"))
+  (Mi "h" #:attr* '((mathvariant "tailed"))))
 (define $h:looped
-  (set-attr* $h 'mathvariant "looped"))
+  (Mi "h" #:attr* '((mathvariant "looped"))))
 (define $h:stretched
-  (set-attr* $h 'mathvariant "stretched"))
+  (Mi "h" #:attr* '((mathvariant "stretched"))))
 (define $i:normal
-  (set-attr* $i 'mathvariant "normal"))
+  (Mi "i" #:attr* '((mathvariant "normal"))))
 (define $i:bold
-  (set-attr* $i 'mathvariant "bold"))
+  (Mi "i" #:attr* '((mathvariant "bold"))))
 (define $i:italic
-  (set-attr* $i 'mathvariant "italic"))
+  (Mi "i" #:attr* '((mathvariant "italic"))))
 (define $i:bold-italic
-  (set-attr* $i 'mathvariant "bold-italic"))
+  (Mi "i" #:attr* '((mathvariant "bold-italic"))))
 (define $i:double-struck
-  (set-attr* $i 'mathvariant "double-struck"))
+  (Mi "i" #:attr* '((mathvariant "double-struck"))))
 (define $i:bold-fraktur
-  (set-attr* $i 'mathvariant "bold-fraktur"))
+  (Mi "i" #:attr* '((mathvariant "bold-fraktur"))))
 (define $i:script
-  (set-attr* $i 'mathvariant "script"))
+  (Mi "i" #:attr* '((mathvariant "script"))))
 (define $i:bold-script
-  (set-attr* $i 'mathvariant "bold-script"))
+  (Mi "i" #:attr* '((mathvariant "bold-script"))))
 (define $i:fraktur
-  (set-attr* $i 'mathvariant "fraktur"))
+  (Mi "i" #:attr* '((mathvariant "fraktur"))))
 (define $i:sans-serif
-  (set-attr* $i 'mathvariant "sans-serif"))
+  (Mi "i" #:attr* '((mathvariant "sans-serif"))))
 (define $i:bold-sans-serif
-  (set-attr* $i 'mathvariant "bold-sans-serif"))
+  (Mi "i" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $i:sans-serif-italic
-  (set-attr* $i 'mathvariant "sans-serif-italic"))
+  (Mi "i" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $i:sans-serif-bold-italic
-  (set-attr* $i 'mathvariant "sans-serif-bold-italic"))
+  (Mi "i" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $i:monospace
-  (set-attr* $i 'mathvariant "monospace"))
+  (Mi "i" #:attr* '((mathvariant "monospace"))))
 (define $i:initial
-  (set-attr* $i 'mathvariant "initial"))
+  (Mi "i" #:attr* '((mathvariant "initial"))))
 (define $i:tailed
-  (set-attr* $i 'mathvariant "tailed"))
+  (Mi "i" #:attr* '((mathvariant "tailed"))))
 (define $i:looped
-  (set-attr* $i 'mathvariant "looped"))
+  (Mi "i" #:attr* '((mathvariant "looped"))))
 (define $i:stretched
-  (set-attr* $i 'mathvariant "stretched"))
+  (Mi "i" #:attr* '((mathvariant "stretched"))))
 (define $j:normal
-  (set-attr* $j 'mathvariant "normal"))
+  (Mi "j" #:attr* '((mathvariant "normal"))))
 (define $j:bold
-  (set-attr* $j 'mathvariant "bold"))
+  (Mi "j" #:attr* '((mathvariant "bold"))))
 (define $j:italic
-  (set-attr* $j 'mathvariant "italic"))
+  (Mi "j" #:attr* '((mathvariant "italic"))))
 (define $j:bold-italic
-  (set-attr* $j 'mathvariant "bold-italic"))
+  (Mi "j" #:attr* '((mathvariant "bold-italic"))))
 (define $j:double-struck
-  (set-attr* $j 'mathvariant "double-struck"))
+  (Mi "j" #:attr* '((mathvariant "double-struck"))))
 (define $j:bold-fraktur
-  (set-attr* $j 'mathvariant "bold-fraktur"))
+  (Mi "j" #:attr* '((mathvariant "bold-fraktur"))))
 (define $j:script
-  (set-attr* $j 'mathvariant "script"))
+  (Mi "j" #:attr* '((mathvariant "script"))))
 (define $j:bold-script
-  (set-attr* $j 'mathvariant "bold-script"))
+  (Mi "j" #:attr* '((mathvariant "bold-script"))))
 (define $j:fraktur
-  (set-attr* $j 'mathvariant "fraktur"))
+  (Mi "j" #:attr* '((mathvariant "fraktur"))))
 (define $j:sans-serif
-  (set-attr* $j 'mathvariant "sans-serif"))
+  (Mi "j" #:attr* '((mathvariant "sans-serif"))))
 (define $j:bold-sans-serif
-  (set-attr* $j 'mathvariant "bold-sans-serif"))
+  (Mi "j" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $j:sans-serif-italic
-  (set-attr* $j 'mathvariant "sans-serif-italic"))
+  (Mi "j" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $j:sans-serif-bold-italic
-  (set-attr* $j 'mathvariant "sans-serif-bold-italic"))
+  (Mi "j" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $j:monospace
-  (set-attr* $j 'mathvariant "monospace"))
+  (Mi "j" #:attr* '((mathvariant "monospace"))))
 (define $j:initial
-  (set-attr* $j 'mathvariant "initial"))
+  (Mi "j" #:attr* '((mathvariant "initial"))))
 (define $j:tailed
-  (set-attr* $j 'mathvariant "tailed"))
+  (Mi "j" #:attr* '((mathvariant "tailed"))))
 (define $j:looped
-  (set-attr* $j 'mathvariant "looped"))
+  (Mi "j" #:attr* '((mathvariant "looped"))))
 (define $j:stretched
-  (set-attr* $j 'mathvariant "stretched"))
+  (Mi "j" #:attr* '((mathvariant "stretched"))))
 (define $k:normal
-  (set-attr* $k 'mathvariant "normal"))
+  (Mi "k" #:attr* '((mathvariant "normal"))))
 (define $k:bold
-  (set-attr* $k 'mathvariant "bold"))
+  (Mi "k" #:attr* '((mathvariant "bold"))))
 (define $k:italic
-  (set-attr* $k 'mathvariant "italic"))
+  (Mi "k" #:attr* '((mathvariant "italic"))))
 (define $k:bold-italic
-  (set-attr* $k 'mathvariant "bold-italic"))
+  (Mi "k" #:attr* '((mathvariant "bold-italic"))))
 (define $k:double-struck
-  (set-attr* $k 'mathvariant "double-struck"))
+  (Mi "k" #:attr* '((mathvariant "double-struck"))))
 (define $k:bold-fraktur
-  (set-attr* $k 'mathvariant "bold-fraktur"))
+  (Mi "k" #:attr* '((mathvariant "bold-fraktur"))))
 (define $k:script
-  (set-attr* $k 'mathvariant "script"))
+  (Mi "k" #:attr* '((mathvariant "script"))))
 (define $k:bold-script
-  (set-attr* $k 'mathvariant "bold-script"))
+  (Mi "k" #:attr* '((mathvariant "bold-script"))))
 (define $k:fraktur
-  (set-attr* $k 'mathvariant "fraktur"))
+  (Mi "k" #:attr* '((mathvariant "fraktur"))))
 (define $k:sans-serif
-  (set-attr* $k 'mathvariant "sans-serif"))
+  (Mi "k" #:attr* '((mathvariant "sans-serif"))))
 (define $k:bold-sans-serif
-  (set-attr* $k 'mathvariant "bold-sans-serif"))
+  (Mi "k" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $k:sans-serif-italic
-  (set-attr* $k 'mathvariant "sans-serif-italic"))
+  (Mi "k" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $k:sans-serif-bold-italic
-  (set-attr* $k 'mathvariant "sans-serif-bold-italic"))
+  (Mi "k" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $k:monospace
-  (set-attr* $k 'mathvariant "monospace"))
+  (Mi "k" #:attr* '((mathvariant "monospace"))))
 (define $k:initial
-  (set-attr* $k 'mathvariant "initial"))
+  (Mi "k" #:attr* '((mathvariant "initial"))))
 (define $k:tailed
-  (set-attr* $k 'mathvariant "tailed"))
+  (Mi "k" #:attr* '((mathvariant "tailed"))))
 (define $k:looped
-  (set-attr* $k 'mathvariant "looped"))
+  (Mi "k" #:attr* '((mathvariant "looped"))))
 (define $k:stretched
-  (set-attr* $k 'mathvariant "stretched"))
+  (Mi "k" #:attr* '((mathvariant "stretched"))))
 (define $l:normal
-  (set-attr* $l 'mathvariant "normal"))
+  (Mi "l" #:attr* '((mathvariant "normal"))))
 (define $l:bold
-  (set-attr* $l 'mathvariant "bold"))
+  (Mi "l" #:attr* '((mathvariant "bold"))))
 (define $l:italic
-  (set-attr* $l 'mathvariant "italic"))
+  (Mi "l" #:attr* '((mathvariant "italic"))))
 (define $l:bold-italic
-  (set-attr* $l 'mathvariant "bold-italic"))
+  (Mi "l" #:attr* '((mathvariant "bold-italic"))))
 (define $l:double-struck
-  (set-attr* $l 'mathvariant "double-struck"))
+  (Mi "l" #:attr* '((mathvariant "double-struck"))))
 (define $l:bold-fraktur
-  (set-attr* $l 'mathvariant "bold-fraktur"))
+  (Mi "l" #:attr* '((mathvariant "bold-fraktur"))))
 (define $l:script
-  (set-attr* $l 'mathvariant "script"))
+  (Mi "l" #:attr* '((mathvariant "script"))))
 (define $l:bold-script
-  (set-attr* $l 'mathvariant "bold-script"))
+  (Mi "l" #:attr* '((mathvariant "bold-script"))))
 (define $l:fraktur
-  (set-attr* $l 'mathvariant "fraktur"))
+  (Mi "l" #:attr* '((mathvariant "fraktur"))))
 (define $l:sans-serif
-  (set-attr* $l 'mathvariant "sans-serif"))
+  (Mi "l" #:attr* '((mathvariant "sans-serif"))))
 (define $l:bold-sans-serif
-  (set-attr* $l 'mathvariant "bold-sans-serif"))
+  (Mi "l" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $l:sans-serif-italic
-  (set-attr* $l 'mathvariant "sans-serif-italic"))
+  (Mi "l" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $l:sans-serif-bold-italic
-  (set-attr* $l 'mathvariant "sans-serif-bold-italic"))
+  (Mi "l" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $l:monospace
-  (set-attr* $l 'mathvariant "monospace"))
+  (Mi "l" #:attr* '((mathvariant "monospace"))))
 (define $l:initial
-  (set-attr* $l 'mathvariant "initial"))
+  (Mi "l" #:attr* '((mathvariant "initial"))))
 (define $l:tailed
-  (set-attr* $l 'mathvariant "tailed"))
+  (Mi "l" #:attr* '((mathvariant "tailed"))))
 (define $l:looped
-  (set-attr* $l 'mathvariant "looped"))
+  (Mi "l" #:attr* '((mathvariant "looped"))))
 (define $l:stretched
-  (set-attr* $l 'mathvariant "stretched"))
+  (Mi "l" #:attr* '((mathvariant "stretched"))))
 (define $m:normal
-  (set-attr* $m 'mathvariant "normal"))
+  (Mi "m" #:attr* '((mathvariant "normal"))))
 (define $m:bold
-  (set-attr* $m 'mathvariant "bold"))
+  (Mi "m" #:attr* '((mathvariant "bold"))))
 (define $m:italic
-  (set-attr* $m 'mathvariant "italic"))
+  (Mi "m" #:attr* '((mathvariant "italic"))))
 (define $m:bold-italic
-  (set-attr* $m 'mathvariant "bold-italic"))
+  (Mi "m" #:attr* '((mathvariant "bold-italic"))))
 (define $m:double-struck
-  (set-attr* $m 'mathvariant "double-struck"))
+  (Mi "m" #:attr* '((mathvariant "double-struck"))))
 (define $m:bold-fraktur
-  (set-attr* $m 'mathvariant "bold-fraktur"))
+  (Mi "m" #:attr* '((mathvariant "bold-fraktur"))))
 (define $m:script
-  (set-attr* $m 'mathvariant "script"))
+  (Mi "m" #:attr* '((mathvariant "script"))))
 (define $m:bold-script
-  (set-attr* $m 'mathvariant "bold-script"))
+  (Mi "m" #:attr* '((mathvariant "bold-script"))))
 (define $m:fraktur
-  (set-attr* $m 'mathvariant "fraktur"))
+  (Mi "m" #:attr* '((mathvariant "fraktur"))))
 (define $m:sans-serif
-  (set-attr* $m 'mathvariant "sans-serif"))
+  (Mi "m" #:attr* '((mathvariant "sans-serif"))))
 (define $m:bold-sans-serif
-  (set-attr* $m 'mathvariant "bold-sans-serif"))
+  (Mi "m" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $m:sans-serif-italic
-  (set-attr* $m 'mathvariant "sans-serif-italic"))
+  (Mi "m" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $m:sans-serif-bold-italic
-  (set-attr* $m 'mathvariant "sans-serif-bold-italic"))
+  (Mi "m" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $m:monospace
-  (set-attr* $m 'mathvariant "monospace"))
+  (Mi "m" #:attr* '((mathvariant "monospace"))))
 (define $m:initial
-  (set-attr* $m 'mathvariant "initial"))
+  (Mi "m" #:attr* '((mathvariant "initial"))))
 (define $m:tailed
-  (set-attr* $m 'mathvariant "tailed"))
+  (Mi "m" #:attr* '((mathvariant "tailed"))))
 (define $m:looped
-  (set-attr* $m 'mathvariant "looped"))
+  (Mi "m" #:attr* '((mathvariant "looped"))))
 (define $m:stretched
-  (set-attr* $m 'mathvariant "stretched"))
+  (Mi "m" #:attr* '((mathvariant "stretched"))))
 (define $n:normal
-  (set-attr* $n 'mathvariant "normal"))
+  (Mi "n" #:attr* '((mathvariant "normal"))))
 (define $n:bold
-  (set-attr* $n 'mathvariant "bold"))
+  (Mi "n" #:attr* '((mathvariant "bold"))))
 (define $n:italic
-  (set-attr* $n 'mathvariant "italic"))
+  (Mi "n" #:attr* '((mathvariant "italic"))))
 (define $n:bold-italic
-  (set-attr* $n 'mathvariant "bold-italic"))
+  (Mi "n" #:attr* '((mathvariant "bold-italic"))))
 (define $n:double-struck
-  (set-attr* $n 'mathvariant "double-struck"))
+  (Mi "n" #:attr* '((mathvariant "double-struck"))))
 (define $n:bold-fraktur
-  (set-attr* $n 'mathvariant "bold-fraktur"))
+  (Mi "n" #:attr* '((mathvariant "bold-fraktur"))))
 (define $n:script
-  (set-attr* $n 'mathvariant "script"))
+  (Mi "n" #:attr* '((mathvariant "script"))))
 (define $n:bold-script
-  (set-attr* $n 'mathvariant "bold-script"))
+  (Mi "n" #:attr* '((mathvariant "bold-script"))))
 (define $n:fraktur
-  (set-attr* $n 'mathvariant "fraktur"))
+  (Mi "n" #:attr* '((mathvariant "fraktur"))))
 (define $n:sans-serif
-  (set-attr* $n 'mathvariant "sans-serif"))
+  (Mi "n" #:attr* '((mathvariant "sans-serif"))))
 (define $n:bold-sans-serif
-  (set-attr* $n 'mathvariant "bold-sans-serif"))
+  (Mi "n" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $n:sans-serif-italic
-  (set-attr* $n 'mathvariant "sans-serif-italic"))
+  (Mi "n" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $n:sans-serif-bold-italic
-  (set-attr* $n 'mathvariant "sans-serif-bold-italic"))
+  (Mi "n" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $n:monospace
-  (set-attr* $n 'mathvariant "monospace"))
+  (Mi "n" #:attr* '((mathvariant "monospace"))))
 (define $n:initial
-  (set-attr* $n 'mathvariant "initial"))
+  (Mi "n" #:attr* '((mathvariant "initial"))))
 (define $n:tailed
-  (set-attr* $n 'mathvariant "tailed"))
+  (Mi "n" #:attr* '((mathvariant "tailed"))))
 (define $n:looped
-  (set-attr* $n 'mathvariant "looped"))
+  (Mi "n" #:attr* '((mathvariant "looped"))))
 (define $n:stretched
-  (set-attr* $n 'mathvariant "stretched"))
+  (Mi "n" #:attr* '((mathvariant "stretched"))))
 (define $o:normal
-  (set-attr* $o 'mathvariant "normal"))
+  (Mi "o" #:attr* '((mathvariant "normal"))))
 (define $o:bold
-  (set-attr* $o 'mathvariant "bold"))
+  (Mi "o" #:attr* '((mathvariant "bold"))))
 (define $o:italic
-  (set-attr* $o 'mathvariant "italic"))
+  (Mi "o" #:attr* '((mathvariant "italic"))))
 (define $o:bold-italic
-  (set-attr* $o 'mathvariant "bold-italic"))
+  (Mi "o" #:attr* '((mathvariant "bold-italic"))))
 (define $o:double-struck
-  (set-attr* $o 'mathvariant "double-struck"))
+  (Mi "o" #:attr* '((mathvariant "double-struck"))))
 (define $o:bold-fraktur
-  (set-attr* $o 'mathvariant "bold-fraktur"))
+  (Mi "o" #:attr* '((mathvariant "bold-fraktur"))))
 (define $o:script
-  (set-attr* $o 'mathvariant "script"))
+  (Mi "o" #:attr* '((mathvariant "script"))))
 (define $o:bold-script
-  (set-attr* $o 'mathvariant "bold-script"))
+  (Mi "o" #:attr* '((mathvariant "bold-script"))))
 (define $o:fraktur
-  (set-attr* $o 'mathvariant "fraktur"))
+  (Mi "o" #:attr* '((mathvariant "fraktur"))))
 (define $o:sans-serif
-  (set-attr* $o 'mathvariant "sans-serif"))
+  (Mi "o" #:attr* '((mathvariant "sans-serif"))))
 (define $o:bold-sans-serif
-  (set-attr* $o 'mathvariant "bold-sans-serif"))
+  (Mi "o" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $o:sans-serif-italic
-  (set-attr* $o 'mathvariant "sans-serif-italic"))
+  (Mi "o" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $o:sans-serif-bold-italic
-  (set-attr* $o 'mathvariant "sans-serif-bold-italic"))
+  (Mi "o" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $o:monospace
-  (set-attr* $o 'mathvariant "monospace"))
+  (Mi "o" #:attr* '((mathvariant "monospace"))))
 (define $o:initial
-  (set-attr* $o 'mathvariant "initial"))
+  (Mi "o" #:attr* '((mathvariant "initial"))))
 (define $o:tailed
-  (set-attr* $o 'mathvariant "tailed"))
+  (Mi "o" #:attr* '((mathvariant "tailed"))))
 (define $o:looped
-  (set-attr* $o 'mathvariant "looped"))
+  (Mi "o" #:attr* '((mathvariant "looped"))))
 (define $o:stretched
-  (set-attr* $o 'mathvariant "stretched"))
+  (Mi "o" #:attr* '((mathvariant "stretched"))))
 (define $p:normal
-  (set-attr* $p 'mathvariant "normal"))
+  (Mi "p" #:attr* '((mathvariant "normal"))))
 (define $p:bold
-  (set-attr* $p 'mathvariant "bold"))
+  (Mi "p" #:attr* '((mathvariant "bold"))))
 (define $p:italic
-  (set-attr* $p 'mathvariant "italic"))
+  (Mi "p" #:attr* '((mathvariant "italic"))))
 (define $p:bold-italic
-  (set-attr* $p 'mathvariant "bold-italic"))
+  (Mi "p" #:attr* '((mathvariant "bold-italic"))))
 (define $p:double-struck
-  (set-attr* $p 'mathvariant "double-struck"))
+  (Mi "p" #:attr* '((mathvariant "double-struck"))))
 (define $p:bold-fraktur
-  (set-attr* $p 'mathvariant "bold-fraktur"))
+  (Mi "p" #:attr* '((mathvariant "bold-fraktur"))))
 (define $p:script
-  (set-attr* $p 'mathvariant "script"))
+  (Mi "p" #:attr* '((mathvariant "script"))))
 (define $p:bold-script
-  (set-attr* $p 'mathvariant "bold-script"))
+  (Mi "p" #:attr* '((mathvariant "bold-script"))))
 (define $p:fraktur
-  (set-attr* $p 'mathvariant "fraktur"))
+  (Mi "p" #:attr* '((mathvariant "fraktur"))))
 (define $p:sans-serif
-  (set-attr* $p 'mathvariant "sans-serif"))
+  (Mi "p" #:attr* '((mathvariant "sans-serif"))))
 (define $p:bold-sans-serif
-  (set-attr* $p 'mathvariant "bold-sans-serif"))
+  (Mi "p" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $p:sans-serif-italic
-  (set-attr* $p 'mathvariant "sans-serif-italic"))
+  (Mi "p" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $p:sans-serif-bold-italic
-  (set-attr* $p 'mathvariant "sans-serif-bold-italic"))
+  (Mi "p" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $p:monospace
-  (set-attr* $p 'mathvariant "monospace"))
+  (Mi "p" #:attr* '((mathvariant "monospace"))))
 (define $p:initial
-  (set-attr* $p 'mathvariant "initial"))
+  (Mi "p" #:attr* '((mathvariant "initial"))))
 (define $p:tailed
-  (set-attr* $p 'mathvariant "tailed"))
+  (Mi "p" #:attr* '((mathvariant "tailed"))))
 (define $p:looped
-  (set-attr* $p 'mathvariant "looped"))
+  (Mi "p" #:attr* '((mathvariant "looped"))))
 (define $p:stretched
-  (set-attr* $p 'mathvariant "stretched"))
+  (Mi "p" #:attr* '((mathvariant "stretched"))))
 (define $q:normal
-  (set-attr* $q 'mathvariant "normal"))
+  (Mi "q" #:attr* '((mathvariant "normal"))))
 (define $q:bold
-  (set-attr* $q 'mathvariant "bold"))
+  (Mi "q" #:attr* '((mathvariant "bold"))))
 (define $q:italic
-  (set-attr* $q 'mathvariant "italic"))
+  (Mi "q" #:attr* '((mathvariant "italic"))))
 (define $q:bold-italic
-  (set-attr* $q 'mathvariant "bold-italic"))
+  (Mi "q" #:attr* '((mathvariant "bold-italic"))))
 (define $q:double-struck
-  (set-attr* $q 'mathvariant "double-struck"))
+  (Mi "q" #:attr* '((mathvariant "double-struck"))))
 (define $q:bold-fraktur
-  (set-attr* $q 'mathvariant "bold-fraktur"))
+  (Mi "q" #:attr* '((mathvariant "bold-fraktur"))))
 (define $q:script
-  (set-attr* $q 'mathvariant "script"))
+  (Mi "q" #:attr* '((mathvariant "script"))))
 (define $q:bold-script
-  (set-attr* $q 'mathvariant "bold-script"))
+  (Mi "q" #:attr* '((mathvariant "bold-script"))))
 (define $q:fraktur
-  (set-attr* $q 'mathvariant "fraktur"))
+  (Mi "q" #:attr* '((mathvariant "fraktur"))))
 (define $q:sans-serif
-  (set-attr* $q 'mathvariant "sans-serif"))
+  (Mi "q" #:attr* '((mathvariant "sans-serif"))))
 (define $q:bold-sans-serif
-  (set-attr* $q 'mathvariant "bold-sans-serif"))
+  (Mi "q" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $q:sans-serif-italic
-  (set-attr* $q 'mathvariant "sans-serif-italic"))
+  (Mi "q" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $q:sans-serif-bold-italic
-  (set-attr* $q 'mathvariant "sans-serif-bold-italic"))
+  (Mi "q" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $q:monospace
-  (set-attr* $q 'mathvariant "monospace"))
+  (Mi "q" #:attr* '((mathvariant "monospace"))))
 (define $q:initial
-  (set-attr* $q 'mathvariant "initial"))
+  (Mi "q" #:attr* '((mathvariant "initial"))))
 (define $q:tailed
-  (set-attr* $q 'mathvariant "tailed"))
+  (Mi "q" #:attr* '((mathvariant "tailed"))))
 (define $q:looped
-  (set-attr* $q 'mathvariant "looped"))
+  (Mi "q" #:attr* '((mathvariant "looped"))))
 (define $q:stretched
-  (set-attr* $q 'mathvariant "stretched"))
+  (Mi "q" #:attr* '((mathvariant "stretched"))))
 (define $r:normal
-  (set-attr* $r 'mathvariant "normal"))
+  (Mi "r" #:attr* '((mathvariant "normal"))))
 (define $r:bold
-  (set-attr* $r 'mathvariant "bold"))
+  (Mi "r" #:attr* '((mathvariant "bold"))))
 (define $r:italic
-  (set-attr* $r 'mathvariant "italic"))
+  (Mi "r" #:attr* '((mathvariant "italic"))))
 (define $r:bold-italic
-  (set-attr* $r 'mathvariant "bold-italic"))
+  (Mi "r" #:attr* '((mathvariant "bold-italic"))))
 (define $r:double-struck
-  (set-attr* $r 'mathvariant "double-struck"))
+  (Mi "r" #:attr* '((mathvariant "double-struck"))))
 (define $r:bold-fraktur
-  (set-attr* $r 'mathvariant "bold-fraktur"))
+  (Mi "r" #:attr* '((mathvariant "bold-fraktur"))))
 (define $r:script
-  (set-attr* $r 'mathvariant "script"))
+  (Mi "r" #:attr* '((mathvariant "script"))))
 (define $r:bold-script
-  (set-attr* $r 'mathvariant "bold-script"))
+  (Mi "r" #:attr* '((mathvariant "bold-script"))))
 (define $r:fraktur
-  (set-attr* $r 'mathvariant "fraktur"))
+  (Mi "r" #:attr* '((mathvariant "fraktur"))))
 (define $r:sans-serif
-  (set-attr* $r 'mathvariant "sans-serif"))
+  (Mi "r" #:attr* '((mathvariant "sans-serif"))))
 (define $r:bold-sans-serif
-  (set-attr* $r 'mathvariant "bold-sans-serif"))
+  (Mi "r" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $r:sans-serif-italic
-  (set-attr* $r 'mathvariant "sans-serif-italic"))
+  (Mi "r" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $r:sans-serif-bold-italic
-  (set-attr* $r 'mathvariant "sans-serif-bold-italic"))
+  (Mi "r" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $r:monospace
-  (set-attr* $r 'mathvariant "monospace"))
+  (Mi "r" #:attr* '((mathvariant "monospace"))))
 (define $r:initial
-  (set-attr* $r 'mathvariant "initial"))
+  (Mi "r" #:attr* '((mathvariant "initial"))))
 (define $r:tailed
-  (set-attr* $r 'mathvariant "tailed"))
+  (Mi "r" #:attr* '((mathvariant "tailed"))))
 (define $r:looped
-  (set-attr* $r 'mathvariant "looped"))
+  (Mi "r" #:attr* '((mathvariant "looped"))))
 (define $r:stretched
-  (set-attr* $r 'mathvariant "stretched"))
+  (Mi "r" #:attr* '((mathvariant "stretched"))))
 (define $s:normal
-  (set-attr* $s 'mathvariant "normal"))
+  (Mi "s" #:attr* '((mathvariant "normal"))))
 (define $s:bold
-  (set-attr* $s 'mathvariant "bold"))
+  (Mi "s" #:attr* '((mathvariant "bold"))))
 (define $s:italic
-  (set-attr* $s 'mathvariant "italic"))
+  (Mi "s" #:attr* '((mathvariant "italic"))))
 (define $s:bold-italic
-  (set-attr* $s 'mathvariant "bold-italic"))
+  (Mi "s" #:attr* '((mathvariant "bold-italic"))))
 (define $s:double-struck
-  (set-attr* $s 'mathvariant "double-struck"))
+  (Mi "s" #:attr* '((mathvariant "double-struck"))))
 (define $s:bold-fraktur
-  (set-attr* $s 'mathvariant "bold-fraktur"))
+  (Mi "s" #:attr* '((mathvariant "bold-fraktur"))))
 (define $s:script
-  (set-attr* $s 'mathvariant "script"))
+  (Mi "s" #:attr* '((mathvariant "script"))))
 (define $s:bold-script
-  (set-attr* $s 'mathvariant "bold-script"))
+  (Mi "s" #:attr* '((mathvariant "bold-script"))))
 (define $s:fraktur
-  (set-attr* $s 'mathvariant "fraktur"))
+  (Mi "s" #:attr* '((mathvariant "fraktur"))))
 (define $s:sans-serif
-  (set-attr* $s 'mathvariant "sans-serif"))
+  (Mi "s" #:attr* '((mathvariant "sans-serif"))))
 (define $s:bold-sans-serif
-  (set-attr* $s 'mathvariant "bold-sans-serif"))
+  (Mi "s" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $s:sans-serif-italic
-  (set-attr* $s 'mathvariant "sans-serif-italic"))
+  (Mi "s" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $s:sans-serif-bold-italic
-  (set-attr* $s 'mathvariant "sans-serif-bold-italic"))
+  (Mi "s" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $s:monospace
-  (set-attr* $s 'mathvariant "monospace"))
+  (Mi "s" #:attr* '((mathvariant "monospace"))))
 (define $s:initial
-  (set-attr* $s 'mathvariant "initial"))
+  (Mi "s" #:attr* '((mathvariant "initial"))))
 (define $s:tailed
-  (set-attr* $s 'mathvariant "tailed"))
+  (Mi "s" #:attr* '((mathvariant "tailed"))))
 (define $s:looped
-  (set-attr* $s 'mathvariant "looped"))
+  (Mi "s" #:attr* '((mathvariant "looped"))))
 (define $s:stretched
-  (set-attr* $s 'mathvariant "stretched"))
+  (Mi "s" #:attr* '((mathvariant "stretched"))))
 (define $t:normal
-  (set-attr* $t 'mathvariant "normal"))
+  (Mi "t" #:attr* '((mathvariant "normal"))))
 (define $t:bold
-  (set-attr* $t 'mathvariant "bold"))
+  (Mi "t" #:attr* '((mathvariant "bold"))))
 (define $t:italic
-  (set-attr* $t 'mathvariant "italic"))
+  (Mi "t" #:attr* '((mathvariant "italic"))))
 (define $t:bold-italic
-  (set-attr* $t 'mathvariant "bold-italic"))
+  (Mi "t" #:attr* '((mathvariant "bold-italic"))))
 (define $t:double-struck
-  (set-attr* $t 'mathvariant "double-struck"))
+  (Mi "t" #:attr* '((mathvariant "double-struck"))))
 (define $t:bold-fraktur
-  (set-attr* $t 'mathvariant "bold-fraktur"))
+  (Mi "t" #:attr* '((mathvariant "bold-fraktur"))))
 (define $t:script
-  (set-attr* $t 'mathvariant "script"))
+  (Mi "t" #:attr* '((mathvariant "script"))))
 (define $t:bold-script
-  (set-attr* $t 'mathvariant "bold-script"))
+  (Mi "t" #:attr* '((mathvariant "bold-script"))))
 (define $t:fraktur
-  (set-attr* $t 'mathvariant "fraktur"))
+  (Mi "t" #:attr* '((mathvariant "fraktur"))))
 (define $t:sans-serif
-  (set-attr* $t 'mathvariant "sans-serif"))
+  (Mi "t" #:attr* '((mathvariant "sans-serif"))))
 (define $t:bold-sans-serif
-  (set-attr* $t 'mathvariant "bold-sans-serif"))
+  (Mi "t" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $t:sans-serif-italic
-  (set-attr* $t 'mathvariant "sans-serif-italic"))
+  (Mi "t" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $t:sans-serif-bold-italic
-  (set-attr* $t 'mathvariant "sans-serif-bold-italic"))
+  (Mi "t" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $t:monospace
-  (set-attr* $t 'mathvariant "monospace"))
+  (Mi "t" #:attr* '((mathvariant "monospace"))))
 (define $t:initial
-  (set-attr* $t 'mathvariant "initial"))
+  (Mi "t" #:attr* '((mathvariant "initial"))))
 (define $t:tailed
-  (set-attr* $t 'mathvariant "tailed"))
+  (Mi "t" #:attr* '((mathvariant "tailed"))))
 (define $t:looped
-  (set-attr* $t 'mathvariant "looped"))
+  (Mi "t" #:attr* '((mathvariant "looped"))))
 (define $t:stretched
-  (set-attr* $t 'mathvariant "stretched"))
+  (Mi "t" #:attr* '((mathvariant "stretched"))))
 (define $u:normal
-  (set-attr* $u 'mathvariant "normal"))
+  (Mi "u" #:attr* '((mathvariant "normal"))))
 (define $u:bold
-  (set-attr* $u 'mathvariant "bold"))
+  (Mi "u" #:attr* '((mathvariant "bold"))))
 (define $u:italic
-  (set-attr* $u 'mathvariant "italic"))
+  (Mi "u" #:attr* '((mathvariant "italic"))))
 (define $u:bold-italic
-  (set-attr* $u 'mathvariant "bold-italic"))
+  (Mi "u" #:attr* '((mathvariant "bold-italic"))))
 (define $u:double-struck
-  (set-attr* $u 'mathvariant "double-struck"))
+  (Mi "u" #:attr* '((mathvariant "double-struck"))))
 (define $u:bold-fraktur
-  (set-attr* $u 'mathvariant "bold-fraktur"))
+  (Mi "u" #:attr* '((mathvariant "bold-fraktur"))))
 (define $u:script
-  (set-attr* $u 'mathvariant "script"))
+  (Mi "u" #:attr* '((mathvariant "script"))))
 (define $u:bold-script
-  (set-attr* $u 'mathvariant "bold-script"))
+  (Mi "u" #:attr* '((mathvariant "bold-script"))))
 (define $u:fraktur
-  (set-attr* $u 'mathvariant "fraktur"))
+  (Mi "u" #:attr* '((mathvariant "fraktur"))))
 (define $u:sans-serif
-  (set-attr* $u 'mathvariant "sans-serif"))
+  (Mi "u" #:attr* '((mathvariant "sans-serif"))))
 (define $u:bold-sans-serif
-  (set-attr* $u 'mathvariant "bold-sans-serif"))
+  (Mi "u" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $u:sans-serif-italic
-  (set-attr* $u 'mathvariant "sans-serif-italic"))
+  (Mi "u" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $u:sans-serif-bold-italic
-  (set-attr* $u 'mathvariant "sans-serif-bold-italic"))
+  (Mi "u" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $u:monospace
-  (set-attr* $u 'mathvariant "monospace"))
+  (Mi "u" #:attr* '((mathvariant "monospace"))))
 (define $u:initial
-  (set-attr* $u 'mathvariant "initial"))
+  (Mi "u" #:attr* '((mathvariant "initial"))))
 (define $u:tailed
-  (set-attr* $u 'mathvariant "tailed"))
+  (Mi "u" #:attr* '((mathvariant "tailed"))))
 (define $u:looped
-  (set-attr* $u 'mathvariant "looped"))
+  (Mi "u" #:attr* '((mathvariant "looped"))))
 (define $u:stretched
-  (set-attr* $u 'mathvariant "stretched"))
+  (Mi "u" #:attr* '((mathvariant "stretched"))))
 (define $v:normal
-  (set-attr* $v 'mathvariant "normal"))
+  (Mi "v" #:attr* '((mathvariant "normal"))))
 (define $v:bold
-  (set-attr* $v 'mathvariant "bold"))
+  (Mi "v" #:attr* '((mathvariant "bold"))))
 (define $v:italic
-  (set-attr* $v 'mathvariant "italic"))
+  (Mi "v" #:attr* '((mathvariant "italic"))))
 (define $v:bold-italic
-  (set-attr* $v 'mathvariant "bold-italic"))
+  (Mi "v" #:attr* '((mathvariant "bold-italic"))))
 (define $v:double-struck
-  (set-attr* $v 'mathvariant "double-struck"))
+  (Mi "v" #:attr* '((mathvariant "double-struck"))))
 (define $v:bold-fraktur
-  (set-attr* $v 'mathvariant "bold-fraktur"))
+  (Mi "v" #:attr* '((mathvariant "bold-fraktur"))))
 (define $v:script
-  (set-attr* $v 'mathvariant "script"))
+  (Mi "v" #:attr* '((mathvariant "script"))))
 (define $v:bold-script
-  (set-attr* $v 'mathvariant "bold-script"))
+  (Mi "v" #:attr* '((mathvariant "bold-script"))))
 (define $v:fraktur
-  (set-attr* $v 'mathvariant "fraktur"))
+  (Mi "v" #:attr* '((mathvariant "fraktur"))))
 (define $v:sans-serif
-  (set-attr* $v 'mathvariant "sans-serif"))
+  (Mi "v" #:attr* '((mathvariant "sans-serif"))))
 (define $v:bold-sans-serif
-  (set-attr* $v 'mathvariant "bold-sans-serif"))
+  (Mi "v" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $v:sans-serif-italic
-  (set-attr* $v 'mathvariant "sans-serif-italic"))
+  (Mi "v" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $v:sans-serif-bold-italic
-  (set-attr* $v 'mathvariant "sans-serif-bold-italic"))
+  (Mi "v" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $v:monospace
-  (set-attr* $v 'mathvariant "monospace"))
+  (Mi "v" #:attr* '((mathvariant "monospace"))))
 (define $v:initial
-  (set-attr* $v 'mathvariant "initial"))
+  (Mi "v" #:attr* '((mathvariant "initial"))))
 (define $v:tailed
-  (set-attr* $v 'mathvariant "tailed"))
+  (Mi "v" #:attr* '((mathvariant "tailed"))))
 (define $v:looped
-  (set-attr* $v 'mathvariant "looped"))
+  (Mi "v" #:attr* '((mathvariant "looped"))))
 (define $v:stretched
-  (set-attr* $v 'mathvariant "stretched"))
+  (Mi "v" #:attr* '((mathvariant "stretched"))))
 (define $w:normal
-  (set-attr* $w 'mathvariant "normal"))
+  (Mi "w" #:attr* '((mathvariant "normal"))))
 (define $w:bold
-  (set-attr* $w 'mathvariant "bold"))
+  (Mi "w" #:attr* '((mathvariant "bold"))))
 (define $w:italic
-  (set-attr* $w 'mathvariant "italic"))
+  (Mi "w" #:attr* '((mathvariant "italic"))))
 (define $w:bold-italic
-  (set-attr* $w 'mathvariant "bold-italic"))
+  (Mi "w" #:attr* '((mathvariant "bold-italic"))))
 (define $w:double-struck
-  (set-attr* $w 'mathvariant "double-struck"))
+  (Mi "w" #:attr* '((mathvariant "double-struck"))))
 (define $w:bold-fraktur
-  (set-attr* $w 'mathvariant "bold-fraktur"))
+  (Mi "w" #:attr* '((mathvariant "bold-fraktur"))))
 (define $w:script
-  (set-attr* $w 'mathvariant "script"))
+  (Mi "w" #:attr* '((mathvariant "script"))))
 (define $w:bold-script
-  (set-attr* $w 'mathvariant "bold-script"))
+  (Mi "w" #:attr* '((mathvariant "bold-script"))))
 (define $w:fraktur
-  (set-attr* $w 'mathvariant "fraktur"))
+  (Mi "w" #:attr* '((mathvariant "fraktur"))))
 (define $w:sans-serif
-  (set-attr* $w 'mathvariant "sans-serif"))
+  (Mi "w" #:attr* '((mathvariant "sans-serif"))))
 (define $w:bold-sans-serif
-  (set-attr* $w 'mathvariant "bold-sans-serif"))
+  (Mi "w" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $w:sans-serif-italic
-  (set-attr* $w 'mathvariant "sans-serif-italic"))
+  (Mi "w" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $w:sans-serif-bold-italic
-  (set-attr* $w 'mathvariant "sans-serif-bold-italic"))
+  (Mi "w" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $w:monospace
-  (set-attr* $w 'mathvariant "monospace"))
+  (Mi "w" #:attr* '((mathvariant "monospace"))))
 (define $w:initial
-  (set-attr* $w 'mathvariant "initial"))
+  (Mi "w" #:attr* '((mathvariant "initial"))))
 (define $w:tailed
-  (set-attr* $w 'mathvariant "tailed"))
+  (Mi "w" #:attr* '((mathvariant "tailed"))))
 (define $w:looped
-  (set-attr* $w 'mathvariant "looped"))
+  (Mi "w" #:attr* '((mathvariant "looped"))))
 (define $w:stretched
-  (set-attr* $w 'mathvariant "stretched"))
+  (Mi "w" #:attr* '((mathvariant "stretched"))))
 (define $x:normal
-  (set-attr* $x 'mathvariant "normal"))
+  (Mi "x" #:attr* '((mathvariant "normal"))))
 (define $x:bold
-  (set-attr* $x 'mathvariant "bold"))
+  (Mi "x" #:attr* '((mathvariant "bold"))))
 (define $x:italic
-  (set-attr* $x 'mathvariant "italic"))
+  (Mi "x" #:attr* '((mathvariant "italic"))))
 (define $x:bold-italic
-  (set-attr* $x 'mathvariant "bold-italic"))
+  (Mi "x" #:attr* '((mathvariant "bold-italic"))))
 (define $x:double-struck
-  (set-attr* $x 'mathvariant "double-struck"))
+  (Mi "x" #:attr* '((mathvariant "double-struck"))))
 (define $x:bold-fraktur
-  (set-attr* $x 'mathvariant "bold-fraktur"))
+  (Mi "x" #:attr* '((mathvariant "bold-fraktur"))))
 (define $x:script
-  (set-attr* $x 'mathvariant "script"))
+  (Mi "x" #:attr* '((mathvariant "script"))))
 (define $x:bold-script
-  (set-attr* $x 'mathvariant "bold-script"))
+  (Mi "x" #:attr* '((mathvariant "bold-script"))))
 (define $x:fraktur
-  (set-attr* $x 'mathvariant "fraktur"))
+  (Mi "x" #:attr* '((mathvariant "fraktur"))))
 (define $x:sans-serif
-  (set-attr* $x 'mathvariant "sans-serif"))
+  (Mi "x" #:attr* '((mathvariant "sans-serif"))))
 (define $x:bold-sans-serif
-  (set-attr* $x 'mathvariant "bold-sans-serif"))
+  (Mi "x" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $x:sans-serif-italic
-  (set-attr* $x 'mathvariant "sans-serif-italic"))
+  (Mi "x" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $x:sans-serif-bold-italic
-  (set-attr* $x 'mathvariant "sans-serif-bold-italic"))
+  (Mi "x" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $x:monospace
-  (set-attr* $x 'mathvariant "monospace"))
+  (Mi "x" #:attr* '((mathvariant "monospace"))))
 (define $x:initial
-  (set-attr* $x 'mathvariant "initial"))
+  (Mi "x" #:attr* '((mathvariant "initial"))))
 (define $x:tailed
-  (set-attr* $x 'mathvariant "tailed"))
+  (Mi "x" #:attr* '((mathvariant "tailed"))))
 (define $x:looped
-  (set-attr* $x 'mathvariant "looped"))
+  (Mi "x" #:attr* '((mathvariant "looped"))))
 (define $x:stretched
-  (set-attr* $x 'mathvariant "stretched"))
+  (Mi "x" #:attr* '((mathvariant "stretched"))))
 (define $y:normal
-  (set-attr* $y 'mathvariant "normal"))
+  (Mi "y" #:attr* '((mathvariant "normal"))))
 (define $y:bold
-  (set-attr* $y 'mathvariant "bold"))
+  (Mi "y" #:attr* '((mathvariant "bold"))))
 (define $y:italic
-  (set-attr* $y 'mathvariant "italic"))
+  (Mi "y" #:attr* '((mathvariant "italic"))))
 (define $y:bold-italic
-  (set-attr* $y 'mathvariant "bold-italic"))
+  (Mi "y" #:attr* '((mathvariant "bold-italic"))))
 (define $y:double-struck
-  (set-attr* $y 'mathvariant "double-struck"))
+  (Mi "y" #:attr* '((mathvariant "double-struck"))))
 (define $y:bold-fraktur
-  (set-attr* $y 'mathvariant "bold-fraktur"))
+  (Mi "y" #:attr* '((mathvariant "bold-fraktur"))))
 (define $y:script
-  (set-attr* $y 'mathvariant "script"))
+  (Mi "y" #:attr* '((mathvariant "script"))))
 (define $y:bold-script
-  (set-attr* $y 'mathvariant "bold-script"))
+  (Mi "y" #:attr* '((mathvariant "bold-script"))))
 (define $y:fraktur
-  (set-attr* $y 'mathvariant "fraktur"))
+  (Mi "y" #:attr* '((mathvariant "fraktur"))))
 (define $y:sans-serif
-  (set-attr* $y 'mathvariant "sans-serif"))
+  (Mi "y" #:attr* '((mathvariant "sans-serif"))))
 (define $y:bold-sans-serif
-  (set-attr* $y 'mathvariant "bold-sans-serif"))
+  (Mi "y" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $y:sans-serif-italic
-  (set-attr* $y 'mathvariant "sans-serif-italic"))
+  (Mi "y" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $y:sans-serif-bold-italic
-  (set-attr* $y 'mathvariant "sans-serif-bold-italic"))
+  (Mi "y" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $y:monospace
-  (set-attr* $y 'mathvariant "monospace"))
+  (Mi "y" #:attr* '((mathvariant "monospace"))))
 (define $y:initial
-  (set-attr* $y 'mathvariant "initial"))
+  (Mi "y" #:attr* '((mathvariant "initial"))))
 (define $y:tailed
-  (set-attr* $y 'mathvariant "tailed"))
+  (Mi "y" #:attr* '((mathvariant "tailed"))))
 (define $y:looped
-  (set-attr* $y 'mathvariant "looped"))
+  (Mi "y" #:attr* '((mathvariant "looped"))))
 (define $y:stretched
-  (set-attr* $y 'mathvariant "stretched"))
+  (Mi "y" #:attr* '((mathvariant "stretched"))))
 (define $z:normal
-  (set-attr* $z 'mathvariant "normal"))
+  (Mi "z" #:attr* '((mathvariant "normal"))))
 (define $z:bold
-  (set-attr* $z 'mathvariant "bold"))
+  (Mi "z" #:attr* '((mathvariant "bold"))))
 (define $z:italic
-  (set-attr* $z 'mathvariant "italic"))
+  (Mi "z" #:attr* '((mathvariant "italic"))))
 (define $z:bold-italic
-  (set-attr* $z 'mathvariant "bold-italic"))
+  (Mi "z" #:attr* '((mathvariant "bold-italic"))))
 (define $z:double-struck
-  (set-attr* $z 'mathvariant "double-struck"))
+  (Mi "z" #:attr* '((mathvariant "double-struck"))))
 (define $z:bold-fraktur
-  (set-attr* $z 'mathvariant "bold-fraktur"))
+  (Mi "z" #:attr* '((mathvariant "bold-fraktur"))))
 (define $z:script
-  (set-attr* $z 'mathvariant "script"))
+  (Mi "z" #:attr* '((mathvariant "script"))))
 (define $z:bold-script
-  (set-attr* $z 'mathvariant "bold-script"))
+  (Mi "z" #:attr* '((mathvariant "bold-script"))))
 (define $z:fraktur
-  (set-attr* $z 'mathvariant "fraktur"))
+  (Mi "z" #:attr* '((mathvariant "fraktur"))))
 (define $z:sans-serif
-  (set-attr* $z 'mathvariant "sans-serif"))
+  (Mi "z" #:attr* '((mathvariant "sans-serif"))))
 (define $z:bold-sans-serif
-  (set-attr* $z 'mathvariant "bold-sans-serif"))
+  (Mi "z" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $z:sans-serif-italic
-  (set-attr* $z 'mathvariant "sans-serif-italic"))
+  (Mi "z" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $z:sans-serif-bold-italic
-  (set-attr* $z 'mathvariant "sans-serif-bold-italic"))
+  (Mi "z" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $z:monospace
-  (set-attr* $z 'mathvariant "monospace"))
+  (Mi "z" #:attr* '((mathvariant "monospace"))))
 (define $z:initial
-  (set-attr* $z 'mathvariant "initial"))
+  (Mi "z" #:attr* '((mathvariant "initial"))))
 (define $z:tailed
-  (set-attr* $z 'mathvariant "tailed"))
+  (Mi "z" #:attr* '((mathvariant "tailed"))))
 (define $z:looped
-  (set-attr* $z 'mathvariant "looped"))
+  (Mi "z" #:attr* '((mathvariant "looped"))))
 (define $z:stretched
-  (set-attr* $z 'mathvariant "stretched"))
+  (Mi "z" #:attr* '((mathvariant "stretched"))))
 (define $A:normal
-  (set-attr* $A 'mathvariant "normal"))
+  (Mi "A" #:attr* '((mathvariant "normal"))))
 (define $A:bold
-  (set-attr* $A 'mathvariant "bold"))
+  (Mi "A" #:attr* '((mathvariant "bold"))))
 (define $A:italic
-  (set-attr* $A 'mathvariant "italic"))
+  (Mi "A" #:attr* '((mathvariant "italic"))))
 (define $A:bold-italic
-  (set-attr* $A 'mathvariant "bold-italic"))
+  (Mi "A" #:attr* '((mathvariant "bold-italic"))))
 (define $A:double-struck
-  (set-attr* $A 'mathvariant "double-struck"))
+  (Mi "A" #:attr* '((mathvariant "double-struck"))))
 (define $A:bold-fraktur
-  (set-attr* $A 'mathvariant "bold-fraktur"))
+  (Mi "A" #:attr* '((mathvariant "bold-fraktur"))))
 (define $A:script
-  (set-attr* $A 'mathvariant "script"))
+  (Mi "A" #:attr* '((mathvariant "script"))))
 (define $A:bold-script
-  (set-attr* $A 'mathvariant "bold-script"))
+  (Mi "A" #:attr* '((mathvariant "bold-script"))))
 (define $A:fraktur
-  (set-attr* $A 'mathvariant "fraktur"))
+  (Mi "A" #:attr* '((mathvariant "fraktur"))))
 (define $A:sans-serif
-  (set-attr* $A 'mathvariant "sans-serif"))
+  (Mi "A" #:attr* '((mathvariant "sans-serif"))))
 (define $A:bold-sans-serif
-  (set-attr* $A 'mathvariant "bold-sans-serif"))
+  (Mi "A" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $A:sans-serif-italic
-  (set-attr* $A 'mathvariant "sans-serif-italic"))
+  (Mi "A" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $A:sans-serif-bold-italic
-  (set-attr* $A 'mathvariant "sans-serif-bold-italic"))
+  (Mi "A" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $A:monospace
-  (set-attr* $A 'mathvariant "monospace"))
+  (Mi "A" #:attr* '((mathvariant "monospace"))))
 (define $A:initial
-  (set-attr* $A 'mathvariant "initial"))
+  (Mi "A" #:attr* '((mathvariant "initial"))))
 (define $A:tailed
-  (set-attr* $A 'mathvariant "tailed"))
+  (Mi "A" #:attr* '((mathvariant "tailed"))))
 (define $A:looped
-  (set-attr* $A 'mathvariant "looped"))
+  (Mi "A" #:attr* '((mathvariant "looped"))))
 (define $A:stretched
-  (set-attr* $A 'mathvariant "stretched"))
+  (Mi "A" #:attr* '((mathvariant "stretched"))))
 (define $B:normal
-  (set-attr* $B 'mathvariant "normal"))
+  (Mi "B" #:attr* '((mathvariant "normal"))))
 (define $B:bold
-  (set-attr* $B 'mathvariant "bold"))
+  (Mi "B" #:attr* '((mathvariant "bold"))))
 (define $B:italic
-  (set-attr* $B 'mathvariant "italic"))
+  (Mi "B" #:attr* '((mathvariant "italic"))))
 (define $B:bold-italic
-  (set-attr* $B 'mathvariant "bold-italic"))
+  (Mi "B" #:attr* '((mathvariant "bold-italic"))))
 (define $B:double-struck
-  (set-attr* $B 'mathvariant "double-struck"))
+  (Mi "B" #:attr* '((mathvariant "double-struck"))))
 (define $B:bold-fraktur
-  (set-attr* $B 'mathvariant "bold-fraktur"))
+  (Mi "B" #:attr* '((mathvariant "bold-fraktur"))))
 (define $B:script
-  (set-attr* $B 'mathvariant "script"))
+  (Mi "B" #:attr* '((mathvariant "script"))))
 (define $B:bold-script
-  (set-attr* $B 'mathvariant "bold-script"))
+  (Mi "B" #:attr* '((mathvariant "bold-script"))))
 (define $B:fraktur
-  (set-attr* $B 'mathvariant "fraktur"))
+  (Mi "B" #:attr* '((mathvariant "fraktur"))))
 (define $B:sans-serif
-  (set-attr* $B 'mathvariant "sans-serif"))
+  (Mi "B" #:attr* '((mathvariant "sans-serif"))))
 (define $B:bold-sans-serif
-  (set-attr* $B 'mathvariant "bold-sans-serif"))
+  (Mi "B" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $B:sans-serif-italic
-  (set-attr* $B 'mathvariant "sans-serif-italic"))
+  (Mi "B" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $B:sans-serif-bold-italic
-  (set-attr* $B 'mathvariant "sans-serif-bold-italic"))
+  (Mi "B" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $B:monospace
-  (set-attr* $B 'mathvariant "monospace"))
+  (Mi "B" #:attr* '((mathvariant "monospace"))))
 (define $B:initial
-  (set-attr* $B 'mathvariant "initial"))
+  (Mi "B" #:attr* '((mathvariant "initial"))))
 (define $B:tailed
-  (set-attr* $B 'mathvariant "tailed"))
+  (Mi "B" #:attr* '((mathvariant "tailed"))))
 (define $B:looped
-  (set-attr* $B 'mathvariant "looped"))
+  (Mi "B" #:attr* '((mathvariant "looped"))))
 (define $B:stretched
-  (set-attr* $B 'mathvariant "stretched"))
+  (Mi "B" #:attr* '((mathvariant "stretched"))))
 (define $C:normal
-  (set-attr* $C 'mathvariant "normal"))
+  (Mi "C" #:attr* '((mathvariant "normal"))))
 (define $C:bold
-  (set-attr* $C 'mathvariant "bold"))
+  (Mi "C" #:attr* '((mathvariant "bold"))))
 (define $C:italic
-  (set-attr* $C 'mathvariant "italic"))
+  (Mi "C" #:attr* '((mathvariant "italic"))))
 (define $C:bold-italic
-  (set-attr* $C 'mathvariant "bold-italic"))
+  (Mi "C" #:attr* '((mathvariant "bold-italic"))))
 (define $C:double-struck
-  (set-attr* $C 'mathvariant "double-struck"))
+  (Mi "C" #:attr* '((mathvariant "double-struck"))))
 (define $C:bold-fraktur
-  (set-attr* $C 'mathvariant "bold-fraktur"))
+  (Mi "C" #:attr* '((mathvariant "bold-fraktur"))))
 (define $C:script
-  (set-attr* $C 'mathvariant "script"))
+  (Mi "C" #:attr* '((mathvariant "script"))))
 (define $C:bold-script
-  (set-attr* $C 'mathvariant "bold-script"))
+  (Mi "C" #:attr* '((mathvariant "bold-script"))))
 (define $C:fraktur
-  (set-attr* $C 'mathvariant "fraktur"))
+  (Mi "C" #:attr* '((mathvariant "fraktur"))))
 (define $C:sans-serif
-  (set-attr* $C 'mathvariant "sans-serif"))
+  (Mi "C" #:attr* '((mathvariant "sans-serif"))))
 (define $C:bold-sans-serif
-  (set-attr* $C 'mathvariant "bold-sans-serif"))
+  (Mi "C" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $C:sans-serif-italic
-  (set-attr* $C 'mathvariant "sans-serif-italic"))
+  (Mi "C" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $C:sans-serif-bold-italic
-  (set-attr* $C 'mathvariant "sans-serif-bold-italic"))
+  (Mi "C" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $C:monospace
-  (set-attr* $C 'mathvariant "monospace"))
+  (Mi "C" #:attr* '((mathvariant "monospace"))))
 (define $C:initial
-  (set-attr* $C 'mathvariant "initial"))
+  (Mi "C" #:attr* '((mathvariant "initial"))))
 (define $C:tailed
-  (set-attr* $C 'mathvariant "tailed"))
+  (Mi "C" #:attr* '((mathvariant "tailed"))))
 (define $C:looped
-  (set-attr* $C 'mathvariant "looped"))
+  (Mi "C" #:attr* '((mathvariant "looped"))))
 (define $C:stretched
-  (set-attr* $C 'mathvariant "stretched"))
+  (Mi "C" #:attr* '((mathvariant "stretched"))))
 (define $D:normal
-  (set-attr* $D 'mathvariant "normal"))
+  (Mi "D" #:attr* '((mathvariant "normal"))))
 (define $D:bold
-  (set-attr* $D 'mathvariant "bold"))
+  (Mi "D" #:attr* '((mathvariant "bold"))))
 (define $D:italic
-  (set-attr* $D 'mathvariant "italic"))
+  (Mi "D" #:attr* '((mathvariant "italic"))))
 (define $D:bold-italic
-  (set-attr* $D 'mathvariant "bold-italic"))
+  (Mi "D" #:attr* '((mathvariant "bold-italic"))))
 (define $D:double-struck
-  (set-attr* $D 'mathvariant "double-struck"))
+  (Mi "D" #:attr* '((mathvariant "double-struck"))))
 (define $D:bold-fraktur
-  (set-attr* $D 'mathvariant "bold-fraktur"))
+  (Mi "D" #:attr* '((mathvariant "bold-fraktur"))))
 (define $D:script
-  (set-attr* $D 'mathvariant "script"))
+  (Mi "D" #:attr* '((mathvariant "script"))))
 (define $D:bold-script
-  (set-attr* $D 'mathvariant "bold-script"))
+  (Mi "D" #:attr* '((mathvariant "bold-script"))))
 (define $D:fraktur
-  (set-attr* $D 'mathvariant "fraktur"))
+  (Mi "D" #:attr* '((mathvariant "fraktur"))))
 (define $D:sans-serif
-  (set-attr* $D 'mathvariant "sans-serif"))
+  (Mi "D" #:attr* '((mathvariant "sans-serif"))))
 (define $D:bold-sans-serif
-  (set-attr* $D 'mathvariant "bold-sans-serif"))
+  (Mi "D" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $D:sans-serif-italic
-  (set-attr* $D 'mathvariant "sans-serif-italic"))
+  (Mi "D" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $D:sans-serif-bold-italic
-  (set-attr* $D 'mathvariant "sans-serif-bold-italic"))
+  (Mi "D" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $D:monospace
-  (set-attr* $D 'mathvariant "monospace"))
+  (Mi "D" #:attr* '((mathvariant "monospace"))))
 (define $D:initial
-  (set-attr* $D 'mathvariant "initial"))
+  (Mi "D" #:attr* '((mathvariant "initial"))))
 (define $D:tailed
-  (set-attr* $D 'mathvariant "tailed"))
+  (Mi "D" #:attr* '((mathvariant "tailed"))))
 (define $D:looped
-  (set-attr* $D 'mathvariant "looped"))
+  (Mi "D" #:attr* '((mathvariant "looped"))))
 (define $D:stretched
-  (set-attr* $D 'mathvariant "stretched"))
+  (Mi "D" #:attr* '((mathvariant "stretched"))))
 (define $E:normal
-  (set-attr* $E 'mathvariant "normal"))
+  (Mi "E" #:attr* '((mathvariant "normal"))))
 (define $E:bold
-  (set-attr* $E 'mathvariant "bold"))
+  (Mi "E" #:attr* '((mathvariant "bold"))))
 (define $E:italic
-  (set-attr* $E 'mathvariant "italic"))
+  (Mi "E" #:attr* '((mathvariant "italic"))))
 (define $E:bold-italic
-  (set-attr* $E 'mathvariant "bold-italic"))
+  (Mi "E" #:attr* '((mathvariant "bold-italic"))))
 (define $E:double-struck
-  (set-attr* $E 'mathvariant "double-struck"))
+  (Mi "E" #:attr* '((mathvariant "double-struck"))))
 (define $E:bold-fraktur
-  (set-attr* $E 'mathvariant "bold-fraktur"))
+  (Mi "E" #:attr* '((mathvariant "bold-fraktur"))))
 (define $E:script
-  (set-attr* $E 'mathvariant "script"))
+  (Mi "E" #:attr* '((mathvariant "script"))))
 (define $E:bold-script
-  (set-attr* $E 'mathvariant "bold-script"))
+  (Mi "E" #:attr* '((mathvariant "bold-script"))))
 (define $E:fraktur
-  (set-attr* $E 'mathvariant "fraktur"))
+  (Mi "E" #:attr* '((mathvariant "fraktur"))))
 (define $E:sans-serif
-  (set-attr* $E 'mathvariant "sans-serif"))
+  (Mi "E" #:attr* '((mathvariant "sans-serif"))))
 (define $E:bold-sans-serif
-  (set-attr* $E 'mathvariant "bold-sans-serif"))
+  (Mi "E" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $E:sans-serif-italic
-  (set-attr* $E 'mathvariant "sans-serif-italic"))
+  (Mi "E" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $E:sans-serif-bold-italic
-  (set-attr* $E 'mathvariant "sans-serif-bold-italic"))
+  (Mi "E" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $E:monospace
-  (set-attr* $E 'mathvariant "monospace"))
+  (Mi "E" #:attr* '((mathvariant "monospace"))))
 (define $E:initial
-  (set-attr* $E 'mathvariant "initial"))
+  (Mi "E" #:attr* '((mathvariant "initial"))))
 (define $E:tailed
-  (set-attr* $E 'mathvariant "tailed"))
+  (Mi "E" #:attr* '((mathvariant "tailed"))))
 (define $E:looped
-  (set-attr* $E 'mathvariant "looped"))
+  (Mi "E" #:attr* '((mathvariant "looped"))))
 (define $E:stretched
-  (set-attr* $E 'mathvariant "stretched"))
+  (Mi "E" #:attr* '((mathvariant "stretched"))))
 (define $F:normal
-  (set-attr* $F 'mathvariant "normal"))
+  (Mi "F" #:attr* '((mathvariant "normal"))))
 (define $F:bold
-  (set-attr* $F 'mathvariant "bold"))
+  (Mi "F" #:attr* '((mathvariant "bold"))))
 (define $F:italic
-  (set-attr* $F 'mathvariant "italic"))
+  (Mi "F" #:attr* '((mathvariant "italic"))))
 (define $F:bold-italic
-  (set-attr* $F 'mathvariant "bold-italic"))
+  (Mi "F" #:attr* '((mathvariant "bold-italic"))))
 (define $F:double-struck
-  (set-attr* $F 'mathvariant "double-struck"))
+  (Mi "F" #:attr* '((mathvariant "double-struck"))))
 (define $F:bold-fraktur
-  (set-attr* $F 'mathvariant "bold-fraktur"))
+  (Mi "F" #:attr* '((mathvariant "bold-fraktur"))))
 (define $F:script
-  (set-attr* $F 'mathvariant "script"))
+  (Mi "F" #:attr* '((mathvariant "script"))))
 (define $F:bold-script
-  (set-attr* $F 'mathvariant "bold-script"))
+  (Mi "F" #:attr* '((mathvariant "bold-script"))))
 (define $F:fraktur
-  (set-attr* $F 'mathvariant "fraktur"))
+  (Mi "F" #:attr* '((mathvariant "fraktur"))))
 (define $F:sans-serif
-  (set-attr* $F 'mathvariant "sans-serif"))
+  (Mi "F" #:attr* '((mathvariant "sans-serif"))))
 (define $F:bold-sans-serif
-  (set-attr* $F 'mathvariant "bold-sans-serif"))
+  (Mi "F" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $F:sans-serif-italic
-  (set-attr* $F 'mathvariant "sans-serif-italic"))
+  (Mi "F" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $F:sans-serif-bold-italic
-  (set-attr* $F 'mathvariant "sans-serif-bold-italic"))
+  (Mi "F" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $F:monospace
-  (set-attr* $F 'mathvariant "monospace"))
+  (Mi "F" #:attr* '((mathvariant "monospace"))))
 (define $F:initial
-  (set-attr* $F 'mathvariant "initial"))
+  (Mi "F" #:attr* '((mathvariant "initial"))))
 (define $F:tailed
-  (set-attr* $F 'mathvariant "tailed"))
+  (Mi "F" #:attr* '((mathvariant "tailed"))))
 (define $F:looped
-  (set-attr* $F 'mathvariant "looped"))
+  (Mi "F" #:attr* '((mathvariant "looped"))))
 (define $F:stretched
-  (set-attr* $F 'mathvariant "stretched"))
+  (Mi "F" #:attr* '((mathvariant "stretched"))))
 (define $G:normal
-  (set-attr* $G 'mathvariant "normal"))
+  (Mi "G" #:attr* '((mathvariant "normal"))))
 (define $G:bold
-  (set-attr* $G 'mathvariant "bold"))
+  (Mi "G" #:attr* '((mathvariant "bold"))))
 (define $G:italic
-  (set-attr* $G 'mathvariant "italic"))
+  (Mi "G" #:attr* '((mathvariant "italic"))))
 (define $G:bold-italic
-  (set-attr* $G 'mathvariant "bold-italic"))
+  (Mi "G" #:attr* '((mathvariant "bold-italic"))))
 (define $G:double-struck
-  (set-attr* $G 'mathvariant "double-struck"))
+  (Mi "G" #:attr* '((mathvariant "double-struck"))))
 (define $G:bold-fraktur
-  (set-attr* $G 'mathvariant "bold-fraktur"))
+  (Mi "G" #:attr* '((mathvariant "bold-fraktur"))))
 (define $G:script
-  (set-attr* $G 'mathvariant "script"))
+  (Mi "G" #:attr* '((mathvariant "script"))))
 (define $G:bold-script
-  (set-attr* $G 'mathvariant "bold-script"))
+  (Mi "G" #:attr* '((mathvariant "bold-script"))))
 (define $G:fraktur
-  (set-attr* $G 'mathvariant "fraktur"))
+  (Mi "G" #:attr* '((mathvariant "fraktur"))))
 (define $G:sans-serif
-  (set-attr* $G 'mathvariant "sans-serif"))
+  (Mi "G" #:attr* '((mathvariant "sans-serif"))))
 (define $G:bold-sans-serif
-  (set-attr* $G 'mathvariant "bold-sans-serif"))
+  (Mi "G" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $G:sans-serif-italic
-  (set-attr* $G 'mathvariant "sans-serif-italic"))
+  (Mi "G" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $G:sans-serif-bold-italic
-  (set-attr* $G 'mathvariant "sans-serif-bold-italic"))
+  (Mi "G" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $G:monospace
-  (set-attr* $G 'mathvariant "monospace"))
+  (Mi "G" #:attr* '((mathvariant "monospace"))))
 (define $G:initial
-  (set-attr* $G 'mathvariant "initial"))
+  (Mi "G" #:attr* '((mathvariant "initial"))))
 (define $G:tailed
-  (set-attr* $G 'mathvariant "tailed"))
+  (Mi "G" #:attr* '((mathvariant "tailed"))))
 (define $G:looped
-  (set-attr* $G 'mathvariant "looped"))
+  (Mi "G" #:attr* '((mathvariant "looped"))))
 (define $G:stretched
-  (set-attr* $G 'mathvariant "stretched"))
+  (Mi "G" #:attr* '((mathvariant "stretched"))))
 (define $H:normal
-  (set-attr* $H 'mathvariant "normal"))
+  (Mi "H" #:attr* '((mathvariant "normal"))))
 (define $H:bold
-  (set-attr* $H 'mathvariant "bold"))
+  (Mi "H" #:attr* '((mathvariant "bold"))))
 (define $H:italic
-  (set-attr* $H 'mathvariant "italic"))
+  (Mi "H" #:attr* '((mathvariant "italic"))))
 (define $H:bold-italic
-  (set-attr* $H 'mathvariant "bold-italic"))
+  (Mi "H" #:attr* '((mathvariant "bold-italic"))))
 (define $H:double-struck
-  (set-attr* $H 'mathvariant "double-struck"))
+  (Mi "H" #:attr* '((mathvariant "double-struck"))))
 (define $H:bold-fraktur
-  (set-attr* $H 'mathvariant "bold-fraktur"))
+  (Mi "H" #:attr* '((mathvariant "bold-fraktur"))))
 (define $H:script
-  (set-attr* $H 'mathvariant "script"))
+  (Mi "H" #:attr* '((mathvariant "script"))))
 (define $H:bold-script
-  (set-attr* $H 'mathvariant "bold-script"))
+  (Mi "H" #:attr* '((mathvariant "bold-script"))))
 (define $H:fraktur
-  (set-attr* $H 'mathvariant "fraktur"))
+  (Mi "H" #:attr* '((mathvariant "fraktur"))))
 (define $H:sans-serif
-  (set-attr* $H 'mathvariant "sans-serif"))
+  (Mi "H" #:attr* '((mathvariant "sans-serif"))))
 (define $H:bold-sans-serif
-  (set-attr* $H 'mathvariant "bold-sans-serif"))
+  (Mi "H" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $H:sans-serif-italic
-  (set-attr* $H 'mathvariant "sans-serif-italic"))
+  (Mi "H" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $H:sans-serif-bold-italic
-  (set-attr* $H 'mathvariant "sans-serif-bold-italic"))
+  (Mi "H" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $H:monospace
-  (set-attr* $H 'mathvariant "monospace"))
+  (Mi "H" #:attr* '((mathvariant "monospace"))))
 (define $H:initial
-  (set-attr* $H 'mathvariant "initial"))
+  (Mi "H" #:attr* '((mathvariant "initial"))))
 (define $H:tailed
-  (set-attr* $H 'mathvariant "tailed"))
+  (Mi "H" #:attr* '((mathvariant "tailed"))))
 (define $H:looped
-  (set-attr* $H 'mathvariant "looped"))
+  (Mi "H" #:attr* '((mathvariant "looped"))))
 (define $H:stretched
-  (set-attr* $H 'mathvariant "stretched"))
+  (Mi "H" #:attr* '((mathvariant "stretched"))))
 (define $I:normal
-  (set-attr* $I 'mathvariant "normal"))
+  (Mi "I" #:attr* '((mathvariant "normal"))))
 (define $I:bold
-  (set-attr* $I 'mathvariant "bold"))
+  (Mi "I" #:attr* '((mathvariant "bold"))))
 (define $I:italic
-  (set-attr* $I 'mathvariant "italic"))
+  (Mi "I" #:attr* '((mathvariant "italic"))))
 (define $I:bold-italic
-  (set-attr* $I 'mathvariant "bold-italic"))
+  (Mi "I" #:attr* '((mathvariant "bold-italic"))))
 (define $I:double-struck
-  (set-attr* $I 'mathvariant "double-struck"))
+  (Mi "I" #:attr* '((mathvariant "double-struck"))))
 (define $I:bold-fraktur
-  (set-attr* $I 'mathvariant "bold-fraktur"))
+  (Mi "I" #:attr* '((mathvariant "bold-fraktur"))))
 (define $I:script
-  (set-attr* $I 'mathvariant "script"))
+  (Mi "I" #:attr* '((mathvariant "script"))))
 (define $I:bold-script
-  (set-attr* $I 'mathvariant "bold-script"))
+  (Mi "I" #:attr* '((mathvariant "bold-script"))))
 (define $I:fraktur
-  (set-attr* $I 'mathvariant "fraktur"))
+  (Mi "I" #:attr* '((mathvariant "fraktur"))))
 (define $I:sans-serif
-  (set-attr* $I 'mathvariant "sans-serif"))
+  (Mi "I" #:attr* '((mathvariant "sans-serif"))))
 (define $I:bold-sans-serif
-  (set-attr* $I 'mathvariant "bold-sans-serif"))
+  (Mi "I" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $I:sans-serif-italic
-  (set-attr* $I 'mathvariant "sans-serif-italic"))
+  (Mi "I" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $I:sans-serif-bold-italic
-  (set-attr* $I 'mathvariant "sans-serif-bold-italic"))
+  (Mi "I" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $I:monospace
-  (set-attr* $I 'mathvariant "monospace"))
+  (Mi "I" #:attr* '((mathvariant "monospace"))))
 (define $I:initial
-  (set-attr* $I 'mathvariant "initial"))
+  (Mi "I" #:attr* '((mathvariant "initial"))))
 (define $I:tailed
-  (set-attr* $I 'mathvariant "tailed"))
+  (Mi "I" #:attr* '((mathvariant "tailed"))))
 (define $I:looped
-  (set-attr* $I 'mathvariant "looped"))
+  (Mi "I" #:attr* '((mathvariant "looped"))))
 (define $I:stretched
-  (set-attr* $I 'mathvariant "stretched"))
+  (Mi "I" #:attr* '((mathvariant "stretched"))))
 (define $J:normal
-  (set-attr* $J 'mathvariant "normal"))
+  (Mi "J" #:attr* '((mathvariant "normal"))))
 (define $J:bold
-  (set-attr* $J 'mathvariant "bold"))
+  (Mi "J" #:attr* '((mathvariant "bold"))))
 (define $J:italic
-  (set-attr* $J 'mathvariant "italic"))
+  (Mi "J" #:attr* '((mathvariant "italic"))))
 (define $J:bold-italic
-  (set-attr* $J 'mathvariant "bold-italic"))
+  (Mi "J" #:attr* '((mathvariant "bold-italic"))))
 (define $J:double-struck
-  (set-attr* $J 'mathvariant "double-struck"))
+  (Mi "J" #:attr* '((mathvariant "double-struck"))))
 (define $J:bold-fraktur
-  (set-attr* $J 'mathvariant "bold-fraktur"))
+  (Mi "J" #:attr* '((mathvariant "bold-fraktur"))))
 (define $J:script
-  (set-attr* $J 'mathvariant "script"))
+  (Mi "J" #:attr* '((mathvariant "script"))))
 (define $J:bold-script
-  (set-attr* $J 'mathvariant "bold-script"))
+  (Mi "J" #:attr* '((mathvariant "bold-script"))))
 (define $J:fraktur
-  (set-attr* $J 'mathvariant "fraktur"))
+  (Mi "J" #:attr* '((mathvariant "fraktur"))))
 (define $J:sans-serif
-  (set-attr* $J 'mathvariant "sans-serif"))
+  (Mi "J" #:attr* '((mathvariant "sans-serif"))))
 (define $J:bold-sans-serif
-  (set-attr* $J 'mathvariant "bold-sans-serif"))
+  (Mi "J" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $J:sans-serif-italic
-  (set-attr* $J 'mathvariant "sans-serif-italic"))
+  (Mi "J" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $J:sans-serif-bold-italic
-  (set-attr* $J 'mathvariant "sans-serif-bold-italic"))
+  (Mi "J" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $J:monospace
-  (set-attr* $J 'mathvariant "monospace"))
+  (Mi "J" #:attr* '((mathvariant "monospace"))))
 (define $J:initial
-  (set-attr* $J 'mathvariant "initial"))
+  (Mi "J" #:attr* '((mathvariant "initial"))))
 (define $J:tailed
-  (set-attr* $J 'mathvariant "tailed"))
+  (Mi "J" #:attr* '((mathvariant "tailed"))))
 (define $J:looped
-  (set-attr* $J 'mathvariant "looped"))
+  (Mi "J" #:attr* '((mathvariant "looped"))))
 (define $J:stretched
-  (set-attr* $J 'mathvariant "stretched"))
+  (Mi "J" #:attr* '((mathvariant "stretched"))))
 (define $K:normal
-  (set-attr* $K 'mathvariant "normal"))
+  (Mi "K" #:attr* '((mathvariant "normal"))))
 (define $K:bold
-  (set-attr* $K 'mathvariant "bold"))
+  (Mi "K" #:attr* '((mathvariant "bold"))))
 (define $K:italic
-  (set-attr* $K 'mathvariant "italic"))
+  (Mi "K" #:attr* '((mathvariant "italic"))))
 (define $K:bold-italic
-  (set-attr* $K 'mathvariant "bold-italic"))
+  (Mi "K" #:attr* '((mathvariant "bold-italic"))))
 (define $K:double-struck
-  (set-attr* $K 'mathvariant "double-struck"))
+  (Mi "K" #:attr* '((mathvariant "double-struck"))))
 (define $K:bold-fraktur
-  (set-attr* $K 'mathvariant "bold-fraktur"))
+  (Mi "K" #:attr* '((mathvariant "bold-fraktur"))))
 (define $K:script
-  (set-attr* $K 'mathvariant "script"))
+  (Mi "K" #:attr* '((mathvariant "script"))))
 (define $K:bold-script
-  (set-attr* $K 'mathvariant "bold-script"))
+  (Mi "K" #:attr* '((mathvariant "bold-script"))))
 (define $K:fraktur
-  (set-attr* $K 'mathvariant "fraktur"))
+  (Mi "K" #:attr* '((mathvariant "fraktur"))))
 (define $K:sans-serif
-  (set-attr* $K 'mathvariant "sans-serif"))
+  (Mi "K" #:attr* '((mathvariant "sans-serif"))))
 (define $K:bold-sans-serif
-  (set-attr* $K 'mathvariant "bold-sans-serif"))
+  (Mi "K" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $K:sans-serif-italic
-  (set-attr* $K 'mathvariant "sans-serif-italic"))
+  (Mi "K" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $K:sans-serif-bold-italic
-  (set-attr* $K 'mathvariant "sans-serif-bold-italic"))
+  (Mi "K" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $K:monospace
-  (set-attr* $K 'mathvariant "monospace"))
+  (Mi "K" #:attr* '((mathvariant "monospace"))))
 (define $K:initial
-  (set-attr* $K 'mathvariant "initial"))
+  (Mi "K" #:attr* '((mathvariant "initial"))))
 (define $K:tailed
-  (set-attr* $K 'mathvariant "tailed"))
+  (Mi "K" #:attr* '((mathvariant "tailed"))))
 (define $K:looped
-  (set-attr* $K 'mathvariant "looped"))
+  (Mi "K" #:attr* '((mathvariant "looped"))))
 (define $K:stretched
-  (set-attr* $K 'mathvariant "stretched"))
+  (Mi "K" #:attr* '((mathvariant "stretched"))))
 (define $L:normal
-  (set-attr* $L 'mathvariant "normal"))
+  (Mi "L" #:attr* '((mathvariant "normal"))))
 (define $L:bold
-  (set-attr* $L 'mathvariant "bold"))
+  (Mi "L" #:attr* '((mathvariant "bold"))))
 (define $L:italic
-  (set-attr* $L 'mathvariant "italic"))
+  (Mi "L" #:attr* '((mathvariant "italic"))))
 (define $L:bold-italic
-  (set-attr* $L 'mathvariant "bold-italic"))
+  (Mi "L" #:attr* '((mathvariant "bold-italic"))))
 (define $L:double-struck
-  (set-attr* $L 'mathvariant "double-struck"))
+  (Mi "L" #:attr* '((mathvariant "double-struck"))))
 (define $L:bold-fraktur
-  (set-attr* $L 'mathvariant "bold-fraktur"))
+  (Mi "L" #:attr* '((mathvariant "bold-fraktur"))))
 (define $L:script
-  (set-attr* $L 'mathvariant "script"))
+  (Mi "L" #:attr* '((mathvariant "script"))))
 (define $L:bold-script
-  (set-attr* $L 'mathvariant "bold-script"))
+  (Mi "L" #:attr* '((mathvariant "bold-script"))))
 (define $L:fraktur
-  (set-attr* $L 'mathvariant "fraktur"))
+  (Mi "L" #:attr* '((mathvariant "fraktur"))))
 (define $L:sans-serif
-  (set-attr* $L 'mathvariant "sans-serif"))
+  (Mi "L" #:attr* '((mathvariant "sans-serif"))))
 (define $L:bold-sans-serif
-  (set-attr* $L 'mathvariant "bold-sans-serif"))
+  (Mi "L" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $L:sans-serif-italic
-  (set-attr* $L 'mathvariant "sans-serif-italic"))
+  (Mi "L" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $L:sans-serif-bold-italic
-  (set-attr* $L 'mathvariant "sans-serif-bold-italic"))
+  (Mi "L" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $L:monospace
-  (set-attr* $L 'mathvariant "monospace"))
+  (Mi "L" #:attr* '((mathvariant "monospace"))))
 (define $L:initial
-  (set-attr* $L 'mathvariant "initial"))
+  (Mi "L" #:attr* '((mathvariant "initial"))))
 (define $L:tailed
-  (set-attr* $L 'mathvariant "tailed"))
+  (Mi "L" #:attr* '((mathvariant "tailed"))))
 (define $L:looped
-  (set-attr* $L 'mathvariant "looped"))
+  (Mi "L" #:attr* '((mathvariant "looped"))))
 (define $L:stretched
-  (set-attr* $L 'mathvariant "stretched"))
+  (Mi "L" #:attr* '((mathvariant "stretched"))))
 (define $M:normal
-  (set-attr* $M 'mathvariant "normal"))
+  (Mi "M" #:attr* '((mathvariant "normal"))))
 (define $M:bold
-  (set-attr* $M 'mathvariant "bold"))
+  (Mi "M" #:attr* '((mathvariant "bold"))))
 (define $M:italic
-  (set-attr* $M 'mathvariant "italic"))
+  (Mi "M" #:attr* '((mathvariant "italic"))))
 (define $M:bold-italic
-  (set-attr* $M 'mathvariant "bold-italic"))
+  (Mi "M" #:attr* '((mathvariant "bold-italic"))))
 (define $M:double-struck
-  (set-attr* $M 'mathvariant "double-struck"))
+  (Mi "M" #:attr* '((mathvariant "double-struck"))))
 (define $M:bold-fraktur
-  (set-attr* $M 'mathvariant "bold-fraktur"))
+  (Mi "M" #:attr* '((mathvariant "bold-fraktur"))))
 (define $M:script
-  (set-attr* $M 'mathvariant "script"))
+  (Mi "M" #:attr* '((mathvariant "script"))))
 (define $M:bold-script
-  (set-attr* $M 'mathvariant "bold-script"))
+  (Mi "M" #:attr* '((mathvariant "bold-script"))))
 (define $M:fraktur
-  (set-attr* $M 'mathvariant "fraktur"))
+  (Mi "M" #:attr* '((mathvariant "fraktur"))))
 (define $M:sans-serif
-  (set-attr* $M 'mathvariant "sans-serif"))
+  (Mi "M" #:attr* '((mathvariant "sans-serif"))))
 (define $M:bold-sans-serif
-  (set-attr* $M 'mathvariant "bold-sans-serif"))
+  (Mi "M" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $M:sans-serif-italic
-  (set-attr* $M 'mathvariant "sans-serif-italic"))
+  (Mi "M" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $M:sans-serif-bold-italic
-  (set-attr* $M 'mathvariant "sans-serif-bold-italic"))
+  (Mi "M" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $M:monospace
-  (set-attr* $M 'mathvariant "monospace"))
+  (Mi "M" #:attr* '((mathvariant "monospace"))))
 (define $M:initial
-  (set-attr* $M 'mathvariant "initial"))
+  (Mi "M" #:attr* '((mathvariant "initial"))))
 (define $M:tailed
-  (set-attr* $M 'mathvariant "tailed"))
+  (Mi "M" #:attr* '((mathvariant "tailed"))))
 (define $M:looped
-  (set-attr* $M 'mathvariant "looped"))
+  (Mi "M" #:attr* '((mathvariant "looped"))))
 (define $M:stretched
-  (set-attr* $M 'mathvariant "stretched"))
+  (Mi "M" #:attr* '((mathvariant "stretched"))))
 (define $N:normal
-  (set-attr* $N 'mathvariant "normal"))
+  (Mi "N" #:attr* '((mathvariant "normal"))))
 (define $N:bold
-  (set-attr* $N 'mathvariant "bold"))
+  (Mi "N" #:attr* '((mathvariant "bold"))))
 (define $N:italic
-  (set-attr* $N 'mathvariant "italic"))
+  (Mi "N" #:attr* '((mathvariant "italic"))))
 (define $N:bold-italic
-  (set-attr* $N 'mathvariant "bold-italic"))
+  (Mi "N" #:attr* '((mathvariant "bold-italic"))))
 (define $N:double-struck
-  (set-attr* $N 'mathvariant "double-struck"))
+  (Mi "N" #:attr* '((mathvariant "double-struck"))))
 (define $N:bold-fraktur
-  (set-attr* $N 'mathvariant "bold-fraktur"))
+  (Mi "N" #:attr* '((mathvariant "bold-fraktur"))))
 (define $N:script
-  (set-attr* $N 'mathvariant "script"))
+  (Mi "N" #:attr* '((mathvariant "script"))))
 (define $N:bold-script
-  (set-attr* $N 'mathvariant "bold-script"))
+  (Mi "N" #:attr* '((mathvariant "bold-script"))))
 (define $N:fraktur
-  (set-attr* $N 'mathvariant "fraktur"))
+  (Mi "N" #:attr* '((mathvariant "fraktur"))))
 (define $N:sans-serif
-  (set-attr* $N 'mathvariant "sans-serif"))
+  (Mi "N" #:attr* '((mathvariant "sans-serif"))))
 (define $N:bold-sans-serif
-  (set-attr* $N 'mathvariant "bold-sans-serif"))
+  (Mi "N" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $N:sans-serif-italic
-  (set-attr* $N 'mathvariant "sans-serif-italic"))
+  (Mi "N" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $N:sans-serif-bold-italic
-  (set-attr* $N 'mathvariant "sans-serif-bold-italic"))
+  (Mi "N" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $N:monospace
-  (set-attr* $N 'mathvariant "monospace"))
+  (Mi "N" #:attr* '((mathvariant "monospace"))))
 (define $N:initial
-  (set-attr* $N 'mathvariant "initial"))
+  (Mi "N" #:attr* '((mathvariant "initial"))))
 (define $N:tailed
-  (set-attr* $N 'mathvariant "tailed"))
+  (Mi "N" #:attr* '((mathvariant "tailed"))))
 (define $N:looped
-  (set-attr* $N 'mathvariant "looped"))
+  (Mi "N" #:attr* '((mathvariant "looped"))))
 (define $N:stretched
-  (set-attr* $N 'mathvariant "stretched"))
+  (Mi "N" #:attr* '((mathvariant "stretched"))))
 (define $O:normal
-  (set-attr* $O 'mathvariant "normal"))
+  (Mi "O" #:attr* '((mathvariant "normal"))))
 (define $O:bold
-  (set-attr* $O 'mathvariant "bold"))
+  (Mi "O" #:attr* '((mathvariant "bold"))))
 (define $O:italic
-  (set-attr* $O 'mathvariant "italic"))
+  (Mi "O" #:attr* '((mathvariant "italic"))))
 (define $O:bold-italic
-  (set-attr* $O 'mathvariant "bold-italic"))
+  (Mi "O" #:attr* '((mathvariant "bold-italic"))))
 (define $O:double-struck
-  (set-attr* $O 'mathvariant "double-struck"))
+  (Mi "O" #:attr* '((mathvariant "double-struck"))))
 (define $O:bold-fraktur
-  (set-attr* $O 'mathvariant "bold-fraktur"))
+  (Mi "O" #:attr* '((mathvariant "bold-fraktur"))))
 (define $O:script
-  (set-attr* $O 'mathvariant "script"))
+  (Mi "O" #:attr* '((mathvariant "script"))))
 (define $O:bold-script
-  (set-attr* $O 'mathvariant "bold-script"))
+  (Mi "O" #:attr* '((mathvariant "bold-script"))))
 (define $O:fraktur
-  (set-attr* $O 'mathvariant "fraktur"))
+  (Mi "O" #:attr* '((mathvariant "fraktur"))))
 (define $O:sans-serif
-  (set-attr* $O 'mathvariant "sans-serif"))
+  (Mi "O" #:attr* '((mathvariant "sans-serif"))))
 (define $O:bold-sans-serif
-  (set-attr* $O 'mathvariant "bold-sans-serif"))
+  (Mi "O" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $O:sans-serif-italic
-  (set-attr* $O 'mathvariant "sans-serif-italic"))
+  (Mi "O" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $O:sans-serif-bold-italic
-  (set-attr* $O 'mathvariant "sans-serif-bold-italic"))
+  (Mi "O" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $O:monospace
-  (set-attr* $O 'mathvariant "monospace"))
+  (Mi "O" #:attr* '((mathvariant "monospace"))))
 (define $O:initial
-  (set-attr* $O 'mathvariant "initial"))
+  (Mi "O" #:attr* '((mathvariant "initial"))))
 (define $O:tailed
-  (set-attr* $O 'mathvariant "tailed"))
+  (Mi "O" #:attr* '((mathvariant "tailed"))))
 (define $O:looped
-  (set-attr* $O 'mathvariant "looped"))
+  (Mi "O" #:attr* '((mathvariant "looped"))))
 (define $O:stretched
-  (set-attr* $O 'mathvariant "stretched"))
+  (Mi "O" #:attr* '((mathvariant "stretched"))))
 (define $P:normal
-  (set-attr* $P 'mathvariant "normal"))
+  (Mi "P" #:attr* '((mathvariant "normal"))))
 (define $P:bold
-  (set-attr* $P 'mathvariant "bold"))
+  (Mi "P" #:attr* '((mathvariant "bold"))))
 (define $P:italic
-  (set-attr* $P 'mathvariant "italic"))
+  (Mi "P" #:attr* '((mathvariant "italic"))))
 (define $P:bold-italic
-  (set-attr* $P 'mathvariant "bold-italic"))
+  (Mi "P" #:attr* '((mathvariant "bold-italic"))))
 (define $P:double-struck
-  (set-attr* $P 'mathvariant "double-struck"))
+  (Mi "P" #:attr* '((mathvariant "double-struck"))))
 (define $P:bold-fraktur
-  (set-attr* $P 'mathvariant "bold-fraktur"))
+  (Mi "P" #:attr* '((mathvariant "bold-fraktur"))))
 (define $P:script
-  (set-attr* $P 'mathvariant "script"))
+  (Mi "P" #:attr* '((mathvariant "script"))))
 (define $P:bold-script
-  (set-attr* $P 'mathvariant "bold-script"))
+  (Mi "P" #:attr* '((mathvariant "bold-script"))))
 (define $P:fraktur
-  (set-attr* $P 'mathvariant "fraktur"))
+  (Mi "P" #:attr* '((mathvariant "fraktur"))))
 (define $P:sans-serif
-  (set-attr* $P 'mathvariant "sans-serif"))
+  (Mi "P" #:attr* '((mathvariant "sans-serif"))))
 (define $P:bold-sans-serif
-  (set-attr* $P 'mathvariant "bold-sans-serif"))
+  (Mi "P" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $P:sans-serif-italic
-  (set-attr* $P 'mathvariant "sans-serif-italic"))
+  (Mi "P" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $P:sans-serif-bold-italic
-  (set-attr* $P 'mathvariant "sans-serif-bold-italic"))
+  (Mi "P" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $P:monospace
-  (set-attr* $P 'mathvariant "monospace"))
+  (Mi "P" #:attr* '((mathvariant "monospace"))))
 (define $P:initial
-  (set-attr* $P 'mathvariant "initial"))
+  (Mi "P" #:attr* '((mathvariant "initial"))))
 (define $P:tailed
-  (set-attr* $P 'mathvariant "tailed"))
+  (Mi "P" #:attr* '((mathvariant "tailed"))))
 (define $P:looped
-  (set-attr* $P 'mathvariant "looped"))
+  (Mi "P" #:attr* '((mathvariant "looped"))))
 (define $P:stretched
-  (set-attr* $P 'mathvariant "stretched"))
+  (Mi "P" #:attr* '((mathvariant "stretched"))))
 (define $Q:normal
-  (set-attr* $Q 'mathvariant "normal"))
+  (Mi "Q" #:attr* '((mathvariant "normal"))))
 (define $Q:bold
-  (set-attr* $Q 'mathvariant "bold"))
+  (Mi "Q" #:attr* '((mathvariant "bold"))))
 (define $Q:italic
-  (set-attr* $Q 'mathvariant "italic"))
+  (Mi "Q" #:attr* '((mathvariant "italic"))))
 (define $Q:bold-italic
-  (set-attr* $Q 'mathvariant "bold-italic"))
+  (Mi "Q" #:attr* '((mathvariant "bold-italic"))))
 (define $Q:double-struck
-  (set-attr* $Q 'mathvariant "double-struck"))
+  (Mi "Q" #:attr* '((mathvariant "double-struck"))))
 (define $Q:bold-fraktur
-  (set-attr* $Q 'mathvariant "bold-fraktur"))
+  (Mi "Q" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Q:script
-  (set-attr* $Q 'mathvariant "script"))
+  (Mi "Q" #:attr* '((mathvariant "script"))))
 (define $Q:bold-script
-  (set-attr* $Q 'mathvariant "bold-script"))
+  (Mi "Q" #:attr* '((mathvariant "bold-script"))))
 (define $Q:fraktur
-  (set-attr* $Q 'mathvariant "fraktur"))
+  (Mi "Q" #:attr* '((mathvariant "fraktur"))))
 (define $Q:sans-serif
-  (set-attr* $Q 'mathvariant "sans-serif"))
+  (Mi "Q" #:attr* '((mathvariant "sans-serif"))))
 (define $Q:bold-sans-serif
-  (set-attr* $Q 'mathvariant "bold-sans-serif"))
+  (Mi "Q" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Q:sans-serif-italic
-  (set-attr* $Q 'mathvariant "sans-serif-italic"))
+  (Mi "Q" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Q:sans-serif-bold-italic
-  (set-attr* $Q 'mathvariant "sans-serif-bold-italic"))
+  (Mi "Q" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Q:monospace
-  (set-attr* $Q 'mathvariant "monospace"))
+  (Mi "Q" #:attr* '((mathvariant "monospace"))))
 (define $Q:initial
-  (set-attr* $Q 'mathvariant "initial"))
+  (Mi "Q" #:attr* '((mathvariant "initial"))))
 (define $Q:tailed
-  (set-attr* $Q 'mathvariant "tailed"))
+  (Mi "Q" #:attr* '((mathvariant "tailed"))))
 (define $Q:looped
-  (set-attr* $Q 'mathvariant "looped"))
+  (Mi "Q" #:attr* '((mathvariant "looped"))))
 (define $Q:stretched
-  (set-attr* $Q 'mathvariant "stretched"))
+  (Mi "Q" #:attr* '((mathvariant "stretched"))))
 (define $R:normal
-  (set-attr* $R 'mathvariant "normal"))
+  (Mi "R" #:attr* '((mathvariant "normal"))))
 (define $R:bold
-  (set-attr* $R 'mathvariant "bold"))
+  (Mi "R" #:attr* '((mathvariant "bold"))))
 (define $R:italic
-  (set-attr* $R 'mathvariant "italic"))
+  (Mi "R" #:attr* '((mathvariant "italic"))))
 (define $R:bold-italic
-  (set-attr* $R 'mathvariant "bold-italic"))
+  (Mi "R" #:attr* '((mathvariant "bold-italic"))))
 (define $R:double-struck
-  (set-attr* $R 'mathvariant "double-struck"))
+  (Mi "R" #:attr* '((mathvariant "double-struck"))))
 (define $R:bold-fraktur
-  (set-attr* $R 'mathvariant "bold-fraktur"))
+  (Mi "R" #:attr* '((mathvariant "bold-fraktur"))))
 (define $R:script
-  (set-attr* $R 'mathvariant "script"))
+  (Mi "R" #:attr* '((mathvariant "script"))))
 (define $R:bold-script
-  (set-attr* $R 'mathvariant "bold-script"))
+  (Mi "R" #:attr* '((mathvariant "bold-script"))))
 (define $R:fraktur
-  (set-attr* $R 'mathvariant "fraktur"))
+  (Mi "R" #:attr* '((mathvariant "fraktur"))))
 (define $R:sans-serif
-  (set-attr* $R 'mathvariant "sans-serif"))
+  (Mi "R" #:attr* '((mathvariant "sans-serif"))))
 (define $R:bold-sans-serif
-  (set-attr* $R 'mathvariant "bold-sans-serif"))
+  (Mi "R" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $R:sans-serif-italic
-  (set-attr* $R 'mathvariant "sans-serif-italic"))
+  (Mi "R" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $R:sans-serif-bold-italic
-  (set-attr* $R 'mathvariant "sans-serif-bold-italic"))
+  (Mi "R" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $R:monospace
-  (set-attr* $R 'mathvariant "monospace"))
+  (Mi "R" #:attr* '((mathvariant "monospace"))))
 (define $R:initial
-  (set-attr* $R 'mathvariant "initial"))
+  (Mi "R" #:attr* '((mathvariant "initial"))))
 (define $R:tailed
-  (set-attr* $R 'mathvariant "tailed"))
+  (Mi "R" #:attr* '((mathvariant "tailed"))))
 (define $R:looped
-  (set-attr* $R 'mathvariant "looped"))
+  (Mi "R" #:attr* '((mathvariant "looped"))))
 (define $R:stretched
-  (set-attr* $R 'mathvariant "stretched"))
+  (Mi "R" #:attr* '((mathvariant "stretched"))))
 (define $S:normal
-  (set-attr* $S 'mathvariant "normal"))
+  (Mi "S" #:attr* '((mathvariant "normal"))))
 (define $S:bold
-  (set-attr* $S 'mathvariant "bold"))
+  (Mi "S" #:attr* '((mathvariant "bold"))))
 (define $S:italic
-  (set-attr* $S 'mathvariant "italic"))
+  (Mi "S" #:attr* '((mathvariant "italic"))))
 (define $S:bold-italic
-  (set-attr* $S 'mathvariant "bold-italic"))
+  (Mi "S" #:attr* '((mathvariant "bold-italic"))))
 (define $S:double-struck
-  (set-attr* $S 'mathvariant "double-struck"))
+  (Mi "S" #:attr* '((mathvariant "double-struck"))))
 (define $S:bold-fraktur
-  (set-attr* $S 'mathvariant "bold-fraktur"))
+  (Mi "S" #:attr* '((mathvariant "bold-fraktur"))))
 (define $S:script
-  (set-attr* $S 'mathvariant "script"))
+  (Mi "S" #:attr* '((mathvariant "script"))))
 (define $S:bold-script
-  (set-attr* $S 'mathvariant "bold-script"))
+  (Mi "S" #:attr* '((mathvariant "bold-script"))))
 (define $S:fraktur
-  (set-attr* $S 'mathvariant "fraktur"))
+  (Mi "S" #:attr* '((mathvariant "fraktur"))))
 (define $S:sans-serif
-  (set-attr* $S 'mathvariant "sans-serif"))
+  (Mi "S" #:attr* '((mathvariant "sans-serif"))))
 (define $S:bold-sans-serif
-  (set-attr* $S 'mathvariant "bold-sans-serif"))
+  (Mi "S" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $S:sans-serif-italic
-  (set-attr* $S 'mathvariant "sans-serif-italic"))
+  (Mi "S" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $S:sans-serif-bold-italic
-  (set-attr* $S 'mathvariant "sans-serif-bold-italic"))
+  (Mi "S" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $S:monospace
-  (set-attr* $S 'mathvariant "monospace"))
+  (Mi "S" #:attr* '((mathvariant "monospace"))))
 (define $S:initial
-  (set-attr* $S 'mathvariant "initial"))
+  (Mi "S" #:attr* '((mathvariant "initial"))))
 (define $S:tailed
-  (set-attr* $S 'mathvariant "tailed"))
+  (Mi "S" #:attr* '((mathvariant "tailed"))))
 (define $S:looped
-  (set-attr* $S 'mathvariant "looped"))
+  (Mi "S" #:attr* '((mathvariant "looped"))))
 (define $S:stretched
-  (set-attr* $S 'mathvariant "stretched"))
+  (Mi "S" #:attr* '((mathvariant "stretched"))))
 (define $T:normal
-  (set-attr* $T 'mathvariant "normal"))
+  (Mi "T" #:attr* '((mathvariant "normal"))))
 (define $T:bold
-  (set-attr* $T 'mathvariant "bold"))
+  (Mi "T" #:attr* '((mathvariant "bold"))))
 (define $T:italic
-  (set-attr* $T 'mathvariant "italic"))
+  (Mi "T" #:attr* '((mathvariant "italic"))))
 (define $T:bold-italic
-  (set-attr* $T 'mathvariant "bold-italic"))
+  (Mi "T" #:attr* '((mathvariant "bold-italic"))))
 (define $T:double-struck
-  (set-attr* $T 'mathvariant "double-struck"))
+  (Mi "T" #:attr* '((mathvariant "double-struck"))))
 (define $T:bold-fraktur
-  (set-attr* $T 'mathvariant "bold-fraktur"))
+  (Mi "T" #:attr* '((mathvariant "bold-fraktur"))))
 (define $T:script
-  (set-attr* $T 'mathvariant "script"))
+  (Mi "T" #:attr* '((mathvariant "script"))))
 (define $T:bold-script
-  (set-attr* $T 'mathvariant "bold-script"))
+  (Mi "T" #:attr* '((mathvariant "bold-script"))))
 (define $T:fraktur
-  (set-attr* $T 'mathvariant "fraktur"))
+  (Mi "T" #:attr* '((mathvariant "fraktur"))))
 (define $T:sans-serif
-  (set-attr* $T 'mathvariant "sans-serif"))
+  (Mi "T" #:attr* '((mathvariant "sans-serif"))))
 (define $T:bold-sans-serif
-  (set-attr* $T 'mathvariant "bold-sans-serif"))
+  (Mi "T" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $T:sans-serif-italic
-  (set-attr* $T 'mathvariant "sans-serif-italic"))
+  (Mi "T" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $T:sans-serif-bold-italic
-  (set-attr* $T 'mathvariant "sans-serif-bold-italic"))
+  (Mi "T" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $T:monospace
-  (set-attr* $T 'mathvariant "monospace"))
+  (Mi "T" #:attr* '((mathvariant "monospace"))))
 (define $T:initial
-  (set-attr* $T 'mathvariant "initial"))
+  (Mi "T" #:attr* '((mathvariant "initial"))))
 (define $T:tailed
-  (set-attr* $T 'mathvariant "tailed"))
+  (Mi "T" #:attr* '((mathvariant "tailed"))))
 (define $T:looped
-  (set-attr* $T 'mathvariant "looped"))
+  (Mi "T" #:attr* '((mathvariant "looped"))))
 (define $T:stretched
-  (set-attr* $T 'mathvariant "stretched"))
+  (Mi "T" #:attr* '((mathvariant "stretched"))))
 (define $U:normal
-  (set-attr* $U 'mathvariant "normal"))
+  (Mi "U" #:attr* '((mathvariant "normal"))))
 (define $U:bold
-  (set-attr* $U 'mathvariant "bold"))
+  (Mi "U" #:attr* '((mathvariant "bold"))))
 (define $U:italic
-  (set-attr* $U 'mathvariant "italic"))
+  (Mi "U" #:attr* '((mathvariant "italic"))))
 (define $U:bold-italic
-  (set-attr* $U 'mathvariant "bold-italic"))
+  (Mi "U" #:attr* '((mathvariant "bold-italic"))))
 (define $U:double-struck
-  (set-attr* $U 'mathvariant "double-struck"))
+  (Mi "U" #:attr* '((mathvariant "double-struck"))))
 (define $U:bold-fraktur
-  (set-attr* $U 'mathvariant "bold-fraktur"))
+  (Mi "U" #:attr* '((mathvariant "bold-fraktur"))))
 (define $U:script
-  (set-attr* $U 'mathvariant "script"))
+  (Mi "U" #:attr* '((mathvariant "script"))))
 (define $U:bold-script
-  (set-attr* $U 'mathvariant "bold-script"))
+  (Mi "U" #:attr* '((mathvariant "bold-script"))))
 (define $U:fraktur
-  (set-attr* $U 'mathvariant "fraktur"))
+  (Mi "U" #:attr* '((mathvariant "fraktur"))))
 (define $U:sans-serif
-  (set-attr* $U 'mathvariant "sans-serif"))
+  (Mi "U" #:attr* '((mathvariant "sans-serif"))))
 (define $U:bold-sans-serif
-  (set-attr* $U 'mathvariant "bold-sans-serif"))
+  (Mi "U" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $U:sans-serif-italic
-  (set-attr* $U 'mathvariant "sans-serif-italic"))
+  (Mi "U" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $U:sans-serif-bold-italic
-  (set-attr* $U 'mathvariant "sans-serif-bold-italic"))
+  (Mi "U" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $U:monospace
-  (set-attr* $U 'mathvariant "monospace"))
+  (Mi "U" #:attr* '((mathvariant "monospace"))))
 (define $U:initial
-  (set-attr* $U 'mathvariant "initial"))
+  (Mi "U" #:attr* '((mathvariant "initial"))))
 (define $U:tailed
-  (set-attr* $U 'mathvariant "tailed"))
+  (Mi "U" #:attr* '((mathvariant "tailed"))))
 (define $U:looped
-  (set-attr* $U 'mathvariant "looped"))
+  (Mi "U" #:attr* '((mathvariant "looped"))))
 (define $U:stretched
-  (set-attr* $U 'mathvariant "stretched"))
+  (Mi "U" #:attr* '((mathvariant "stretched"))))
 (define $V:normal
-  (set-attr* $V 'mathvariant "normal"))
+  (Mi "V" #:attr* '((mathvariant "normal"))))
 (define $V:bold
-  (set-attr* $V 'mathvariant "bold"))
+  (Mi "V" #:attr* '((mathvariant "bold"))))
 (define $V:italic
-  (set-attr* $V 'mathvariant "italic"))
+  (Mi "V" #:attr* '((mathvariant "italic"))))
 (define $V:bold-italic
-  (set-attr* $V 'mathvariant "bold-italic"))
+  (Mi "V" #:attr* '((mathvariant "bold-italic"))))
 (define $V:double-struck
-  (set-attr* $V 'mathvariant "double-struck"))
+  (Mi "V" #:attr* '((mathvariant "double-struck"))))
 (define $V:bold-fraktur
-  (set-attr* $V 'mathvariant "bold-fraktur"))
+  (Mi "V" #:attr* '((mathvariant "bold-fraktur"))))
 (define $V:script
-  (set-attr* $V 'mathvariant "script"))
+  (Mi "V" #:attr* '((mathvariant "script"))))
 (define $V:bold-script
-  (set-attr* $V 'mathvariant "bold-script"))
+  (Mi "V" #:attr* '((mathvariant "bold-script"))))
 (define $V:fraktur
-  (set-attr* $V 'mathvariant "fraktur"))
+  (Mi "V" #:attr* '((mathvariant "fraktur"))))
 (define $V:sans-serif
-  (set-attr* $V 'mathvariant "sans-serif"))
+  (Mi "V" #:attr* '((mathvariant "sans-serif"))))
 (define $V:bold-sans-serif
-  (set-attr* $V 'mathvariant "bold-sans-serif"))
+  (Mi "V" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $V:sans-serif-italic
-  (set-attr* $V 'mathvariant "sans-serif-italic"))
+  (Mi "V" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $V:sans-serif-bold-italic
-  (set-attr* $V 'mathvariant "sans-serif-bold-italic"))
+  (Mi "V" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $V:monospace
-  (set-attr* $V 'mathvariant "monospace"))
+  (Mi "V" #:attr* '((mathvariant "monospace"))))
 (define $V:initial
-  (set-attr* $V 'mathvariant "initial"))
+  (Mi "V" #:attr* '((mathvariant "initial"))))
 (define $V:tailed
-  (set-attr* $V 'mathvariant "tailed"))
+  (Mi "V" #:attr* '((mathvariant "tailed"))))
 (define $V:looped
-  (set-attr* $V 'mathvariant "looped"))
+  (Mi "V" #:attr* '((mathvariant "looped"))))
 (define $V:stretched
-  (set-attr* $V 'mathvariant "stretched"))
+  (Mi "V" #:attr* '((mathvariant "stretched"))))
 (define $W:normal
-  (set-attr* $W 'mathvariant "normal"))
+  (Mi "W" #:attr* '((mathvariant "normal"))))
 (define $W:bold
-  (set-attr* $W 'mathvariant "bold"))
+  (Mi "W" #:attr* '((mathvariant "bold"))))
 (define $W:italic
-  (set-attr* $W 'mathvariant "italic"))
+  (Mi "W" #:attr* '((mathvariant "italic"))))
 (define $W:bold-italic
-  (set-attr* $W 'mathvariant "bold-italic"))
+  (Mi "W" #:attr* '((mathvariant "bold-italic"))))
 (define $W:double-struck
-  (set-attr* $W 'mathvariant "double-struck"))
+  (Mi "W" #:attr* '((mathvariant "double-struck"))))
 (define $W:bold-fraktur
-  (set-attr* $W 'mathvariant "bold-fraktur"))
+  (Mi "W" #:attr* '((mathvariant "bold-fraktur"))))
 (define $W:script
-  (set-attr* $W 'mathvariant "script"))
+  (Mi "W" #:attr* '((mathvariant "script"))))
 (define $W:bold-script
-  (set-attr* $W 'mathvariant "bold-script"))
+  (Mi "W" #:attr* '((mathvariant "bold-script"))))
 (define $W:fraktur
-  (set-attr* $W 'mathvariant "fraktur"))
+  (Mi "W" #:attr* '((mathvariant "fraktur"))))
 (define $W:sans-serif
-  (set-attr* $W 'mathvariant "sans-serif"))
+  (Mi "W" #:attr* '((mathvariant "sans-serif"))))
 (define $W:bold-sans-serif
-  (set-attr* $W 'mathvariant "bold-sans-serif"))
+  (Mi "W" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $W:sans-serif-italic
-  (set-attr* $W 'mathvariant "sans-serif-italic"))
+  (Mi "W" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $W:sans-serif-bold-italic
-  (set-attr* $W 'mathvariant "sans-serif-bold-italic"))
+  (Mi "W" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $W:monospace
-  (set-attr* $W 'mathvariant "monospace"))
+  (Mi "W" #:attr* '((mathvariant "monospace"))))
 (define $W:initial
-  (set-attr* $W 'mathvariant "initial"))
+  (Mi "W" #:attr* '((mathvariant "initial"))))
 (define $W:tailed
-  (set-attr* $W 'mathvariant "tailed"))
+  (Mi "W" #:attr* '((mathvariant "tailed"))))
 (define $W:looped
-  (set-attr* $W 'mathvariant "looped"))
+  (Mi "W" #:attr* '((mathvariant "looped"))))
 (define $W:stretched
-  (set-attr* $W 'mathvariant "stretched"))
+  (Mi "W" #:attr* '((mathvariant "stretched"))))
 (define $X:normal
-  (set-attr* $X 'mathvariant "normal"))
+  (Mi "X" #:attr* '((mathvariant "normal"))))
 (define $X:bold
-  (set-attr* $X 'mathvariant "bold"))
+  (Mi "X" #:attr* '((mathvariant "bold"))))
 (define $X:italic
-  (set-attr* $X 'mathvariant "italic"))
+  (Mi "X" #:attr* '((mathvariant "italic"))))
 (define $X:bold-italic
-  (set-attr* $X 'mathvariant "bold-italic"))
+  (Mi "X" #:attr* '((mathvariant "bold-italic"))))
 (define $X:double-struck
-  (set-attr* $X 'mathvariant "double-struck"))
+  (Mi "X" #:attr* '((mathvariant "double-struck"))))
 (define $X:bold-fraktur
-  (set-attr* $X 'mathvariant "bold-fraktur"))
+  (Mi "X" #:attr* '((mathvariant "bold-fraktur"))))
 (define $X:script
-  (set-attr* $X 'mathvariant "script"))
+  (Mi "X" #:attr* '((mathvariant "script"))))
 (define $X:bold-script
-  (set-attr* $X 'mathvariant "bold-script"))
+  (Mi "X" #:attr* '((mathvariant "bold-script"))))
 (define $X:fraktur
-  (set-attr* $X 'mathvariant "fraktur"))
+  (Mi "X" #:attr* '((mathvariant "fraktur"))))
 (define $X:sans-serif
-  (set-attr* $X 'mathvariant "sans-serif"))
+  (Mi "X" #:attr* '((mathvariant "sans-serif"))))
 (define $X:bold-sans-serif
-  (set-attr* $X 'mathvariant "bold-sans-serif"))
+  (Mi "X" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $X:sans-serif-italic
-  (set-attr* $X 'mathvariant "sans-serif-italic"))
+  (Mi "X" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $X:sans-serif-bold-italic
-  (set-attr* $X 'mathvariant "sans-serif-bold-italic"))
+  (Mi "X" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $X:monospace
-  (set-attr* $X 'mathvariant "monospace"))
+  (Mi "X" #:attr* '((mathvariant "monospace"))))
 (define $X:initial
-  (set-attr* $X 'mathvariant "initial"))
+  (Mi "X" #:attr* '((mathvariant "initial"))))
 (define $X:tailed
-  (set-attr* $X 'mathvariant "tailed"))
+  (Mi "X" #:attr* '((mathvariant "tailed"))))
 (define $X:looped
-  (set-attr* $X 'mathvariant "looped"))
+  (Mi "X" #:attr* '((mathvariant "looped"))))
 (define $X:stretched
-  (set-attr* $X 'mathvariant "stretched"))
+  (Mi "X" #:attr* '((mathvariant "stretched"))))
 (define $Y:normal
-  (set-attr* $Y 'mathvariant "normal"))
+  (Mi "Y" #:attr* '((mathvariant "normal"))))
 (define $Y:bold
-  (set-attr* $Y 'mathvariant "bold"))
+  (Mi "Y" #:attr* '((mathvariant "bold"))))
 (define $Y:italic
-  (set-attr* $Y 'mathvariant "italic"))
+  (Mi "Y" #:attr* '((mathvariant "italic"))))
 (define $Y:bold-italic
-  (set-attr* $Y 'mathvariant "bold-italic"))
+  (Mi "Y" #:attr* '((mathvariant "bold-italic"))))
 (define $Y:double-struck
-  (set-attr* $Y 'mathvariant "double-struck"))
+  (Mi "Y" #:attr* '((mathvariant "double-struck"))))
 (define $Y:bold-fraktur
-  (set-attr* $Y 'mathvariant "bold-fraktur"))
+  (Mi "Y" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Y:script
-  (set-attr* $Y 'mathvariant "script"))
+  (Mi "Y" #:attr* '((mathvariant "script"))))
 (define $Y:bold-script
-  (set-attr* $Y 'mathvariant "bold-script"))
+  (Mi "Y" #:attr* '((mathvariant "bold-script"))))
 (define $Y:fraktur
-  (set-attr* $Y 'mathvariant "fraktur"))
+  (Mi "Y" #:attr* '((mathvariant "fraktur"))))
 (define $Y:sans-serif
-  (set-attr* $Y 'mathvariant "sans-serif"))
+  (Mi "Y" #:attr* '((mathvariant "sans-serif"))))
 (define $Y:bold-sans-serif
-  (set-attr* $Y 'mathvariant "bold-sans-serif"))
+  (Mi "Y" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Y:sans-serif-italic
-  (set-attr* $Y 'mathvariant "sans-serif-italic"))
+  (Mi "Y" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Y:sans-serif-bold-italic
-  (set-attr* $Y 'mathvariant "sans-serif-bold-italic"))
+  (Mi "Y" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Y:monospace
-  (set-attr* $Y 'mathvariant "monospace"))
+  (Mi "Y" #:attr* '((mathvariant "monospace"))))
 (define $Y:initial
-  (set-attr* $Y 'mathvariant "initial"))
+  (Mi "Y" #:attr* '((mathvariant "initial"))))
 (define $Y:tailed
-  (set-attr* $Y 'mathvariant "tailed"))
+  (Mi "Y" #:attr* '((mathvariant "tailed"))))
 (define $Y:looped
-  (set-attr* $Y 'mathvariant "looped"))
+  (Mi "Y" #:attr* '((mathvariant "looped"))))
 (define $Y:stretched
-  (set-attr* $Y 'mathvariant "stretched"))
+  (Mi "Y" #:attr* '((mathvariant "stretched"))))
 (define $Z:normal
-  (set-attr* $Z 'mathvariant "normal"))
+  (Mi "Z" #:attr* '((mathvariant "normal"))))
 (define $Z:bold
-  (set-attr* $Z 'mathvariant "bold"))
+  (Mi "Z" #:attr* '((mathvariant "bold"))))
 (define $Z:italic
-  (set-attr* $Z 'mathvariant "italic"))
+  (Mi "Z" #:attr* '((mathvariant "italic"))))
 (define $Z:bold-italic
-  (set-attr* $Z 'mathvariant "bold-italic"))
+  (Mi "Z" #:attr* '((mathvariant "bold-italic"))))
 (define $Z:double-struck
-  (set-attr* $Z 'mathvariant "double-struck"))
+  (Mi "Z" #:attr* '((mathvariant "double-struck"))))
 (define $Z:bold-fraktur
-  (set-attr* $Z 'mathvariant "bold-fraktur"))
+  (Mi "Z" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Z:script
-  (set-attr* $Z 'mathvariant "script"))
+  (Mi "Z" #:attr* '((mathvariant "script"))))
 (define $Z:bold-script
-  (set-attr* $Z 'mathvariant "bold-script"))
+  (Mi "Z" #:attr* '((mathvariant "bold-script"))))
 (define $Z:fraktur
-  (set-attr* $Z 'mathvariant "fraktur"))
+  (Mi "Z" #:attr* '((mathvariant "fraktur"))))
 (define $Z:sans-serif
-  (set-attr* $Z 'mathvariant "sans-serif"))
+  (Mi "Z" #:attr* '((mathvariant "sans-serif"))))
 (define $Z:bold-sans-serif
-  (set-attr* $Z 'mathvariant "bold-sans-serif"))
+  (Mi "Z" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Z:sans-serif-italic
-  (set-attr* $Z 'mathvariant "sans-serif-italic"))
+  (Mi "Z" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Z:sans-serif-bold-italic
-  (set-attr* $Z 'mathvariant "sans-serif-bold-italic"))
+  (Mi "Z" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Z:monospace
-  (set-attr* $Z 'mathvariant "monospace"))
+  (Mi "Z" #:attr* '((mathvariant "monospace"))))
 (define $Z:initial
-  (set-attr* $Z 'mathvariant "initial"))
+  (Mi "Z" #:attr* '((mathvariant "initial"))))
 (define $Z:tailed
-  (set-attr* $Z 'mathvariant "tailed"))
+  (Mi "Z" #:attr* '((mathvariant "tailed"))))
 (define $Z:looped
-  (set-attr* $Z 'mathvariant "looped"))
+  (Mi "Z" #:attr* '((mathvariant "looped"))))
 (define $Z:stretched
-  (set-attr* $Z 'mathvariant "stretched"))
+  (Mi "Z" #:attr* '((mathvariant "stretched"))))
 (define $alpha:normal
-  (set-attr* $alpha 'mathvariant "normal"))
+  (Mi "&alpha;" #:attr* '((mathvariant "normal"))))
 (define $alpha:bold
-  (set-attr* $alpha 'mathvariant "bold"))
+  (Mi "&alpha;" #:attr* '((mathvariant "bold"))))
 (define $alpha:italic
-  (set-attr* $alpha 'mathvariant "italic"))
+  (Mi "&alpha;" #:attr* '((mathvariant "italic"))))
 (define $alpha:bold-italic
-  (set-attr* $alpha 'mathvariant "bold-italic"))
+  (Mi "&alpha;" #:attr* '((mathvariant "bold-italic"))))
 (define $alpha:double-struck
-  (set-attr* $alpha 'mathvariant "double-struck"))
+  (Mi "&alpha;" #:attr* '((mathvariant "double-struck"))))
 (define $alpha:bold-fraktur
-  (set-attr* $alpha 'mathvariant "bold-fraktur"))
+  (Mi "&alpha;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $alpha:script
-  (set-attr* $alpha 'mathvariant "script"))
+  (Mi "&alpha;" #:attr* '((mathvariant "script"))))
 (define $alpha:bold-script
-  (set-attr* $alpha 'mathvariant "bold-script"))
+  (Mi "&alpha;" #:attr* '((mathvariant "bold-script"))))
 (define $alpha:fraktur
-  (set-attr* $alpha 'mathvariant "fraktur"))
+  (Mi "&alpha;" #:attr* '((mathvariant "fraktur"))))
 (define $alpha:sans-serif
-  (set-attr* $alpha 'mathvariant "sans-serif"))
+  (Mi "&alpha;" #:attr* '((mathvariant "sans-serif"))))
 (define $alpha:bold-sans-serif
-  (set-attr* $alpha 'mathvariant "bold-sans-serif"))
+  (Mi "&alpha;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $alpha:sans-serif-italic
-  (set-attr* $alpha 'mathvariant "sans-serif-italic"))
+  (Mi "&alpha;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $alpha:sans-serif-bold-italic
-  (set-attr* $alpha 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&alpha;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $alpha:monospace
-  (set-attr* $alpha 'mathvariant "monospace"))
+  (Mi "&alpha;" #:attr* '((mathvariant "monospace"))))
 (define $alpha:initial
-  (set-attr* $alpha 'mathvariant "initial"))
+  (Mi "&alpha;" #:attr* '((mathvariant "initial"))))
 (define $alpha:tailed
-  (set-attr* $alpha 'mathvariant "tailed"))
+  (Mi "&alpha;" #:attr* '((mathvariant "tailed"))))
 (define $alpha:looped
-  (set-attr* $alpha 'mathvariant "looped"))
+  (Mi "&alpha;" #:attr* '((mathvariant "looped"))))
 (define $alpha:stretched
-  (set-attr* $alpha 'mathvariant "stretched"))
+  (Mi "&alpha;" #:attr* '((mathvariant "stretched"))))
 (define $beta:normal
-  (set-attr* $beta 'mathvariant "normal"))
+  (Mi "&beta;" #:attr* '((mathvariant "normal"))))
 (define $beta:bold
-  (set-attr* $beta 'mathvariant "bold"))
+  (Mi "&beta;" #:attr* '((mathvariant "bold"))))
 (define $beta:italic
-  (set-attr* $beta 'mathvariant "italic"))
+  (Mi "&beta;" #:attr* '((mathvariant "italic"))))
 (define $beta:bold-italic
-  (set-attr* $beta 'mathvariant "bold-italic"))
+  (Mi "&beta;" #:attr* '((mathvariant "bold-italic"))))
 (define $beta:double-struck
-  (set-attr* $beta 'mathvariant "double-struck"))
+  (Mi "&beta;" #:attr* '((mathvariant "double-struck"))))
 (define $beta:bold-fraktur
-  (set-attr* $beta 'mathvariant "bold-fraktur"))
+  (Mi "&beta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $beta:script
-  (set-attr* $beta 'mathvariant "script"))
+  (Mi "&beta;" #:attr* '((mathvariant "script"))))
 (define $beta:bold-script
-  (set-attr* $beta 'mathvariant "bold-script"))
+  (Mi "&beta;" #:attr* '((mathvariant "bold-script"))))
 (define $beta:fraktur
-  (set-attr* $beta 'mathvariant "fraktur"))
+  (Mi "&beta;" #:attr* '((mathvariant "fraktur"))))
 (define $beta:sans-serif
-  (set-attr* $beta 'mathvariant "sans-serif"))
+  (Mi "&beta;" #:attr* '((mathvariant "sans-serif"))))
 (define $beta:bold-sans-serif
-  (set-attr* $beta 'mathvariant "bold-sans-serif"))
+  (Mi "&beta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $beta:sans-serif-italic
-  (set-attr* $beta 'mathvariant "sans-serif-italic"))
+  (Mi "&beta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $beta:sans-serif-bold-italic
-  (set-attr* $beta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&beta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $beta:monospace
-  (set-attr* $beta 'mathvariant "monospace"))
+  (Mi "&beta;" #:attr* '((mathvariant "monospace"))))
 (define $beta:initial
-  (set-attr* $beta 'mathvariant "initial"))
+  (Mi "&beta;" #:attr* '((mathvariant "initial"))))
 (define $beta:tailed
-  (set-attr* $beta 'mathvariant "tailed"))
+  (Mi "&beta;" #:attr* '((mathvariant "tailed"))))
 (define $beta:looped
-  (set-attr* $beta 'mathvariant "looped"))
+  (Mi "&beta;" #:attr* '((mathvariant "looped"))))
 (define $beta:stretched
-  (set-attr* $beta 'mathvariant "stretched"))
+  (Mi "&beta;" #:attr* '((mathvariant "stretched"))))
 (define $gamma:normal
-  (set-attr* $gamma 'mathvariant "normal"))
+  (Mi "&gamma;" #:attr* '((mathvariant "normal"))))
 (define $gamma:bold
-  (set-attr* $gamma 'mathvariant "bold"))
+  (Mi "&gamma;" #:attr* '((mathvariant "bold"))))
 (define $gamma:italic
-  (set-attr* $gamma 'mathvariant "italic"))
+  (Mi "&gamma;" #:attr* '((mathvariant "italic"))))
 (define $gamma:bold-italic
-  (set-attr* $gamma 'mathvariant "bold-italic"))
+  (Mi "&gamma;" #:attr* '((mathvariant "bold-italic"))))
 (define $gamma:double-struck
-  (set-attr* $gamma 'mathvariant "double-struck"))
+  (Mi "&gamma;" #:attr* '((mathvariant "double-struck"))))
 (define $gamma:bold-fraktur
-  (set-attr* $gamma 'mathvariant "bold-fraktur"))
+  (Mi "&gamma;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $gamma:script
-  (set-attr* $gamma 'mathvariant "script"))
+  (Mi "&gamma;" #:attr* '((mathvariant "script"))))
 (define $gamma:bold-script
-  (set-attr* $gamma 'mathvariant "bold-script"))
+  (Mi "&gamma;" #:attr* '((mathvariant "bold-script"))))
 (define $gamma:fraktur
-  (set-attr* $gamma 'mathvariant "fraktur"))
+  (Mi "&gamma;" #:attr* '((mathvariant "fraktur"))))
 (define $gamma:sans-serif
-  (set-attr* $gamma 'mathvariant "sans-serif"))
+  (Mi "&gamma;" #:attr* '((mathvariant "sans-serif"))))
 (define $gamma:bold-sans-serif
-  (set-attr* $gamma 'mathvariant "bold-sans-serif"))
+  (Mi "&gamma;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $gamma:sans-serif-italic
-  (set-attr* $gamma 'mathvariant "sans-serif-italic"))
+  (Mi "&gamma;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $gamma:sans-serif-bold-italic
-  (set-attr* $gamma 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&gamma;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $gamma:monospace
-  (set-attr* $gamma 'mathvariant "monospace"))
+  (Mi "&gamma;" #:attr* '((mathvariant "monospace"))))
 (define $gamma:initial
-  (set-attr* $gamma 'mathvariant "initial"))
+  (Mi "&gamma;" #:attr* '((mathvariant "initial"))))
 (define $gamma:tailed
-  (set-attr* $gamma 'mathvariant "tailed"))
+  (Mi "&gamma;" #:attr* '((mathvariant "tailed"))))
 (define $gamma:looped
-  (set-attr* $gamma 'mathvariant "looped"))
+  (Mi "&gamma;" #:attr* '((mathvariant "looped"))))
 (define $gamma:stretched
-  (set-attr* $gamma 'mathvariant "stretched"))
+  (Mi "&gamma;" #:attr* '((mathvariant "stretched"))))
 (define $delta:normal
-  (set-attr* $delta 'mathvariant "normal"))
+  (Mi "&delta;" #:attr* '((mathvariant "normal"))))
 (define $delta:bold
-  (set-attr* $delta 'mathvariant "bold"))
+  (Mi "&delta;" #:attr* '((mathvariant "bold"))))
 (define $delta:italic
-  (set-attr* $delta 'mathvariant "italic"))
+  (Mi "&delta;" #:attr* '((mathvariant "italic"))))
 (define $delta:bold-italic
-  (set-attr* $delta 'mathvariant "bold-italic"))
+  (Mi "&delta;" #:attr* '((mathvariant "bold-italic"))))
 (define $delta:double-struck
-  (set-attr* $delta 'mathvariant "double-struck"))
+  (Mi "&delta;" #:attr* '((mathvariant "double-struck"))))
 (define $delta:bold-fraktur
-  (set-attr* $delta 'mathvariant "bold-fraktur"))
+  (Mi "&delta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $delta:script
-  (set-attr* $delta 'mathvariant "script"))
+  (Mi "&delta;" #:attr* '((mathvariant "script"))))
 (define $delta:bold-script
-  (set-attr* $delta 'mathvariant "bold-script"))
+  (Mi "&delta;" #:attr* '((mathvariant "bold-script"))))
 (define $delta:fraktur
-  (set-attr* $delta 'mathvariant "fraktur"))
+  (Mi "&delta;" #:attr* '((mathvariant "fraktur"))))
 (define $delta:sans-serif
-  (set-attr* $delta 'mathvariant "sans-serif"))
+  (Mi "&delta;" #:attr* '((mathvariant "sans-serif"))))
 (define $delta:bold-sans-serif
-  (set-attr* $delta 'mathvariant "bold-sans-serif"))
+  (Mi "&delta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $delta:sans-serif-italic
-  (set-attr* $delta 'mathvariant "sans-serif-italic"))
+  (Mi "&delta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $delta:sans-serif-bold-italic
-  (set-attr* $delta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&delta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $delta:monospace
-  (set-attr* $delta 'mathvariant "monospace"))
+  (Mi "&delta;" #:attr* '((mathvariant "monospace"))))
 (define $delta:initial
-  (set-attr* $delta 'mathvariant "initial"))
+  (Mi "&delta;" #:attr* '((mathvariant "initial"))))
 (define $delta:tailed
-  (set-attr* $delta 'mathvariant "tailed"))
+  (Mi "&delta;" #:attr* '((mathvariant "tailed"))))
 (define $delta:looped
-  (set-attr* $delta 'mathvariant "looped"))
+  (Mi "&delta;" #:attr* '((mathvariant "looped"))))
 (define $delta:stretched
-  (set-attr* $delta 'mathvariant "stretched"))
+  (Mi "&delta;" #:attr* '((mathvariant "stretched"))))
 (define $epsilon:normal
-  (set-attr* $epsilon 'mathvariant "normal"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "normal"))))
 (define $epsilon:bold
-  (set-attr* $epsilon 'mathvariant "bold"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "bold"))))
 (define $epsilon:italic
-  (set-attr* $epsilon 'mathvariant "italic"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "italic"))))
 (define $epsilon:bold-italic
-  (set-attr* $epsilon 'mathvariant "bold-italic"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "bold-italic"))))
 (define $epsilon:double-struck
-  (set-attr* $epsilon 'mathvariant "double-struck"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "double-struck"))))
 (define $epsilon:bold-fraktur
-  (set-attr* $epsilon 'mathvariant "bold-fraktur"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $epsilon:script
-  (set-attr* $epsilon 'mathvariant "script"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "script"))))
 (define $epsilon:bold-script
-  (set-attr* $epsilon 'mathvariant "bold-script"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "bold-script"))))
 (define $epsilon:fraktur
-  (set-attr* $epsilon 'mathvariant "fraktur"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "fraktur"))))
 (define $epsilon:sans-serif
-  (set-attr* $epsilon 'mathvariant "sans-serif"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "sans-serif"))))
 (define $epsilon:bold-sans-serif
-  (set-attr* $epsilon 'mathvariant "bold-sans-serif"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $epsilon:sans-serif-italic
-  (set-attr* $epsilon 'mathvariant "sans-serif-italic"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $epsilon:sans-serif-bold-italic
-  (set-attr* $epsilon 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $epsilon:monospace
-  (set-attr* $epsilon 'mathvariant "monospace"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "monospace"))))
 (define $epsilon:initial
-  (set-attr* $epsilon 'mathvariant "initial"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "initial"))))
 (define $epsilon:tailed
-  (set-attr* $epsilon 'mathvariant "tailed"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "tailed"))))
 (define $epsilon:looped
-  (set-attr* $epsilon 'mathvariant "looped"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "looped"))))
 (define $epsilon:stretched
-  (set-attr* $epsilon 'mathvariant "stretched"))
+  (Mi "&epsilon;" #:attr* '((mathvariant "stretched"))))
 (define $zeta:normal
-  (set-attr* $zeta 'mathvariant "normal"))
+  (Mi "&zeta;" #:attr* '((mathvariant "normal"))))
 (define $zeta:bold
-  (set-attr* $zeta 'mathvariant "bold"))
+  (Mi "&zeta;" #:attr* '((mathvariant "bold"))))
 (define $zeta:italic
-  (set-attr* $zeta 'mathvariant "italic"))
+  (Mi "&zeta;" #:attr* '((mathvariant "italic"))))
 (define $zeta:bold-italic
-  (set-attr* $zeta 'mathvariant "bold-italic"))
+  (Mi "&zeta;" #:attr* '((mathvariant "bold-italic"))))
 (define $zeta:double-struck
-  (set-attr* $zeta 'mathvariant "double-struck"))
+  (Mi "&zeta;" #:attr* '((mathvariant "double-struck"))))
 (define $zeta:bold-fraktur
-  (set-attr* $zeta 'mathvariant "bold-fraktur"))
+  (Mi "&zeta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $zeta:script
-  (set-attr* $zeta 'mathvariant "script"))
+  (Mi "&zeta;" #:attr* '((mathvariant "script"))))
 (define $zeta:bold-script
-  (set-attr* $zeta 'mathvariant "bold-script"))
+  (Mi "&zeta;" #:attr* '((mathvariant "bold-script"))))
 (define $zeta:fraktur
-  (set-attr* $zeta 'mathvariant "fraktur"))
+  (Mi "&zeta;" #:attr* '((mathvariant "fraktur"))))
 (define $zeta:sans-serif
-  (set-attr* $zeta 'mathvariant "sans-serif"))
+  (Mi "&zeta;" #:attr* '((mathvariant "sans-serif"))))
 (define $zeta:bold-sans-serif
-  (set-attr* $zeta 'mathvariant "bold-sans-serif"))
+  (Mi "&zeta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $zeta:sans-serif-italic
-  (set-attr* $zeta 'mathvariant "sans-serif-italic"))
+  (Mi "&zeta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $zeta:sans-serif-bold-italic
-  (set-attr* $zeta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&zeta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $zeta:monospace
-  (set-attr* $zeta 'mathvariant "monospace"))
+  (Mi "&zeta;" #:attr* '((mathvariant "monospace"))))
 (define $zeta:initial
-  (set-attr* $zeta 'mathvariant "initial"))
+  (Mi "&zeta;" #:attr* '((mathvariant "initial"))))
 (define $zeta:tailed
-  (set-attr* $zeta 'mathvariant "tailed"))
+  (Mi "&zeta;" #:attr* '((mathvariant "tailed"))))
 (define $zeta:looped
-  (set-attr* $zeta 'mathvariant "looped"))
+  (Mi "&zeta;" #:attr* '((mathvariant "looped"))))
 (define $zeta:stretched
-  (set-attr* $zeta 'mathvariant "stretched"))
+  (Mi "&zeta;" #:attr* '((mathvariant "stretched"))))
 (define $eta:normal
-  (set-attr* $eta 'mathvariant "normal"))
+  (Mi "&eta;" #:attr* '((mathvariant "normal"))))
 (define $eta:bold
-  (set-attr* $eta 'mathvariant "bold"))
+  (Mi "&eta;" #:attr* '((mathvariant "bold"))))
 (define $eta:italic
-  (set-attr* $eta 'mathvariant "italic"))
+  (Mi "&eta;" #:attr* '((mathvariant "italic"))))
 (define $eta:bold-italic
-  (set-attr* $eta 'mathvariant "bold-italic"))
+  (Mi "&eta;" #:attr* '((mathvariant "bold-italic"))))
 (define $eta:double-struck
-  (set-attr* $eta 'mathvariant "double-struck"))
+  (Mi "&eta;" #:attr* '((mathvariant "double-struck"))))
 (define $eta:bold-fraktur
-  (set-attr* $eta 'mathvariant "bold-fraktur"))
+  (Mi "&eta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $eta:script
-  (set-attr* $eta 'mathvariant "script"))
+  (Mi "&eta;" #:attr* '((mathvariant "script"))))
 (define $eta:bold-script
-  (set-attr* $eta 'mathvariant "bold-script"))
+  (Mi "&eta;" #:attr* '((mathvariant "bold-script"))))
 (define $eta:fraktur
-  (set-attr* $eta 'mathvariant "fraktur"))
+  (Mi "&eta;" #:attr* '((mathvariant "fraktur"))))
 (define $eta:sans-serif
-  (set-attr* $eta 'mathvariant "sans-serif"))
+  (Mi "&eta;" #:attr* '((mathvariant "sans-serif"))))
 (define $eta:bold-sans-serif
-  (set-attr* $eta 'mathvariant "bold-sans-serif"))
+  (Mi "&eta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $eta:sans-serif-italic
-  (set-attr* $eta 'mathvariant "sans-serif-italic"))
+  (Mi "&eta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $eta:sans-serif-bold-italic
-  (set-attr* $eta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&eta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $eta:monospace
-  (set-attr* $eta 'mathvariant "monospace"))
+  (Mi "&eta;" #:attr* '((mathvariant "monospace"))))
 (define $eta:initial
-  (set-attr* $eta 'mathvariant "initial"))
+  (Mi "&eta;" #:attr* '((mathvariant "initial"))))
 (define $eta:tailed
-  (set-attr* $eta 'mathvariant "tailed"))
+  (Mi "&eta;" #:attr* '((mathvariant "tailed"))))
 (define $eta:looped
-  (set-attr* $eta 'mathvariant "looped"))
+  (Mi "&eta;" #:attr* '((mathvariant "looped"))))
 (define $eta:stretched
-  (set-attr* $eta 'mathvariant "stretched"))
+  (Mi "&eta;" #:attr* '((mathvariant "stretched"))))
 (define $theta:normal
-  (set-attr* $theta 'mathvariant "normal"))
+  (Mi "&theta;" #:attr* '((mathvariant "normal"))))
 (define $theta:bold
-  (set-attr* $theta 'mathvariant "bold"))
+  (Mi "&theta;" #:attr* '((mathvariant "bold"))))
 (define $theta:italic
-  (set-attr* $theta 'mathvariant "italic"))
+  (Mi "&theta;" #:attr* '((mathvariant "italic"))))
 (define $theta:bold-italic
-  (set-attr* $theta 'mathvariant "bold-italic"))
+  (Mi "&theta;" #:attr* '((mathvariant "bold-italic"))))
 (define $theta:double-struck
-  (set-attr* $theta 'mathvariant "double-struck"))
+  (Mi "&theta;" #:attr* '((mathvariant "double-struck"))))
 (define $theta:bold-fraktur
-  (set-attr* $theta 'mathvariant "bold-fraktur"))
+  (Mi "&theta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $theta:script
-  (set-attr* $theta 'mathvariant "script"))
+  (Mi "&theta;" #:attr* '((mathvariant "script"))))
 (define $theta:bold-script
-  (set-attr* $theta 'mathvariant "bold-script"))
+  (Mi "&theta;" #:attr* '((mathvariant "bold-script"))))
 (define $theta:fraktur
-  (set-attr* $theta 'mathvariant "fraktur"))
+  (Mi "&theta;" #:attr* '((mathvariant "fraktur"))))
 (define $theta:sans-serif
-  (set-attr* $theta 'mathvariant "sans-serif"))
+  (Mi "&theta;" #:attr* '((mathvariant "sans-serif"))))
 (define $theta:bold-sans-serif
-  (set-attr* $theta 'mathvariant "bold-sans-serif"))
+  (Mi "&theta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $theta:sans-serif-italic
-  (set-attr* $theta 'mathvariant "sans-serif-italic"))
+  (Mi "&theta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $theta:sans-serif-bold-italic
-  (set-attr* $theta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&theta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $theta:monospace
-  (set-attr* $theta 'mathvariant "monospace"))
+  (Mi "&theta;" #:attr* '((mathvariant "monospace"))))
 (define $theta:initial
-  (set-attr* $theta 'mathvariant "initial"))
+  (Mi "&theta;" #:attr* '((mathvariant "initial"))))
 (define $theta:tailed
-  (set-attr* $theta 'mathvariant "tailed"))
+  (Mi "&theta;" #:attr* '((mathvariant "tailed"))))
 (define $theta:looped
-  (set-attr* $theta 'mathvariant "looped"))
+  (Mi "&theta;" #:attr* '((mathvariant "looped"))))
 (define $theta:stretched
-  (set-attr* $theta 'mathvariant "stretched"))
+  (Mi "&theta;" #:attr* '((mathvariant "stretched"))))
 (define $iota:normal
-  (set-attr* $iota 'mathvariant "normal"))
+  (Mi "&iota;" #:attr* '((mathvariant "normal"))))
 (define $iota:bold
-  (set-attr* $iota 'mathvariant "bold"))
+  (Mi "&iota;" #:attr* '((mathvariant "bold"))))
 (define $iota:italic
-  (set-attr* $iota 'mathvariant "italic"))
+  (Mi "&iota;" #:attr* '((mathvariant "italic"))))
 (define $iota:bold-italic
-  (set-attr* $iota 'mathvariant "bold-italic"))
+  (Mi "&iota;" #:attr* '((mathvariant "bold-italic"))))
 (define $iota:double-struck
-  (set-attr* $iota 'mathvariant "double-struck"))
+  (Mi "&iota;" #:attr* '((mathvariant "double-struck"))))
 (define $iota:bold-fraktur
-  (set-attr* $iota 'mathvariant "bold-fraktur"))
+  (Mi "&iota;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $iota:script
-  (set-attr* $iota 'mathvariant "script"))
+  (Mi "&iota;" #:attr* '((mathvariant "script"))))
 (define $iota:bold-script
-  (set-attr* $iota 'mathvariant "bold-script"))
+  (Mi "&iota;" #:attr* '((mathvariant "bold-script"))))
 (define $iota:fraktur
-  (set-attr* $iota 'mathvariant "fraktur"))
+  (Mi "&iota;" #:attr* '((mathvariant "fraktur"))))
 (define $iota:sans-serif
-  (set-attr* $iota 'mathvariant "sans-serif"))
+  (Mi "&iota;" #:attr* '((mathvariant "sans-serif"))))
 (define $iota:bold-sans-serif
-  (set-attr* $iota 'mathvariant "bold-sans-serif"))
+  (Mi "&iota;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $iota:sans-serif-italic
-  (set-attr* $iota 'mathvariant "sans-serif-italic"))
+  (Mi "&iota;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $iota:sans-serif-bold-italic
-  (set-attr* $iota 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&iota;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $iota:monospace
-  (set-attr* $iota 'mathvariant "monospace"))
+  (Mi "&iota;" #:attr* '((mathvariant "monospace"))))
 (define $iota:initial
-  (set-attr* $iota 'mathvariant "initial"))
+  (Mi "&iota;" #:attr* '((mathvariant "initial"))))
 (define $iota:tailed
-  (set-attr* $iota 'mathvariant "tailed"))
+  (Mi "&iota;" #:attr* '((mathvariant "tailed"))))
 (define $iota:looped
-  (set-attr* $iota 'mathvariant "looped"))
+  (Mi "&iota;" #:attr* '((mathvariant "looped"))))
 (define $iota:stretched
-  (set-attr* $iota 'mathvariant "stretched"))
+  (Mi "&iota;" #:attr* '((mathvariant "stretched"))))
 (define $kappa:normal
-  (set-attr* $kappa 'mathvariant "normal"))
+  (Mi "&kappa;" #:attr* '((mathvariant "normal"))))
 (define $kappa:bold
-  (set-attr* $kappa 'mathvariant "bold"))
+  (Mi "&kappa;" #:attr* '((mathvariant "bold"))))
 (define $kappa:italic
-  (set-attr* $kappa 'mathvariant "italic"))
+  (Mi "&kappa;" #:attr* '((mathvariant "italic"))))
 (define $kappa:bold-italic
-  (set-attr* $kappa 'mathvariant "bold-italic"))
+  (Mi "&kappa;" #:attr* '((mathvariant "bold-italic"))))
 (define $kappa:double-struck
-  (set-attr* $kappa 'mathvariant "double-struck"))
+  (Mi "&kappa;" #:attr* '((mathvariant "double-struck"))))
 (define $kappa:bold-fraktur
-  (set-attr* $kappa 'mathvariant "bold-fraktur"))
+  (Mi "&kappa;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $kappa:script
-  (set-attr* $kappa 'mathvariant "script"))
+  (Mi "&kappa;" #:attr* '((mathvariant "script"))))
 (define $kappa:bold-script
-  (set-attr* $kappa 'mathvariant "bold-script"))
+  (Mi "&kappa;" #:attr* '((mathvariant "bold-script"))))
 (define $kappa:fraktur
-  (set-attr* $kappa 'mathvariant "fraktur"))
+  (Mi "&kappa;" #:attr* '((mathvariant "fraktur"))))
 (define $kappa:sans-serif
-  (set-attr* $kappa 'mathvariant "sans-serif"))
+  (Mi "&kappa;" #:attr* '((mathvariant "sans-serif"))))
 (define $kappa:bold-sans-serif
-  (set-attr* $kappa 'mathvariant "bold-sans-serif"))
+  (Mi "&kappa;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $kappa:sans-serif-italic
-  (set-attr* $kappa 'mathvariant "sans-serif-italic"))
+  (Mi "&kappa;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $kappa:sans-serif-bold-italic
-  (set-attr* $kappa 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&kappa;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $kappa:monospace
-  (set-attr* $kappa 'mathvariant "monospace"))
+  (Mi "&kappa;" #:attr* '((mathvariant "monospace"))))
 (define $kappa:initial
-  (set-attr* $kappa 'mathvariant "initial"))
+  (Mi "&kappa;" #:attr* '((mathvariant "initial"))))
 (define $kappa:tailed
-  (set-attr* $kappa 'mathvariant "tailed"))
+  (Mi "&kappa;" #:attr* '((mathvariant "tailed"))))
 (define $kappa:looped
-  (set-attr* $kappa 'mathvariant "looped"))
+  (Mi "&kappa;" #:attr* '((mathvariant "looped"))))
 (define $kappa:stretched
-  (set-attr* $kappa 'mathvariant "stretched"))
+  (Mi "&kappa;" #:attr* '((mathvariant "stretched"))))
 (define $lambda:normal
-  (set-attr* $lambda 'mathvariant "normal"))
+  (Mi "&lambda;" #:attr* '((mathvariant "normal"))))
 (define $lambda:bold
-  (set-attr* $lambda 'mathvariant "bold"))
+  (Mi "&lambda;" #:attr* '((mathvariant "bold"))))
 (define $lambda:italic
-  (set-attr* $lambda 'mathvariant "italic"))
+  (Mi "&lambda;" #:attr* '((mathvariant "italic"))))
 (define $lambda:bold-italic
-  (set-attr* $lambda 'mathvariant "bold-italic"))
+  (Mi "&lambda;" #:attr* '((mathvariant "bold-italic"))))
 (define $lambda:double-struck
-  (set-attr* $lambda 'mathvariant "double-struck"))
+  (Mi "&lambda;" #:attr* '((mathvariant "double-struck"))))
 (define $lambda:bold-fraktur
-  (set-attr* $lambda 'mathvariant "bold-fraktur"))
+  (Mi "&lambda;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $lambda:script
-  (set-attr* $lambda 'mathvariant "script"))
+  (Mi "&lambda;" #:attr* '((mathvariant "script"))))
 (define $lambda:bold-script
-  (set-attr* $lambda 'mathvariant "bold-script"))
+  (Mi "&lambda;" #:attr* '((mathvariant "bold-script"))))
 (define $lambda:fraktur
-  (set-attr* $lambda 'mathvariant "fraktur"))
+  (Mi "&lambda;" #:attr* '((mathvariant "fraktur"))))
 (define $lambda:sans-serif
-  (set-attr* $lambda 'mathvariant "sans-serif"))
+  (Mi "&lambda;" #:attr* '((mathvariant "sans-serif"))))
 (define $lambda:bold-sans-serif
-  (set-attr* $lambda 'mathvariant "bold-sans-serif"))
+  (Mi "&lambda;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $lambda:sans-serif-italic
-  (set-attr* $lambda 'mathvariant "sans-serif-italic"))
+  (Mi "&lambda;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $lambda:sans-serif-bold-italic
-  (set-attr* $lambda 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&lambda;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $lambda:monospace
-  (set-attr* $lambda 'mathvariant "monospace"))
+  (Mi "&lambda;" #:attr* '((mathvariant "monospace"))))
 (define $lambda:initial
-  (set-attr* $lambda 'mathvariant "initial"))
+  (Mi "&lambda;" #:attr* '((mathvariant "initial"))))
 (define $lambda:tailed
-  (set-attr* $lambda 'mathvariant "tailed"))
+  (Mi "&lambda;" #:attr* '((mathvariant "tailed"))))
 (define $lambda:looped
-  (set-attr* $lambda 'mathvariant "looped"))
+  (Mi "&lambda;" #:attr* '((mathvariant "looped"))))
 (define $lambda:stretched
-  (set-attr* $lambda 'mathvariant "stretched"))
+  (Mi "&lambda;" #:attr* '((mathvariant "stretched"))))
 (define $mu:normal
-  (set-attr* $mu 'mathvariant "normal"))
+  (Mi "&mu;" #:attr* '((mathvariant "normal"))))
 (define $mu:bold
-  (set-attr* $mu 'mathvariant "bold"))
+  (Mi "&mu;" #:attr* '((mathvariant "bold"))))
 (define $mu:italic
-  (set-attr* $mu 'mathvariant "italic"))
+  (Mi "&mu;" #:attr* '((mathvariant "italic"))))
 (define $mu:bold-italic
-  (set-attr* $mu 'mathvariant "bold-italic"))
+  (Mi "&mu;" #:attr* '((mathvariant "bold-italic"))))
 (define $mu:double-struck
-  (set-attr* $mu 'mathvariant "double-struck"))
+  (Mi "&mu;" #:attr* '((mathvariant "double-struck"))))
 (define $mu:bold-fraktur
-  (set-attr* $mu 'mathvariant "bold-fraktur"))
+  (Mi "&mu;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $mu:script
-  (set-attr* $mu 'mathvariant "script"))
+  (Mi "&mu;" #:attr* '((mathvariant "script"))))
 (define $mu:bold-script
-  (set-attr* $mu 'mathvariant "bold-script"))
+  (Mi "&mu;" #:attr* '((mathvariant "bold-script"))))
 (define $mu:fraktur
-  (set-attr* $mu 'mathvariant "fraktur"))
+  (Mi "&mu;" #:attr* '((mathvariant "fraktur"))))
 (define $mu:sans-serif
-  (set-attr* $mu 'mathvariant "sans-serif"))
+  (Mi "&mu;" #:attr* '((mathvariant "sans-serif"))))
 (define $mu:bold-sans-serif
-  (set-attr* $mu 'mathvariant "bold-sans-serif"))
+  (Mi "&mu;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $mu:sans-serif-italic
-  (set-attr* $mu 'mathvariant "sans-serif-italic"))
+  (Mi "&mu;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $mu:sans-serif-bold-italic
-  (set-attr* $mu 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&mu;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $mu:monospace
-  (set-attr* $mu 'mathvariant "monospace"))
+  (Mi "&mu;" #:attr* '((mathvariant "monospace"))))
 (define $mu:initial
-  (set-attr* $mu 'mathvariant "initial"))
+  (Mi "&mu;" #:attr* '((mathvariant "initial"))))
 (define $mu:tailed
-  (set-attr* $mu 'mathvariant "tailed"))
+  (Mi "&mu;" #:attr* '((mathvariant "tailed"))))
 (define $mu:looped
-  (set-attr* $mu 'mathvariant "looped"))
+  (Mi "&mu;" #:attr* '((mathvariant "looped"))))
 (define $mu:stretched
-  (set-attr* $mu 'mathvariant "stretched"))
+  (Mi "&mu;" #:attr* '((mathvariant "stretched"))))
 (define $nu:normal
-  (set-attr* $nu 'mathvariant "normal"))
+  (Mi "&nu;" #:attr* '((mathvariant "normal"))))
 (define $nu:bold
-  (set-attr* $nu 'mathvariant "bold"))
+  (Mi "&nu;" #:attr* '((mathvariant "bold"))))
 (define $nu:italic
-  (set-attr* $nu 'mathvariant "italic"))
+  (Mi "&nu;" #:attr* '((mathvariant "italic"))))
 (define $nu:bold-italic
-  (set-attr* $nu 'mathvariant "bold-italic"))
+  (Mi "&nu;" #:attr* '((mathvariant "bold-italic"))))
 (define $nu:double-struck
-  (set-attr* $nu 'mathvariant "double-struck"))
+  (Mi "&nu;" #:attr* '((mathvariant "double-struck"))))
 (define $nu:bold-fraktur
-  (set-attr* $nu 'mathvariant "bold-fraktur"))
+  (Mi "&nu;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $nu:script
-  (set-attr* $nu 'mathvariant "script"))
+  (Mi "&nu;" #:attr* '((mathvariant "script"))))
 (define $nu:bold-script
-  (set-attr* $nu 'mathvariant "bold-script"))
+  (Mi "&nu;" #:attr* '((mathvariant "bold-script"))))
 (define $nu:fraktur
-  (set-attr* $nu 'mathvariant "fraktur"))
+  (Mi "&nu;" #:attr* '((mathvariant "fraktur"))))
 (define $nu:sans-serif
-  (set-attr* $nu 'mathvariant "sans-serif"))
+  (Mi "&nu;" #:attr* '((mathvariant "sans-serif"))))
 (define $nu:bold-sans-serif
-  (set-attr* $nu 'mathvariant "bold-sans-serif"))
+  (Mi "&nu;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $nu:sans-serif-italic
-  (set-attr* $nu 'mathvariant "sans-serif-italic"))
+  (Mi "&nu;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $nu:sans-serif-bold-italic
-  (set-attr* $nu 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&nu;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $nu:monospace
-  (set-attr* $nu 'mathvariant "monospace"))
+  (Mi "&nu;" #:attr* '((mathvariant "monospace"))))
 (define $nu:initial
-  (set-attr* $nu 'mathvariant "initial"))
+  (Mi "&nu;" #:attr* '((mathvariant "initial"))))
 (define $nu:tailed
-  (set-attr* $nu 'mathvariant "tailed"))
+  (Mi "&nu;" #:attr* '((mathvariant "tailed"))))
 (define $nu:looped
-  (set-attr* $nu 'mathvariant "looped"))
+  (Mi "&nu;" #:attr* '((mathvariant "looped"))))
 (define $nu:stretched
-  (set-attr* $nu 'mathvariant "stretched"))
+  (Mi "&nu;" #:attr* '((mathvariant "stretched"))))
 (define $xi:normal
-  (set-attr* $xi 'mathvariant "normal"))
+  (Mi "&xi;" #:attr* '((mathvariant "normal"))))
 (define $xi:bold
-  (set-attr* $xi 'mathvariant "bold"))
+  (Mi "&xi;" #:attr* '((mathvariant "bold"))))
 (define $xi:italic
-  (set-attr* $xi 'mathvariant "italic"))
+  (Mi "&xi;" #:attr* '((mathvariant "italic"))))
 (define $xi:bold-italic
-  (set-attr* $xi 'mathvariant "bold-italic"))
+  (Mi "&xi;" #:attr* '((mathvariant "bold-italic"))))
 (define $xi:double-struck
-  (set-attr* $xi 'mathvariant "double-struck"))
+  (Mi "&xi;" #:attr* '((mathvariant "double-struck"))))
 (define $xi:bold-fraktur
-  (set-attr* $xi 'mathvariant "bold-fraktur"))
+  (Mi "&xi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $xi:script
-  (set-attr* $xi 'mathvariant "script"))
+  (Mi "&xi;" #:attr* '((mathvariant "script"))))
 (define $xi:bold-script
-  (set-attr* $xi 'mathvariant "bold-script"))
+  (Mi "&xi;" #:attr* '((mathvariant "bold-script"))))
 (define $xi:fraktur
-  (set-attr* $xi 'mathvariant "fraktur"))
+  (Mi "&xi;" #:attr* '((mathvariant "fraktur"))))
 (define $xi:sans-serif
-  (set-attr* $xi 'mathvariant "sans-serif"))
+  (Mi "&xi;" #:attr* '((mathvariant "sans-serif"))))
 (define $xi:bold-sans-serif
-  (set-attr* $xi 'mathvariant "bold-sans-serif"))
+  (Mi "&xi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $xi:sans-serif-italic
-  (set-attr* $xi 'mathvariant "sans-serif-italic"))
+  (Mi "&xi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $xi:sans-serif-bold-italic
-  (set-attr* $xi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&xi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $xi:monospace
-  (set-attr* $xi 'mathvariant "monospace"))
+  (Mi "&xi;" #:attr* '((mathvariant "monospace"))))
 (define $xi:initial
-  (set-attr* $xi 'mathvariant "initial"))
+  (Mi "&xi;" #:attr* '((mathvariant "initial"))))
 (define $xi:tailed
-  (set-attr* $xi 'mathvariant "tailed"))
+  (Mi "&xi;" #:attr* '((mathvariant "tailed"))))
 (define $xi:looped
-  (set-attr* $xi 'mathvariant "looped"))
+  (Mi "&xi;" #:attr* '((mathvariant "looped"))))
 (define $xi:stretched
-  (set-attr* $xi 'mathvariant "stretched"))
+  (Mi "&xi;" #:attr* '((mathvariant "stretched"))))
 (define $omicron:normal
-  (set-attr* $omicron 'mathvariant "normal"))
+  (Mi "&omicron;" #:attr* '((mathvariant "normal"))))
 (define $omicron:bold
-  (set-attr* $omicron 'mathvariant "bold"))
+  (Mi "&omicron;" #:attr* '((mathvariant "bold"))))
 (define $omicron:italic
-  (set-attr* $omicron 'mathvariant "italic"))
+  (Mi "&omicron;" #:attr* '((mathvariant "italic"))))
 (define $omicron:bold-italic
-  (set-attr* $omicron 'mathvariant "bold-italic"))
+  (Mi "&omicron;" #:attr* '((mathvariant "bold-italic"))))
 (define $omicron:double-struck
-  (set-attr* $omicron 'mathvariant "double-struck"))
+  (Mi "&omicron;" #:attr* '((mathvariant "double-struck"))))
 (define $omicron:bold-fraktur
-  (set-attr* $omicron 'mathvariant "bold-fraktur"))
+  (Mi "&omicron;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $omicron:script
-  (set-attr* $omicron 'mathvariant "script"))
+  (Mi "&omicron;" #:attr* '((mathvariant "script"))))
 (define $omicron:bold-script
-  (set-attr* $omicron 'mathvariant "bold-script"))
+  (Mi "&omicron;" #:attr* '((mathvariant "bold-script"))))
 (define $omicron:fraktur
-  (set-attr* $omicron 'mathvariant "fraktur"))
+  (Mi "&omicron;" #:attr* '((mathvariant "fraktur"))))
 (define $omicron:sans-serif
-  (set-attr* $omicron 'mathvariant "sans-serif"))
+  (Mi "&omicron;" #:attr* '((mathvariant "sans-serif"))))
 (define $omicron:bold-sans-serif
-  (set-attr* $omicron 'mathvariant "bold-sans-serif"))
+  (Mi "&omicron;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $omicron:sans-serif-italic
-  (set-attr* $omicron 'mathvariant "sans-serif-italic"))
+  (Mi "&omicron;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $omicron:sans-serif-bold-italic
-  (set-attr* $omicron 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&omicron;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $omicron:monospace
-  (set-attr* $omicron 'mathvariant "monospace"))
+  (Mi "&omicron;" #:attr* '((mathvariant "monospace"))))
 (define $omicron:initial
-  (set-attr* $omicron 'mathvariant "initial"))
+  (Mi "&omicron;" #:attr* '((mathvariant "initial"))))
 (define $omicron:tailed
-  (set-attr* $omicron 'mathvariant "tailed"))
+  (Mi "&omicron;" #:attr* '((mathvariant "tailed"))))
 (define $omicron:looped
-  (set-attr* $omicron 'mathvariant "looped"))
+  (Mi "&omicron;" #:attr* '((mathvariant "looped"))))
 (define $omicron:stretched
-  (set-attr* $omicron 'mathvariant "stretched"))
+  (Mi "&omicron;" #:attr* '((mathvariant "stretched"))))
 (define $pi:normal
-  (set-attr* $pi 'mathvariant "normal"))
+  (Mi "&pi;" #:attr* '((mathvariant "normal"))))
 (define $pi:bold
-  (set-attr* $pi 'mathvariant "bold"))
+  (Mi "&pi;" #:attr* '((mathvariant "bold"))))
 (define $pi:italic
-  (set-attr* $pi 'mathvariant "italic"))
+  (Mi "&pi;" #:attr* '((mathvariant "italic"))))
 (define $pi:bold-italic
-  (set-attr* $pi 'mathvariant "bold-italic"))
+  (Mi "&pi;" #:attr* '((mathvariant "bold-italic"))))
 (define $pi:double-struck
-  (set-attr* $pi 'mathvariant "double-struck"))
+  (Mi "&pi;" #:attr* '((mathvariant "double-struck"))))
 (define $pi:bold-fraktur
-  (set-attr* $pi 'mathvariant "bold-fraktur"))
+  (Mi "&pi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $pi:script
-  (set-attr* $pi 'mathvariant "script"))
+  (Mi "&pi;" #:attr* '((mathvariant "script"))))
 (define $pi:bold-script
-  (set-attr* $pi 'mathvariant "bold-script"))
+  (Mi "&pi;" #:attr* '((mathvariant "bold-script"))))
 (define $pi:fraktur
-  (set-attr* $pi 'mathvariant "fraktur"))
+  (Mi "&pi;" #:attr* '((mathvariant "fraktur"))))
 (define $pi:sans-serif
-  (set-attr* $pi 'mathvariant "sans-serif"))
+  (Mi "&pi;" #:attr* '((mathvariant "sans-serif"))))
 (define $pi:bold-sans-serif
-  (set-attr* $pi 'mathvariant "bold-sans-serif"))
+  (Mi "&pi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $pi:sans-serif-italic
-  (set-attr* $pi 'mathvariant "sans-serif-italic"))
+  (Mi "&pi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $pi:sans-serif-bold-italic
-  (set-attr* $pi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&pi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $pi:monospace
-  (set-attr* $pi 'mathvariant "monospace"))
+  (Mi "&pi;" #:attr* '((mathvariant "monospace"))))
 (define $pi:initial
-  (set-attr* $pi 'mathvariant "initial"))
+  (Mi "&pi;" #:attr* '((mathvariant "initial"))))
 (define $pi:tailed
-  (set-attr* $pi 'mathvariant "tailed"))
+  (Mi "&pi;" #:attr* '((mathvariant "tailed"))))
 (define $pi:looped
-  (set-attr* $pi 'mathvariant "looped"))
+  (Mi "&pi;" #:attr* '((mathvariant "looped"))))
 (define $pi:stretched
-  (set-attr* $pi 'mathvariant "stretched"))
+  (Mi "&pi;" #:attr* '((mathvariant "stretched"))))
 (define $rho:normal
-  (set-attr* $rho 'mathvariant "normal"))
+  (Mi "&rho;" #:attr* '((mathvariant "normal"))))
 (define $rho:bold
-  (set-attr* $rho 'mathvariant "bold"))
+  (Mi "&rho;" #:attr* '((mathvariant "bold"))))
 (define $rho:italic
-  (set-attr* $rho 'mathvariant "italic"))
+  (Mi "&rho;" #:attr* '((mathvariant "italic"))))
 (define $rho:bold-italic
-  (set-attr* $rho 'mathvariant "bold-italic"))
+  (Mi "&rho;" #:attr* '((mathvariant "bold-italic"))))
 (define $rho:double-struck
-  (set-attr* $rho 'mathvariant "double-struck"))
+  (Mi "&rho;" #:attr* '((mathvariant "double-struck"))))
 (define $rho:bold-fraktur
-  (set-attr* $rho 'mathvariant "bold-fraktur"))
+  (Mi "&rho;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $rho:script
-  (set-attr* $rho 'mathvariant "script"))
+  (Mi "&rho;" #:attr* '((mathvariant "script"))))
 (define $rho:bold-script
-  (set-attr* $rho 'mathvariant "bold-script"))
+  (Mi "&rho;" #:attr* '((mathvariant "bold-script"))))
 (define $rho:fraktur
-  (set-attr* $rho 'mathvariant "fraktur"))
+  (Mi "&rho;" #:attr* '((mathvariant "fraktur"))))
 (define $rho:sans-serif
-  (set-attr* $rho 'mathvariant "sans-serif"))
+  (Mi "&rho;" #:attr* '((mathvariant "sans-serif"))))
 (define $rho:bold-sans-serif
-  (set-attr* $rho 'mathvariant "bold-sans-serif"))
+  (Mi "&rho;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $rho:sans-serif-italic
-  (set-attr* $rho 'mathvariant "sans-serif-italic"))
+  (Mi "&rho;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $rho:sans-serif-bold-italic
-  (set-attr* $rho 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&rho;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $rho:monospace
-  (set-attr* $rho 'mathvariant "monospace"))
+  (Mi "&rho;" #:attr* '((mathvariant "monospace"))))
 (define $rho:initial
-  (set-attr* $rho 'mathvariant "initial"))
+  (Mi "&rho;" #:attr* '((mathvariant "initial"))))
 (define $rho:tailed
-  (set-attr* $rho 'mathvariant "tailed"))
+  (Mi "&rho;" #:attr* '((mathvariant "tailed"))))
 (define $rho:looped
-  (set-attr* $rho 'mathvariant "looped"))
+  (Mi "&rho;" #:attr* '((mathvariant "looped"))))
 (define $rho:stretched
-  (set-attr* $rho 'mathvariant "stretched"))
+  (Mi "&rho;" #:attr* '((mathvariant "stretched"))))
 (define $sigma:normal
-  (set-attr* $sigma 'mathvariant "normal"))
+  (Mi "&sigma;" #:attr* '((mathvariant "normal"))))
 (define $sigma:bold
-  (set-attr* $sigma 'mathvariant "bold"))
+  (Mi "&sigma;" #:attr* '((mathvariant "bold"))))
 (define $sigma:italic
-  (set-attr* $sigma 'mathvariant "italic"))
+  (Mi "&sigma;" #:attr* '((mathvariant "italic"))))
 (define $sigma:bold-italic
-  (set-attr* $sigma 'mathvariant "bold-italic"))
+  (Mi "&sigma;" #:attr* '((mathvariant "bold-italic"))))
 (define $sigma:double-struck
-  (set-attr* $sigma 'mathvariant "double-struck"))
+  (Mi "&sigma;" #:attr* '((mathvariant "double-struck"))))
 (define $sigma:bold-fraktur
-  (set-attr* $sigma 'mathvariant "bold-fraktur"))
+  (Mi "&sigma;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $sigma:script
-  (set-attr* $sigma 'mathvariant "script"))
+  (Mi "&sigma;" #:attr* '((mathvariant "script"))))
 (define $sigma:bold-script
-  (set-attr* $sigma 'mathvariant "bold-script"))
+  (Mi "&sigma;" #:attr* '((mathvariant "bold-script"))))
 (define $sigma:fraktur
-  (set-attr* $sigma 'mathvariant "fraktur"))
+  (Mi "&sigma;" #:attr* '((mathvariant "fraktur"))))
 (define $sigma:sans-serif
-  (set-attr* $sigma 'mathvariant "sans-serif"))
+  (Mi "&sigma;" #:attr* '((mathvariant "sans-serif"))))
 (define $sigma:bold-sans-serif
-  (set-attr* $sigma 'mathvariant "bold-sans-serif"))
+  (Mi "&sigma;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $sigma:sans-serif-italic
-  (set-attr* $sigma 'mathvariant "sans-serif-italic"))
+  (Mi "&sigma;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $sigma:sans-serif-bold-italic
-  (set-attr* $sigma 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&sigma;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $sigma:monospace
-  (set-attr* $sigma 'mathvariant "monospace"))
+  (Mi "&sigma;" #:attr* '((mathvariant "monospace"))))
 (define $sigma:initial
-  (set-attr* $sigma 'mathvariant "initial"))
+  (Mi "&sigma;" #:attr* '((mathvariant "initial"))))
 (define $sigma:tailed
-  (set-attr* $sigma 'mathvariant "tailed"))
+  (Mi "&sigma;" #:attr* '((mathvariant "tailed"))))
 (define $sigma:looped
-  (set-attr* $sigma 'mathvariant "looped"))
+  (Mi "&sigma;" #:attr* '((mathvariant "looped"))))
 (define $sigma:stretched
-  (set-attr* $sigma 'mathvariant "stretched"))
+  (Mi "&sigma;" #:attr* '((mathvariant "stretched"))))
 (define $tau:normal
-  (set-attr* $tau 'mathvariant "normal"))
+  (Mi "&tau;" #:attr* '((mathvariant "normal"))))
 (define $tau:bold
-  (set-attr* $tau 'mathvariant "bold"))
+  (Mi "&tau;" #:attr* '((mathvariant "bold"))))
 (define $tau:italic
-  (set-attr* $tau 'mathvariant "italic"))
+  (Mi "&tau;" #:attr* '((mathvariant "italic"))))
 (define $tau:bold-italic
-  (set-attr* $tau 'mathvariant "bold-italic"))
+  (Mi "&tau;" #:attr* '((mathvariant "bold-italic"))))
 (define $tau:double-struck
-  (set-attr* $tau 'mathvariant "double-struck"))
+  (Mi "&tau;" #:attr* '((mathvariant "double-struck"))))
 (define $tau:bold-fraktur
-  (set-attr* $tau 'mathvariant "bold-fraktur"))
+  (Mi "&tau;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $tau:script
-  (set-attr* $tau 'mathvariant "script"))
+  (Mi "&tau;" #:attr* '((mathvariant "script"))))
 (define $tau:bold-script
-  (set-attr* $tau 'mathvariant "bold-script"))
+  (Mi "&tau;" #:attr* '((mathvariant "bold-script"))))
 (define $tau:fraktur
-  (set-attr* $tau 'mathvariant "fraktur"))
+  (Mi "&tau;" #:attr* '((mathvariant "fraktur"))))
 (define $tau:sans-serif
-  (set-attr* $tau 'mathvariant "sans-serif"))
+  (Mi "&tau;" #:attr* '((mathvariant "sans-serif"))))
 (define $tau:bold-sans-serif
-  (set-attr* $tau 'mathvariant "bold-sans-serif"))
+  (Mi "&tau;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $tau:sans-serif-italic
-  (set-attr* $tau 'mathvariant "sans-serif-italic"))
+  (Mi "&tau;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $tau:sans-serif-bold-italic
-  (set-attr* $tau 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&tau;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $tau:monospace
-  (set-attr* $tau 'mathvariant "monospace"))
+  (Mi "&tau;" #:attr* '((mathvariant "monospace"))))
 (define $tau:initial
-  (set-attr* $tau 'mathvariant "initial"))
+  (Mi "&tau;" #:attr* '((mathvariant "initial"))))
 (define $tau:tailed
-  (set-attr* $tau 'mathvariant "tailed"))
+  (Mi "&tau;" #:attr* '((mathvariant "tailed"))))
 (define $tau:looped
-  (set-attr* $tau 'mathvariant "looped"))
+  (Mi "&tau;" #:attr* '((mathvariant "looped"))))
 (define $tau:stretched
-  (set-attr* $tau 'mathvariant "stretched"))
+  (Mi "&tau;" #:attr* '((mathvariant "stretched"))))
 (define $upsilon:normal
-  (set-attr* $upsilon 'mathvariant "normal"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "normal"))))
 (define $upsilon:bold
-  (set-attr* $upsilon 'mathvariant "bold"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "bold"))))
 (define $upsilon:italic
-  (set-attr* $upsilon 'mathvariant "italic"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "italic"))))
 (define $upsilon:bold-italic
-  (set-attr* $upsilon 'mathvariant "bold-italic"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "bold-italic"))))
 (define $upsilon:double-struck
-  (set-attr* $upsilon 'mathvariant "double-struck"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "double-struck"))))
 (define $upsilon:bold-fraktur
-  (set-attr* $upsilon 'mathvariant "bold-fraktur"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $upsilon:script
-  (set-attr* $upsilon 'mathvariant "script"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "script"))))
 (define $upsilon:bold-script
-  (set-attr* $upsilon 'mathvariant "bold-script"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "bold-script"))))
 (define $upsilon:fraktur
-  (set-attr* $upsilon 'mathvariant "fraktur"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "fraktur"))))
 (define $upsilon:sans-serif
-  (set-attr* $upsilon 'mathvariant "sans-serif"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "sans-serif"))))
 (define $upsilon:bold-sans-serif
-  (set-attr* $upsilon 'mathvariant "bold-sans-serif"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $upsilon:sans-serif-italic
-  (set-attr* $upsilon 'mathvariant "sans-serif-italic"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $upsilon:sans-serif-bold-italic
-  (set-attr* $upsilon 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $upsilon:monospace
-  (set-attr* $upsilon 'mathvariant "monospace"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "monospace"))))
 (define $upsilon:initial
-  (set-attr* $upsilon 'mathvariant "initial"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "initial"))))
 (define $upsilon:tailed
-  (set-attr* $upsilon 'mathvariant "tailed"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "tailed"))))
 (define $upsilon:looped
-  (set-attr* $upsilon 'mathvariant "looped"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "looped"))))
 (define $upsilon:stretched
-  (set-attr* $upsilon 'mathvariant "stretched"))
+  (Mi "&upsilon;" #:attr* '((mathvariant "stretched"))))
 (define $phi:normal
-  (set-attr* $phi 'mathvariant "normal"))
+  (Mi "&phi;" #:attr* '((mathvariant "normal"))))
 (define $phi:bold
-  (set-attr* $phi 'mathvariant "bold"))
+  (Mi "&phi;" #:attr* '((mathvariant "bold"))))
 (define $phi:italic
-  (set-attr* $phi 'mathvariant "italic"))
+  (Mi "&phi;" #:attr* '((mathvariant "italic"))))
 (define $phi:bold-italic
-  (set-attr* $phi 'mathvariant "bold-italic"))
+  (Mi "&phi;" #:attr* '((mathvariant "bold-italic"))))
 (define $phi:double-struck
-  (set-attr* $phi 'mathvariant "double-struck"))
+  (Mi "&phi;" #:attr* '((mathvariant "double-struck"))))
 (define $phi:bold-fraktur
-  (set-attr* $phi 'mathvariant "bold-fraktur"))
+  (Mi "&phi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $phi:script
-  (set-attr* $phi 'mathvariant "script"))
+  (Mi "&phi;" #:attr* '((mathvariant "script"))))
 (define $phi:bold-script
-  (set-attr* $phi 'mathvariant "bold-script"))
+  (Mi "&phi;" #:attr* '((mathvariant "bold-script"))))
 (define $phi:fraktur
-  (set-attr* $phi 'mathvariant "fraktur"))
+  (Mi "&phi;" #:attr* '((mathvariant "fraktur"))))
 (define $phi:sans-serif
-  (set-attr* $phi 'mathvariant "sans-serif"))
+  (Mi "&phi;" #:attr* '((mathvariant "sans-serif"))))
 (define $phi:bold-sans-serif
-  (set-attr* $phi 'mathvariant "bold-sans-serif"))
+  (Mi "&phi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $phi:sans-serif-italic
-  (set-attr* $phi 'mathvariant "sans-serif-italic"))
+  (Mi "&phi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $phi:sans-serif-bold-italic
-  (set-attr* $phi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&phi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $phi:monospace
-  (set-attr* $phi 'mathvariant "monospace"))
+  (Mi "&phi;" #:attr* '((mathvariant "monospace"))))
 (define $phi:initial
-  (set-attr* $phi 'mathvariant "initial"))
+  (Mi "&phi;" #:attr* '((mathvariant "initial"))))
 (define $phi:tailed
-  (set-attr* $phi 'mathvariant "tailed"))
+  (Mi "&phi;" #:attr* '((mathvariant "tailed"))))
 (define $phi:looped
-  (set-attr* $phi 'mathvariant "looped"))
+  (Mi "&phi;" #:attr* '((mathvariant "looped"))))
 (define $phi:stretched
-  (set-attr* $phi 'mathvariant "stretched"))
+  (Mi "&phi;" #:attr* '((mathvariant "stretched"))))
 (define $chi:normal
-  (set-attr* $chi 'mathvariant "normal"))
+  (Mi "&chi;" #:attr* '((mathvariant "normal"))))
 (define $chi:bold
-  (set-attr* $chi 'mathvariant "bold"))
+  (Mi "&chi;" #:attr* '((mathvariant "bold"))))
 (define $chi:italic
-  (set-attr* $chi 'mathvariant "italic"))
+  (Mi "&chi;" #:attr* '((mathvariant "italic"))))
 (define $chi:bold-italic
-  (set-attr* $chi 'mathvariant "bold-italic"))
+  (Mi "&chi;" #:attr* '((mathvariant "bold-italic"))))
 (define $chi:double-struck
-  (set-attr* $chi 'mathvariant "double-struck"))
+  (Mi "&chi;" #:attr* '((mathvariant "double-struck"))))
 (define $chi:bold-fraktur
-  (set-attr* $chi 'mathvariant "bold-fraktur"))
+  (Mi "&chi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $chi:script
-  (set-attr* $chi 'mathvariant "script"))
+  (Mi "&chi;" #:attr* '((mathvariant "script"))))
 (define $chi:bold-script
-  (set-attr* $chi 'mathvariant "bold-script"))
+  (Mi "&chi;" #:attr* '((mathvariant "bold-script"))))
 (define $chi:fraktur
-  (set-attr* $chi 'mathvariant "fraktur"))
+  (Mi "&chi;" #:attr* '((mathvariant "fraktur"))))
 (define $chi:sans-serif
-  (set-attr* $chi 'mathvariant "sans-serif"))
+  (Mi "&chi;" #:attr* '((mathvariant "sans-serif"))))
 (define $chi:bold-sans-serif
-  (set-attr* $chi 'mathvariant "bold-sans-serif"))
+  (Mi "&chi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $chi:sans-serif-italic
-  (set-attr* $chi 'mathvariant "sans-serif-italic"))
+  (Mi "&chi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $chi:sans-serif-bold-italic
-  (set-attr* $chi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&chi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $chi:monospace
-  (set-attr* $chi 'mathvariant "monospace"))
+  (Mi "&chi;" #:attr* '((mathvariant "monospace"))))
 (define $chi:initial
-  (set-attr* $chi 'mathvariant "initial"))
+  (Mi "&chi;" #:attr* '((mathvariant "initial"))))
 (define $chi:tailed
-  (set-attr* $chi 'mathvariant "tailed"))
+  (Mi "&chi;" #:attr* '((mathvariant "tailed"))))
 (define $chi:looped
-  (set-attr* $chi 'mathvariant "looped"))
+  (Mi "&chi;" #:attr* '((mathvariant "looped"))))
 (define $chi:stretched
-  (set-attr* $chi 'mathvariant "stretched"))
+  (Mi "&chi;" #:attr* '((mathvariant "stretched"))))
 (define $psi:normal
-  (set-attr* $psi 'mathvariant "normal"))
+  (Mi "&psi;" #:attr* '((mathvariant "normal"))))
 (define $psi:bold
-  (set-attr* $psi 'mathvariant "bold"))
+  (Mi "&psi;" #:attr* '((mathvariant "bold"))))
 (define $psi:italic
-  (set-attr* $psi 'mathvariant "italic"))
+  (Mi "&psi;" #:attr* '((mathvariant "italic"))))
 (define $psi:bold-italic
-  (set-attr* $psi 'mathvariant "bold-italic"))
+  (Mi "&psi;" #:attr* '((mathvariant "bold-italic"))))
 (define $psi:double-struck
-  (set-attr* $psi 'mathvariant "double-struck"))
+  (Mi "&psi;" #:attr* '((mathvariant "double-struck"))))
 (define $psi:bold-fraktur
-  (set-attr* $psi 'mathvariant "bold-fraktur"))
+  (Mi "&psi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $psi:script
-  (set-attr* $psi 'mathvariant "script"))
+  (Mi "&psi;" #:attr* '((mathvariant "script"))))
 (define $psi:bold-script
-  (set-attr* $psi 'mathvariant "bold-script"))
+  (Mi "&psi;" #:attr* '((mathvariant "bold-script"))))
 (define $psi:fraktur
-  (set-attr* $psi 'mathvariant "fraktur"))
+  (Mi "&psi;" #:attr* '((mathvariant "fraktur"))))
 (define $psi:sans-serif
-  (set-attr* $psi 'mathvariant "sans-serif"))
+  (Mi "&psi;" #:attr* '((mathvariant "sans-serif"))))
 (define $psi:bold-sans-serif
-  (set-attr* $psi 'mathvariant "bold-sans-serif"))
+  (Mi "&psi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $psi:sans-serif-italic
-  (set-attr* $psi 'mathvariant "sans-serif-italic"))
+  (Mi "&psi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $psi:sans-serif-bold-italic
-  (set-attr* $psi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&psi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $psi:monospace
-  (set-attr* $psi 'mathvariant "monospace"))
+  (Mi "&psi;" #:attr* '((mathvariant "monospace"))))
 (define $psi:initial
-  (set-attr* $psi 'mathvariant "initial"))
+  (Mi "&psi;" #:attr* '((mathvariant "initial"))))
 (define $psi:tailed
-  (set-attr* $psi 'mathvariant "tailed"))
+  (Mi "&psi;" #:attr* '((mathvariant "tailed"))))
 (define $psi:looped
-  (set-attr* $psi 'mathvariant "looped"))
+  (Mi "&psi;" #:attr* '((mathvariant "looped"))))
 (define $psi:stretched
-  (set-attr* $psi 'mathvariant "stretched"))
+  (Mi "&psi;" #:attr* '((mathvariant "stretched"))))
 (define $omega:normal
-  (set-attr* $omega 'mathvariant "normal"))
+  (Mi "&omega;" #:attr* '((mathvariant "normal"))))
 (define $omega:bold
-  (set-attr* $omega 'mathvariant "bold"))
+  (Mi "&omega;" #:attr* '((mathvariant "bold"))))
 (define $omega:italic
-  (set-attr* $omega 'mathvariant "italic"))
+  (Mi "&omega;" #:attr* '((mathvariant "italic"))))
 (define $omega:bold-italic
-  (set-attr* $omega 'mathvariant "bold-italic"))
+  (Mi "&omega;" #:attr* '((mathvariant "bold-italic"))))
 (define $omega:double-struck
-  (set-attr* $omega 'mathvariant "double-struck"))
+  (Mi "&omega;" #:attr* '((mathvariant "double-struck"))))
 (define $omega:bold-fraktur
-  (set-attr* $omega 'mathvariant "bold-fraktur"))
+  (Mi "&omega;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $omega:script
-  (set-attr* $omega 'mathvariant "script"))
+  (Mi "&omega;" #:attr* '((mathvariant "script"))))
 (define $omega:bold-script
-  (set-attr* $omega 'mathvariant "bold-script"))
+  (Mi "&omega;" #:attr* '((mathvariant "bold-script"))))
 (define $omega:fraktur
-  (set-attr* $omega 'mathvariant "fraktur"))
+  (Mi "&omega;" #:attr* '((mathvariant "fraktur"))))
 (define $omega:sans-serif
-  (set-attr* $omega 'mathvariant "sans-serif"))
+  (Mi "&omega;" #:attr* '((mathvariant "sans-serif"))))
 (define $omega:bold-sans-serif
-  (set-attr* $omega 'mathvariant "bold-sans-serif"))
+  (Mi "&omega;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $omega:sans-serif-italic
-  (set-attr* $omega 'mathvariant "sans-serif-italic"))
+  (Mi "&omega;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $omega:sans-serif-bold-italic
-  (set-attr* $omega 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&omega;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $omega:monospace
-  (set-attr* $omega 'mathvariant "monospace"))
+  (Mi "&omega;" #:attr* '((mathvariant "monospace"))))
 (define $omega:initial
-  (set-attr* $omega 'mathvariant "initial"))
+  (Mi "&omega;" #:attr* '((mathvariant "initial"))))
 (define $omega:tailed
-  (set-attr* $omega 'mathvariant "tailed"))
+  (Mi "&omega;" #:attr* '((mathvariant "tailed"))))
 (define $omega:looped
-  (set-attr* $omega 'mathvariant "looped"))
+  (Mi "&omega;" #:attr* '((mathvariant "looped"))))
 (define $omega:stretched
-  (set-attr* $omega 'mathvariant "stretched"))
+  (Mi "&omega;" #:attr* '((mathvariant "stretched"))))
 (define $Alpha:normal
-  (set-attr* $Alpha 'mathvariant "normal"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "normal"))))
 (define $Alpha:bold
-  (set-attr* $Alpha 'mathvariant "bold"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "bold"))))
 (define $Alpha:italic
-  (set-attr* $Alpha 'mathvariant "italic"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "italic"))))
 (define $Alpha:bold-italic
-  (set-attr* $Alpha 'mathvariant "bold-italic"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "bold-italic"))))
 (define $Alpha:double-struck
-  (set-attr* $Alpha 'mathvariant "double-struck"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "double-struck"))))
 (define $Alpha:bold-fraktur
-  (set-attr* $Alpha 'mathvariant "bold-fraktur"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Alpha:script
-  (set-attr* $Alpha 'mathvariant "script"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "script"))))
 (define $Alpha:bold-script
-  (set-attr* $Alpha 'mathvariant "bold-script"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "bold-script"))))
 (define $Alpha:fraktur
-  (set-attr* $Alpha 'mathvariant "fraktur"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "fraktur"))))
 (define $Alpha:sans-serif
-  (set-attr* $Alpha 'mathvariant "sans-serif"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "sans-serif"))))
 (define $Alpha:bold-sans-serif
-  (set-attr* $Alpha 'mathvariant "bold-sans-serif"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Alpha:sans-serif-italic
-  (set-attr* $Alpha 'mathvariant "sans-serif-italic"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Alpha:sans-serif-bold-italic
-  (set-attr* $Alpha 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Alpha:monospace
-  (set-attr* $Alpha 'mathvariant "monospace"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "monospace"))))
 (define $Alpha:initial
-  (set-attr* $Alpha 'mathvariant "initial"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "initial"))))
 (define $Alpha:tailed
-  (set-attr* $Alpha 'mathvariant "tailed"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "tailed"))))
 (define $Alpha:looped
-  (set-attr* $Alpha 'mathvariant "looped"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "looped"))))
 (define $Alpha:stretched
-  (set-attr* $Alpha 'mathvariant "stretched"))
+  (Mi "&Alpha;" #:attr* '((mathvariant "stretched"))))
 (define $Beta:normal
-  (set-attr* $Beta 'mathvariant "normal"))
+  (Mi "&Beta;" #:attr* '((mathvariant "normal"))))
 (define $Beta:bold
-  (set-attr* $Beta 'mathvariant "bold"))
+  (Mi "&Beta;" #:attr* '((mathvariant "bold"))))
 (define $Beta:italic
-  (set-attr* $Beta 'mathvariant "italic"))
+  (Mi "&Beta;" #:attr* '((mathvariant "italic"))))
 (define $Beta:bold-italic
-  (set-attr* $Beta 'mathvariant "bold-italic"))
+  (Mi "&Beta;" #:attr* '((mathvariant "bold-italic"))))
 (define $Beta:double-struck
-  (set-attr* $Beta 'mathvariant "double-struck"))
+  (Mi "&Beta;" #:attr* '((mathvariant "double-struck"))))
 (define $Beta:bold-fraktur
-  (set-attr* $Beta 'mathvariant "bold-fraktur"))
+  (Mi "&Beta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Beta:script
-  (set-attr* $Beta 'mathvariant "script"))
+  (Mi "&Beta;" #:attr* '((mathvariant "script"))))
 (define $Beta:bold-script
-  (set-attr* $Beta 'mathvariant "bold-script"))
+  (Mi "&Beta;" #:attr* '((mathvariant "bold-script"))))
 (define $Beta:fraktur
-  (set-attr* $Beta 'mathvariant "fraktur"))
+  (Mi "&Beta;" #:attr* '((mathvariant "fraktur"))))
 (define $Beta:sans-serif
-  (set-attr* $Beta 'mathvariant "sans-serif"))
+  (Mi "&Beta;" #:attr* '((mathvariant "sans-serif"))))
 (define $Beta:bold-sans-serif
-  (set-attr* $Beta 'mathvariant "bold-sans-serif"))
+  (Mi "&Beta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Beta:sans-serif-italic
-  (set-attr* $Beta 'mathvariant "sans-serif-italic"))
+  (Mi "&Beta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Beta:sans-serif-bold-italic
-  (set-attr* $Beta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Beta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Beta:monospace
-  (set-attr* $Beta 'mathvariant "monospace"))
+  (Mi "&Beta;" #:attr* '((mathvariant "monospace"))))
 (define $Beta:initial
-  (set-attr* $Beta 'mathvariant "initial"))
+  (Mi "&Beta;" #:attr* '((mathvariant "initial"))))
 (define $Beta:tailed
-  (set-attr* $Beta 'mathvariant "tailed"))
+  (Mi "&Beta;" #:attr* '((mathvariant "tailed"))))
 (define $Beta:looped
-  (set-attr* $Beta 'mathvariant "looped"))
+  (Mi "&Beta;" #:attr* '((mathvariant "looped"))))
 (define $Beta:stretched
-  (set-attr* $Beta 'mathvariant "stretched"))
+  (Mi "&Beta;" #:attr* '((mathvariant "stretched"))))
 (define $Gamma:normal
-  (set-attr* $Gamma 'mathvariant "normal"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "normal"))))
 (define $Gamma:bold
-  (set-attr* $Gamma 'mathvariant "bold"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "bold"))))
 (define $Gamma:italic
-  (set-attr* $Gamma 'mathvariant "italic"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "italic"))))
 (define $Gamma:bold-italic
-  (set-attr* $Gamma 'mathvariant "bold-italic"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "bold-italic"))))
 (define $Gamma:double-struck
-  (set-attr* $Gamma 'mathvariant "double-struck"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "double-struck"))))
 (define $Gamma:bold-fraktur
-  (set-attr* $Gamma 'mathvariant "bold-fraktur"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Gamma:script
-  (set-attr* $Gamma 'mathvariant "script"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "script"))))
 (define $Gamma:bold-script
-  (set-attr* $Gamma 'mathvariant "bold-script"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "bold-script"))))
 (define $Gamma:fraktur
-  (set-attr* $Gamma 'mathvariant "fraktur"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "fraktur"))))
 (define $Gamma:sans-serif
-  (set-attr* $Gamma 'mathvariant "sans-serif"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "sans-serif"))))
 (define $Gamma:bold-sans-serif
-  (set-attr* $Gamma 'mathvariant "bold-sans-serif"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Gamma:sans-serif-italic
-  (set-attr* $Gamma 'mathvariant "sans-serif-italic"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Gamma:sans-serif-bold-italic
-  (set-attr* $Gamma 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Gamma:monospace
-  (set-attr* $Gamma 'mathvariant "monospace"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "monospace"))))
 (define $Gamma:initial
-  (set-attr* $Gamma 'mathvariant "initial"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "initial"))))
 (define $Gamma:tailed
-  (set-attr* $Gamma 'mathvariant "tailed"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "tailed"))))
 (define $Gamma:looped
-  (set-attr* $Gamma 'mathvariant "looped"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "looped"))))
 (define $Gamma:stretched
-  (set-attr* $Gamma 'mathvariant "stretched"))
+  (Mi "&Gamma;" #:attr* '((mathvariant "stretched"))))
 (define $Delta:normal
-  (set-attr* $Delta 'mathvariant "normal"))
+  (Mi "&Delta;" #:attr* '((mathvariant "normal"))))
 (define $Delta:bold
-  (set-attr* $Delta 'mathvariant "bold"))
+  (Mi "&Delta;" #:attr* '((mathvariant "bold"))))
 (define $Delta:italic
-  (set-attr* $Delta 'mathvariant "italic"))
+  (Mi "&Delta;" #:attr* '((mathvariant "italic"))))
 (define $Delta:bold-italic
-  (set-attr* $Delta 'mathvariant "bold-italic"))
+  (Mi "&Delta;" #:attr* '((mathvariant "bold-italic"))))
 (define $Delta:double-struck
-  (set-attr* $Delta 'mathvariant "double-struck"))
+  (Mi "&Delta;" #:attr* '((mathvariant "double-struck"))))
 (define $Delta:bold-fraktur
-  (set-attr* $Delta 'mathvariant "bold-fraktur"))
+  (Mi "&Delta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Delta:script
-  (set-attr* $Delta 'mathvariant "script"))
+  (Mi "&Delta;" #:attr* '((mathvariant "script"))))
 (define $Delta:bold-script
-  (set-attr* $Delta 'mathvariant "bold-script"))
+  (Mi "&Delta;" #:attr* '((mathvariant "bold-script"))))
 (define $Delta:fraktur
-  (set-attr* $Delta 'mathvariant "fraktur"))
+  (Mi "&Delta;" #:attr* '((mathvariant "fraktur"))))
 (define $Delta:sans-serif
-  (set-attr* $Delta 'mathvariant "sans-serif"))
+  (Mi "&Delta;" #:attr* '((mathvariant "sans-serif"))))
 (define $Delta:bold-sans-serif
-  (set-attr* $Delta 'mathvariant "bold-sans-serif"))
+  (Mi "&Delta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Delta:sans-serif-italic
-  (set-attr* $Delta 'mathvariant "sans-serif-italic"))
+  (Mi "&Delta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Delta:sans-serif-bold-italic
-  (set-attr* $Delta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Delta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Delta:monospace
-  (set-attr* $Delta 'mathvariant "monospace"))
+  (Mi "&Delta;" #:attr* '((mathvariant "monospace"))))
 (define $Delta:initial
-  (set-attr* $Delta 'mathvariant "initial"))
+  (Mi "&Delta;" #:attr* '((mathvariant "initial"))))
 (define $Delta:tailed
-  (set-attr* $Delta 'mathvariant "tailed"))
+  (Mi "&Delta;" #:attr* '((mathvariant "tailed"))))
 (define $Delta:looped
-  (set-attr* $Delta 'mathvariant "looped"))
+  (Mi "&Delta;" #:attr* '((mathvariant "looped"))))
 (define $Delta:stretched
-  (set-attr* $Delta 'mathvariant "stretched"))
+  (Mi "&Delta;" #:attr* '((mathvariant "stretched"))))
 (define $Epsilon:normal
-  (set-attr* $Epsilon 'mathvariant "normal"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "normal"))))
 (define $Epsilon:bold
-  (set-attr* $Epsilon 'mathvariant "bold"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "bold"))))
 (define $Epsilon:italic
-  (set-attr* $Epsilon 'mathvariant "italic"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "italic"))))
 (define $Epsilon:bold-italic
-  (set-attr* $Epsilon 'mathvariant "bold-italic"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "bold-italic"))))
 (define $Epsilon:double-struck
-  (set-attr* $Epsilon 'mathvariant "double-struck"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "double-struck"))))
 (define $Epsilon:bold-fraktur
-  (set-attr* $Epsilon 'mathvariant "bold-fraktur"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Epsilon:script
-  (set-attr* $Epsilon 'mathvariant "script"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "script"))))
 (define $Epsilon:bold-script
-  (set-attr* $Epsilon 'mathvariant "bold-script"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "bold-script"))))
 (define $Epsilon:fraktur
-  (set-attr* $Epsilon 'mathvariant "fraktur"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "fraktur"))))
 (define $Epsilon:sans-serif
-  (set-attr* $Epsilon 'mathvariant "sans-serif"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "sans-serif"))))
 (define $Epsilon:bold-sans-serif
-  (set-attr* $Epsilon 'mathvariant "bold-sans-serif"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Epsilon:sans-serif-italic
-  (set-attr* $Epsilon 'mathvariant "sans-serif-italic"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Epsilon:sans-serif-bold-italic
-  (set-attr* $Epsilon 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Epsilon:monospace
-  (set-attr* $Epsilon 'mathvariant "monospace"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "monospace"))))
 (define $Epsilon:initial
-  (set-attr* $Epsilon 'mathvariant "initial"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "initial"))))
 (define $Epsilon:tailed
-  (set-attr* $Epsilon 'mathvariant "tailed"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "tailed"))))
 (define $Epsilon:looped
-  (set-attr* $Epsilon 'mathvariant "looped"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "looped"))))
 (define $Epsilon:stretched
-  (set-attr* $Epsilon 'mathvariant "stretched"))
+  (Mi "&Epsilon;" #:attr* '((mathvariant "stretched"))))
 (define $Zeta:normal
-  (set-attr* $Zeta 'mathvariant "normal"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "normal"))))
 (define $Zeta:bold
-  (set-attr* $Zeta 'mathvariant "bold"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "bold"))))
 (define $Zeta:italic
-  (set-attr* $Zeta 'mathvariant "italic"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "italic"))))
 (define $Zeta:bold-italic
-  (set-attr* $Zeta 'mathvariant "bold-italic"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "bold-italic"))))
 (define $Zeta:double-struck
-  (set-attr* $Zeta 'mathvariant "double-struck"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "double-struck"))))
 (define $Zeta:bold-fraktur
-  (set-attr* $Zeta 'mathvariant "bold-fraktur"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Zeta:script
-  (set-attr* $Zeta 'mathvariant "script"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "script"))))
 (define $Zeta:bold-script
-  (set-attr* $Zeta 'mathvariant "bold-script"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "bold-script"))))
 (define $Zeta:fraktur
-  (set-attr* $Zeta 'mathvariant "fraktur"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "fraktur"))))
 (define $Zeta:sans-serif
-  (set-attr* $Zeta 'mathvariant "sans-serif"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "sans-serif"))))
 (define $Zeta:bold-sans-serif
-  (set-attr* $Zeta 'mathvariant "bold-sans-serif"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Zeta:sans-serif-italic
-  (set-attr* $Zeta 'mathvariant "sans-serif-italic"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Zeta:sans-serif-bold-italic
-  (set-attr* $Zeta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Zeta:monospace
-  (set-attr* $Zeta 'mathvariant "monospace"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "monospace"))))
 (define $Zeta:initial
-  (set-attr* $Zeta 'mathvariant "initial"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "initial"))))
 (define $Zeta:tailed
-  (set-attr* $Zeta 'mathvariant "tailed"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "tailed"))))
 (define $Zeta:looped
-  (set-attr* $Zeta 'mathvariant "looped"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "looped"))))
 (define $Zeta:stretched
-  (set-attr* $Zeta 'mathvariant "stretched"))
+  (Mi "&Zeta;" #:attr* '((mathvariant "stretched"))))
 (define $Eta:normal
-  (set-attr* $Eta 'mathvariant "normal"))
+  (Mi "&Eta;" #:attr* '((mathvariant "normal"))))
 (define $Eta:bold
-  (set-attr* $Eta 'mathvariant "bold"))
+  (Mi "&Eta;" #:attr* '((mathvariant "bold"))))
 (define $Eta:italic
-  (set-attr* $Eta 'mathvariant "italic"))
+  (Mi "&Eta;" #:attr* '((mathvariant "italic"))))
 (define $Eta:bold-italic
-  (set-attr* $Eta 'mathvariant "bold-italic"))
+  (Mi "&Eta;" #:attr* '((mathvariant "bold-italic"))))
 (define $Eta:double-struck
-  (set-attr* $Eta 'mathvariant "double-struck"))
+  (Mi "&Eta;" #:attr* '((mathvariant "double-struck"))))
 (define $Eta:bold-fraktur
-  (set-attr* $Eta 'mathvariant "bold-fraktur"))
+  (Mi "&Eta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Eta:script
-  (set-attr* $Eta 'mathvariant "script"))
+  (Mi "&Eta;" #:attr* '((mathvariant "script"))))
 (define $Eta:bold-script
-  (set-attr* $Eta 'mathvariant "bold-script"))
+  (Mi "&Eta;" #:attr* '((mathvariant "bold-script"))))
 (define $Eta:fraktur
-  (set-attr* $Eta 'mathvariant "fraktur"))
+  (Mi "&Eta;" #:attr* '((mathvariant "fraktur"))))
 (define $Eta:sans-serif
-  (set-attr* $Eta 'mathvariant "sans-serif"))
+  (Mi "&Eta;" #:attr* '((mathvariant "sans-serif"))))
 (define $Eta:bold-sans-serif
-  (set-attr* $Eta 'mathvariant "bold-sans-serif"))
+  (Mi "&Eta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Eta:sans-serif-italic
-  (set-attr* $Eta 'mathvariant "sans-serif-italic"))
+  (Mi "&Eta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Eta:sans-serif-bold-italic
-  (set-attr* $Eta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Eta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Eta:monospace
-  (set-attr* $Eta 'mathvariant "monospace"))
+  (Mi "&Eta;" #:attr* '((mathvariant "monospace"))))
 (define $Eta:initial
-  (set-attr* $Eta 'mathvariant "initial"))
+  (Mi "&Eta;" #:attr* '((mathvariant "initial"))))
 (define $Eta:tailed
-  (set-attr* $Eta 'mathvariant "tailed"))
+  (Mi "&Eta;" #:attr* '((mathvariant "tailed"))))
 (define $Eta:looped
-  (set-attr* $Eta 'mathvariant "looped"))
+  (Mi "&Eta;" #:attr* '((mathvariant "looped"))))
 (define $Eta:stretched
-  (set-attr* $Eta 'mathvariant "stretched"))
+  (Mi "&Eta;" #:attr* '((mathvariant "stretched"))))
 (define $Theta:normal
-  (set-attr* $Theta 'mathvariant "normal"))
+  (Mi "&Theta;" #:attr* '((mathvariant "normal"))))
 (define $Theta:bold
-  (set-attr* $Theta 'mathvariant "bold"))
+  (Mi "&Theta;" #:attr* '((mathvariant "bold"))))
 (define $Theta:italic
-  (set-attr* $Theta 'mathvariant "italic"))
+  (Mi "&Theta;" #:attr* '((mathvariant "italic"))))
 (define $Theta:bold-italic
-  (set-attr* $Theta 'mathvariant "bold-italic"))
+  (Mi "&Theta;" #:attr* '((mathvariant "bold-italic"))))
 (define $Theta:double-struck
-  (set-attr* $Theta 'mathvariant "double-struck"))
+  (Mi "&Theta;" #:attr* '((mathvariant "double-struck"))))
 (define $Theta:bold-fraktur
-  (set-attr* $Theta 'mathvariant "bold-fraktur"))
+  (Mi "&Theta;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Theta:script
-  (set-attr* $Theta 'mathvariant "script"))
+  (Mi "&Theta;" #:attr* '((mathvariant "script"))))
 (define $Theta:bold-script
-  (set-attr* $Theta 'mathvariant "bold-script"))
+  (Mi "&Theta;" #:attr* '((mathvariant "bold-script"))))
 (define $Theta:fraktur
-  (set-attr* $Theta 'mathvariant "fraktur"))
+  (Mi "&Theta;" #:attr* '((mathvariant "fraktur"))))
 (define $Theta:sans-serif
-  (set-attr* $Theta 'mathvariant "sans-serif"))
+  (Mi "&Theta;" #:attr* '((mathvariant "sans-serif"))))
 (define $Theta:bold-sans-serif
-  (set-attr* $Theta 'mathvariant "bold-sans-serif"))
+  (Mi "&Theta;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Theta:sans-serif-italic
-  (set-attr* $Theta 'mathvariant "sans-serif-italic"))
+  (Mi "&Theta;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Theta:sans-serif-bold-italic
-  (set-attr* $Theta 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Theta;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Theta:monospace
-  (set-attr* $Theta 'mathvariant "monospace"))
+  (Mi "&Theta;" #:attr* '((mathvariant "monospace"))))
 (define $Theta:initial
-  (set-attr* $Theta 'mathvariant "initial"))
+  (Mi "&Theta;" #:attr* '((mathvariant "initial"))))
 (define $Theta:tailed
-  (set-attr* $Theta 'mathvariant "tailed"))
+  (Mi "&Theta;" #:attr* '((mathvariant "tailed"))))
 (define $Theta:looped
-  (set-attr* $Theta 'mathvariant "looped"))
+  (Mi "&Theta;" #:attr* '((mathvariant "looped"))))
 (define $Theta:stretched
-  (set-attr* $Theta 'mathvariant "stretched"))
+  (Mi "&Theta;" #:attr* '((mathvariant "stretched"))))
 (define $Iota:normal
-  (set-attr* $Iota 'mathvariant "normal"))
+  (Mi "&Iota;" #:attr* '((mathvariant "normal"))))
 (define $Iota:bold
-  (set-attr* $Iota 'mathvariant "bold"))
+  (Mi "&Iota;" #:attr* '((mathvariant "bold"))))
 (define $Iota:italic
-  (set-attr* $Iota 'mathvariant "italic"))
+  (Mi "&Iota;" #:attr* '((mathvariant "italic"))))
 (define $Iota:bold-italic
-  (set-attr* $Iota 'mathvariant "bold-italic"))
+  (Mi "&Iota;" #:attr* '((mathvariant "bold-italic"))))
 (define $Iota:double-struck
-  (set-attr* $Iota 'mathvariant "double-struck"))
+  (Mi "&Iota;" #:attr* '((mathvariant "double-struck"))))
 (define $Iota:bold-fraktur
-  (set-attr* $Iota 'mathvariant "bold-fraktur"))
+  (Mi "&Iota;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Iota:script
-  (set-attr* $Iota 'mathvariant "script"))
+  (Mi "&Iota;" #:attr* '((mathvariant "script"))))
 (define $Iota:bold-script
-  (set-attr* $Iota 'mathvariant "bold-script"))
+  (Mi "&Iota;" #:attr* '((mathvariant "bold-script"))))
 (define $Iota:fraktur
-  (set-attr* $Iota 'mathvariant "fraktur"))
+  (Mi "&Iota;" #:attr* '((mathvariant "fraktur"))))
 (define $Iota:sans-serif
-  (set-attr* $Iota 'mathvariant "sans-serif"))
+  (Mi "&Iota;" #:attr* '((mathvariant "sans-serif"))))
 (define $Iota:bold-sans-serif
-  (set-attr* $Iota 'mathvariant "bold-sans-serif"))
+  (Mi "&Iota;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Iota:sans-serif-italic
-  (set-attr* $Iota 'mathvariant "sans-serif-italic"))
+  (Mi "&Iota;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Iota:sans-serif-bold-italic
-  (set-attr* $Iota 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Iota;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Iota:monospace
-  (set-attr* $Iota 'mathvariant "monospace"))
+  (Mi "&Iota;" #:attr* '((mathvariant "monospace"))))
 (define $Iota:initial
-  (set-attr* $Iota 'mathvariant "initial"))
+  (Mi "&Iota;" #:attr* '((mathvariant "initial"))))
 (define $Iota:tailed
-  (set-attr* $Iota 'mathvariant "tailed"))
+  (Mi "&Iota;" #:attr* '((mathvariant "tailed"))))
 (define $Iota:looped
-  (set-attr* $Iota 'mathvariant "looped"))
+  (Mi "&Iota;" #:attr* '((mathvariant "looped"))))
 (define $Iota:stretched
-  (set-attr* $Iota 'mathvariant "stretched"))
+  (Mi "&Iota;" #:attr* '((mathvariant "stretched"))))
 (define $Kappa:normal
-  (set-attr* $Kappa 'mathvariant "normal"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "normal"))))
 (define $Kappa:bold
-  (set-attr* $Kappa 'mathvariant "bold"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "bold"))))
 (define $Kappa:italic
-  (set-attr* $Kappa 'mathvariant "italic"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "italic"))))
 (define $Kappa:bold-italic
-  (set-attr* $Kappa 'mathvariant "bold-italic"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "bold-italic"))))
 (define $Kappa:double-struck
-  (set-attr* $Kappa 'mathvariant "double-struck"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "double-struck"))))
 (define $Kappa:bold-fraktur
-  (set-attr* $Kappa 'mathvariant "bold-fraktur"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Kappa:script
-  (set-attr* $Kappa 'mathvariant "script"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "script"))))
 (define $Kappa:bold-script
-  (set-attr* $Kappa 'mathvariant "bold-script"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "bold-script"))))
 (define $Kappa:fraktur
-  (set-attr* $Kappa 'mathvariant "fraktur"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "fraktur"))))
 (define $Kappa:sans-serif
-  (set-attr* $Kappa 'mathvariant "sans-serif"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "sans-serif"))))
 (define $Kappa:bold-sans-serif
-  (set-attr* $Kappa 'mathvariant "bold-sans-serif"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Kappa:sans-serif-italic
-  (set-attr* $Kappa 'mathvariant "sans-serif-italic"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Kappa:sans-serif-bold-italic
-  (set-attr* $Kappa 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Kappa:monospace
-  (set-attr* $Kappa 'mathvariant "monospace"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "monospace"))))
 (define $Kappa:initial
-  (set-attr* $Kappa 'mathvariant "initial"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "initial"))))
 (define $Kappa:tailed
-  (set-attr* $Kappa 'mathvariant "tailed"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "tailed"))))
 (define $Kappa:looped
-  (set-attr* $Kappa 'mathvariant "looped"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "looped"))))
 (define $Kappa:stretched
-  (set-attr* $Kappa 'mathvariant "stretched"))
+  (Mi "&Kappa;" #:attr* '((mathvariant "stretched"))))
 (define $Lambda:normal
-  (set-attr* $Lambda 'mathvariant "normal"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "normal"))))
 (define $Lambda:bold
-  (set-attr* $Lambda 'mathvariant "bold"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "bold"))))
 (define $Lambda:italic
-  (set-attr* $Lambda 'mathvariant "italic"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "italic"))))
 (define $Lambda:bold-italic
-  (set-attr* $Lambda 'mathvariant "bold-italic"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "bold-italic"))))
 (define $Lambda:double-struck
-  (set-attr* $Lambda 'mathvariant "double-struck"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "double-struck"))))
 (define $Lambda:bold-fraktur
-  (set-attr* $Lambda 'mathvariant "bold-fraktur"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Lambda:script
-  (set-attr* $Lambda 'mathvariant "script"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "script"))))
 (define $Lambda:bold-script
-  (set-attr* $Lambda 'mathvariant "bold-script"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "bold-script"))))
 (define $Lambda:fraktur
-  (set-attr* $Lambda 'mathvariant "fraktur"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "fraktur"))))
 (define $Lambda:sans-serif
-  (set-attr* $Lambda 'mathvariant "sans-serif"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "sans-serif"))))
 (define $Lambda:bold-sans-serif
-  (set-attr* $Lambda 'mathvariant "bold-sans-serif"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Lambda:sans-serif-italic
-  (set-attr* $Lambda 'mathvariant "sans-serif-italic"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Lambda:sans-serif-bold-italic
-  (set-attr* $Lambda 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Lambda:monospace
-  (set-attr* $Lambda 'mathvariant "monospace"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "monospace"))))
 (define $Lambda:initial
-  (set-attr* $Lambda 'mathvariant "initial"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "initial"))))
 (define $Lambda:tailed
-  (set-attr* $Lambda 'mathvariant "tailed"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "tailed"))))
 (define $Lambda:looped
-  (set-attr* $Lambda 'mathvariant "looped"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "looped"))))
 (define $Lambda:stretched
-  (set-attr* $Lambda 'mathvariant "stretched"))
+  (Mi "&Lambda;" #:attr* '((mathvariant "stretched"))))
 (define $Mu:normal
-  (set-attr* $Mu 'mathvariant "normal"))
+  (Mi "&Mu;" #:attr* '((mathvariant "normal"))))
 (define $Mu:bold
-  (set-attr* $Mu 'mathvariant "bold"))
+  (Mi "&Mu;" #:attr* '((mathvariant "bold"))))
 (define $Mu:italic
-  (set-attr* $Mu 'mathvariant "italic"))
+  (Mi "&Mu;" #:attr* '((mathvariant "italic"))))
 (define $Mu:bold-italic
-  (set-attr* $Mu 'mathvariant "bold-italic"))
+  (Mi "&Mu;" #:attr* '((mathvariant "bold-italic"))))
 (define $Mu:double-struck
-  (set-attr* $Mu 'mathvariant "double-struck"))
+  (Mi "&Mu;" #:attr* '((mathvariant "double-struck"))))
 (define $Mu:bold-fraktur
-  (set-attr* $Mu 'mathvariant "bold-fraktur"))
+  (Mi "&Mu;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Mu:script
-  (set-attr* $Mu 'mathvariant "script"))
+  (Mi "&Mu;" #:attr* '((mathvariant "script"))))
 (define $Mu:bold-script
-  (set-attr* $Mu 'mathvariant "bold-script"))
+  (Mi "&Mu;" #:attr* '((mathvariant "bold-script"))))
 (define $Mu:fraktur
-  (set-attr* $Mu 'mathvariant "fraktur"))
+  (Mi "&Mu;" #:attr* '((mathvariant "fraktur"))))
 (define $Mu:sans-serif
-  (set-attr* $Mu 'mathvariant "sans-serif"))
+  (Mi "&Mu;" #:attr* '((mathvariant "sans-serif"))))
 (define $Mu:bold-sans-serif
-  (set-attr* $Mu 'mathvariant "bold-sans-serif"))
+  (Mi "&Mu;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Mu:sans-serif-italic
-  (set-attr* $Mu 'mathvariant "sans-serif-italic"))
+  (Mi "&Mu;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Mu:sans-serif-bold-italic
-  (set-attr* $Mu 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Mu;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Mu:monospace
-  (set-attr* $Mu 'mathvariant "monospace"))
+  (Mi "&Mu;" #:attr* '((mathvariant "monospace"))))
 (define $Mu:initial
-  (set-attr* $Mu 'mathvariant "initial"))
+  (Mi "&Mu;" #:attr* '((mathvariant "initial"))))
 (define $Mu:tailed
-  (set-attr* $Mu 'mathvariant "tailed"))
+  (Mi "&Mu;" #:attr* '((mathvariant "tailed"))))
 (define $Mu:looped
-  (set-attr* $Mu 'mathvariant "looped"))
+  (Mi "&Mu;" #:attr* '((mathvariant "looped"))))
 (define $Mu:stretched
-  (set-attr* $Mu 'mathvariant "stretched"))
+  (Mi "&Mu;" #:attr* '((mathvariant "stretched"))))
 (define $Nu:normal
-  (set-attr* $Nu 'mathvariant "normal"))
+  (Mi "&Nu;" #:attr* '((mathvariant "normal"))))
 (define $Nu:bold
-  (set-attr* $Nu 'mathvariant "bold"))
+  (Mi "&Nu;" #:attr* '((mathvariant "bold"))))
 (define $Nu:italic
-  (set-attr* $Nu 'mathvariant "italic"))
+  (Mi "&Nu;" #:attr* '((mathvariant "italic"))))
 (define $Nu:bold-italic
-  (set-attr* $Nu 'mathvariant "bold-italic"))
+  (Mi "&Nu;" #:attr* '((mathvariant "bold-italic"))))
 (define $Nu:double-struck
-  (set-attr* $Nu 'mathvariant "double-struck"))
+  (Mi "&Nu;" #:attr* '((mathvariant "double-struck"))))
 (define $Nu:bold-fraktur
-  (set-attr* $Nu 'mathvariant "bold-fraktur"))
+  (Mi "&Nu;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Nu:script
-  (set-attr* $Nu 'mathvariant "script"))
+  (Mi "&Nu;" #:attr* '((mathvariant "script"))))
 (define $Nu:bold-script
-  (set-attr* $Nu 'mathvariant "bold-script"))
+  (Mi "&Nu;" #:attr* '((mathvariant "bold-script"))))
 (define $Nu:fraktur
-  (set-attr* $Nu 'mathvariant "fraktur"))
+  (Mi "&Nu;" #:attr* '((mathvariant "fraktur"))))
 (define $Nu:sans-serif
-  (set-attr* $Nu 'mathvariant "sans-serif"))
+  (Mi "&Nu;" #:attr* '((mathvariant "sans-serif"))))
 (define $Nu:bold-sans-serif
-  (set-attr* $Nu 'mathvariant "bold-sans-serif"))
+  (Mi "&Nu;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Nu:sans-serif-italic
-  (set-attr* $Nu 'mathvariant "sans-serif-italic"))
+  (Mi "&Nu;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Nu:sans-serif-bold-italic
-  (set-attr* $Nu 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Nu;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Nu:monospace
-  (set-attr* $Nu 'mathvariant "monospace"))
+  (Mi "&Nu;" #:attr* '((mathvariant "monospace"))))
 (define $Nu:initial
-  (set-attr* $Nu 'mathvariant "initial"))
+  (Mi "&Nu;" #:attr* '((mathvariant "initial"))))
 (define $Nu:tailed
-  (set-attr* $Nu 'mathvariant "tailed"))
+  (Mi "&Nu;" #:attr* '((mathvariant "tailed"))))
 (define $Nu:looped
-  (set-attr* $Nu 'mathvariant "looped"))
+  (Mi "&Nu;" #:attr* '((mathvariant "looped"))))
 (define $Nu:stretched
-  (set-attr* $Nu 'mathvariant "stretched"))
+  (Mi "&Nu;" #:attr* '((mathvariant "stretched"))))
 (define $Xi:normal
-  (set-attr* $Xi 'mathvariant "normal"))
+  (Mi "&Xi;" #:attr* '((mathvariant "normal"))))
 (define $Xi:bold
-  (set-attr* $Xi 'mathvariant "bold"))
+  (Mi "&Xi;" #:attr* '((mathvariant "bold"))))
 (define $Xi:italic
-  (set-attr* $Xi 'mathvariant "italic"))
+  (Mi "&Xi;" #:attr* '((mathvariant "italic"))))
 (define $Xi:bold-italic
-  (set-attr* $Xi 'mathvariant "bold-italic"))
+  (Mi "&Xi;" #:attr* '((mathvariant "bold-italic"))))
 (define $Xi:double-struck
-  (set-attr* $Xi 'mathvariant "double-struck"))
+  (Mi "&Xi;" #:attr* '((mathvariant "double-struck"))))
 (define $Xi:bold-fraktur
-  (set-attr* $Xi 'mathvariant "bold-fraktur"))
+  (Mi "&Xi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Xi:script
-  (set-attr* $Xi 'mathvariant "script"))
+  (Mi "&Xi;" #:attr* '((mathvariant "script"))))
 (define $Xi:bold-script
-  (set-attr* $Xi 'mathvariant "bold-script"))
+  (Mi "&Xi;" #:attr* '((mathvariant "bold-script"))))
 (define $Xi:fraktur
-  (set-attr* $Xi 'mathvariant "fraktur"))
+  (Mi "&Xi;" #:attr* '((mathvariant "fraktur"))))
 (define $Xi:sans-serif
-  (set-attr* $Xi 'mathvariant "sans-serif"))
+  (Mi "&Xi;" #:attr* '((mathvariant "sans-serif"))))
 (define $Xi:bold-sans-serif
-  (set-attr* $Xi 'mathvariant "bold-sans-serif"))
+  (Mi "&Xi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Xi:sans-serif-italic
-  (set-attr* $Xi 'mathvariant "sans-serif-italic"))
+  (Mi "&Xi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Xi:sans-serif-bold-italic
-  (set-attr* $Xi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Xi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Xi:monospace
-  (set-attr* $Xi 'mathvariant "monospace"))
+  (Mi "&Xi;" #:attr* '((mathvariant "monospace"))))
 (define $Xi:initial
-  (set-attr* $Xi 'mathvariant "initial"))
+  (Mi "&Xi;" #:attr* '((mathvariant "initial"))))
 (define $Xi:tailed
-  (set-attr* $Xi 'mathvariant "tailed"))
+  (Mi "&Xi;" #:attr* '((mathvariant "tailed"))))
 (define $Xi:looped
-  (set-attr* $Xi 'mathvariant "looped"))
+  (Mi "&Xi;" #:attr* '((mathvariant "looped"))))
 (define $Xi:stretched
-  (set-attr* $Xi 'mathvariant "stretched"))
+  (Mi "&Xi;" #:attr* '((mathvariant "stretched"))))
 (define $Omicron:normal
-  (set-attr* $Omicron 'mathvariant "normal"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "normal"))))
 (define $Omicron:bold
-  (set-attr* $Omicron 'mathvariant "bold"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "bold"))))
 (define $Omicron:italic
-  (set-attr* $Omicron 'mathvariant "italic"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "italic"))))
 (define $Omicron:bold-italic
-  (set-attr* $Omicron 'mathvariant "bold-italic"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "bold-italic"))))
 (define $Omicron:double-struck
-  (set-attr* $Omicron 'mathvariant "double-struck"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "double-struck"))))
 (define $Omicron:bold-fraktur
-  (set-attr* $Omicron 'mathvariant "bold-fraktur"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Omicron:script
-  (set-attr* $Omicron 'mathvariant "script"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "script"))))
 (define $Omicron:bold-script
-  (set-attr* $Omicron 'mathvariant "bold-script"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "bold-script"))))
 (define $Omicron:fraktur
-  (set-attr* $Omicron 'mathvariant "fraktur"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "fraktur"))))
 (define $Omicron:sans-serif
-  (set-attr* $Omicron 'mathvariant "sans-serif"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "sans-serif"))))
 (define $Omicron:bold-sans-serif
-  (set-attr* $Omicron 'mathvariant "bold-sans-serif"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Omicron:sans-serif-italic
-  (set-attr* $Omicron 'mathvariant "sans-serif-italic"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Omicron:sans-serif-bold-italic
-  (set-attr* $Omicron 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Omicron:monospace
-  (set-attr* $Omicron 'mathvariant "monospace"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "monospace"))))
 (define $Omicron:initial
-  (set-attr* $Omicron 'mathvariant "initial"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "initial"))))
 (define $Omicron:tailed
-  (set-attr* $Omicron 'mathvariant "tailed"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "tailed"))))
 (define $Omicron:looped
-  (set-attr* $Omicron 'mathvariant "looped"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "looped"))))
 (define $Omicron:stretched
-  (set-attr* $Omicron 'mathvariant "stretched"))
+  (Mi "&Omicron;" #:attr* '((mathvariant "stretched"))))
 (define $Pi:normal
-  (set-attr* $Pi 'mathvariant "normal"))
+  (Mi "&Pi;" #:attr* '((mathvariant "normal"))))
 (define $Pi:bold
-  (set-attr* $Pi 'mathvariant "bold"))
+  (Mi "&Pi;" #:attr* '((mathvariant "bold"))))
 (define $Pi:italic
-  (set-attr* $Pi 'mathvariant "italic"))
+  (Mi "&Pi;" #:attr* '((mathvariant "italic"))))
 (define $Pi:bold-italic
-  (set-attr* $Pi 'mathvariant "bold-italic"))
+  (Mi "&Pi;" #:attr* '((mathvariant "bold-italic"))))
 (define $Pi:double-struck
-  (set-attr* $Pi 'mathvariant "double-struck"))
+  (Mi "&Pi;" #:attr* '((mathvariant "double-struck"))))
 (define $Pi:bold-fraktur
-  (set-attr* $Pi 'mathvariant "bold-fraktur"))
+  (Mi "&Pi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Pi:script
-  (set-attr* $Pi 'mathvariant "script"))
+  (Mi "&Pi;" #:attr* '((mathvariant "script"))))
 (define $Pi:bold-script
-  (set-attr* $Pi 'mathvariant "bold-script"))
+  (Mi "&Pi;" #:attr* '((mathvariant "bold-script"))))
 (define $Pi:fraktur
-  (set-attr* $Pi 'mathvariant "fraktur"))
+  (Mi "&Pi;" #:attr* '((mathvariant "fraktur"))))
 (define $Pi:sans-serif
-  (set-attr* $Pi 'mathvariant "sans-serif"))
+  (Mi "&Pi;" #:attr* '((mathvariant "sans-serif"))))
 (define $Pi:bold-sans-serif
-  (set-attr* $Pi 'mathvariant "bold-sans-serif"))
+  (Mi "&Pi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Pi:sans-serif-italic
-  (set-attr* $Pi 'mathvariant "sans-serif-italic"))
+  (Mi "&Pi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Pi:sans-serif-bold-italic
-  (set-attr* $Pi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Pi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Pi:monospace
-  (set-attr* $Pi 'mathvariant "monospace"))
+  (Mi "&Pi;" #:attr* '((mathvariant "monospace"))))
 (define $Pi:initial
-  (set-attr* $Pi 'mathvariant "initial"))
+  (Mi "&Pi;" #:attr* '((mathvariant "initial"))))
 (define $Pi:tailed
-  (set-attr* $Pi 'mathvariant "tailed"))
+  (Mi "&Pi;" #:attr* '((mathvariant "tailed"))))
 (define $Pi:looped
-  (set-attr* $Pi 'mathvariant "looped"))
+  (Mi "&Pi;" #:attr* '((mathvariant "looped"))))
 (define $Pi:stretched
-  (set-attr* $Pi 'mathvariant "stretched"))
+  (Mi "&Pi;" #:attr* '((mathvariant "stretched"))))
 (define $Rho:normal
-  (set-attr* $Rho 'mathvariant "normal"))
+  (Mi "&Rho;" #:attr* '((mathvariant "normal"))))
 (define $Rho:bold
-  (set-attr* $Rho 'mathvariant "bold"))
+  (Mi "&Rho;" #:attr* '((mathvariant "bold"))))
 (define $Rho:italic
-  (set-attr* $Rho 'mathvariant "italic"))
+  (Mi "&Rho;" #:attr* '((mathvariant "italic"))))
 (define $Rho:bold-italic
-  (set-attr* $Rho 'mathvariant "bold-italic"))
+  (Mi "&Rho;" #:attr* '((mathvariant "bold-italic"))))
 (define $Rho:double-struck
-  (set-attr* $Rho 'mathvariant "double-struck"))
+  (Mi "&Rho;" #:attr* '((mathvariant "double-struck"))))
 (define $Rho:bold-fraktur
-  (set-attr* $Rho 'mathvariant "bold-fraktur"))
+  (Mi "&Rho;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Rho:script
-  (set-attr* $Rho 'mathvariant "script"))
+  (Mi "&Rho;" #:attr* '((mathvariant "script"))))
 (define $Rho:bold-script
-  (set-attr* $Rho 'mathvariant "bold-script"))
+  (Mi "&Rho;" #:attr* '((mathvariant "bold-script"))))
 (define $Rho:fraktur
-  (set-attr* $Rho 'mathvariant "fraktur"))
+  (Mi "&Rho;" #:attr* '((mathvariant "fraktur"))))
 (define $Rho:sans-serif
-  (set-attr* $Rho 'mathvariant "sans-serif"))
+  (Mi "&Rho;" #:attr* '((mathvariant "sans-serif"))))
 (define $Rho:bold-sans-serif
-  (set-attr* $Rho 'mathvariant "bold-sans-serif"))
+  (Mi "&Rho;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Rho:sans-serif-italic
-  (set-attr* $Rho 'mathvariant "sans-serif-italic"))
+  (Mi "&Rho;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Rho:sans-serif-bold-italic
-  (set-attr* $Rho 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Rho;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Rho:monospace
-  (set-attr* $Rho 'mathvariant "monospace"))
+  (Mi "&Rho;" #:attr* '((mathvariant "monospace"))))
 (define $Rho:initial
-  (set-attr* $Rho 'mathvariant "initial"))
+  (Mi "&Rho;" #:attr* '((mathvariant "initial"))))
 (define $Rho:tailed
-  (set-attr* $Rho 'mathvariant "tailed"))
+  (Mi "&Rho;" #:attr* '((mathvariant "tailed"))))
 (define $Rho:looped
-  (set-attr* $Rho 'mathvariant "looped"))
+  (Mi "&Rho;" #:attr* '((mathvariant "looped"))))
 (define $Rho:stretched
-  (set-attr* $Rho 'mathvariant "stretched"))
+  (Mi "&Rho;" #:attr* '((mathvariant "stretched"))))
 (define $Sigma:normal
-  (set-attr* $Sigma 'mathvariant "normal"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "normal"))))
 (define $Sigma:bold
-  (set-attr* $Sigma 'mathvariant "bold"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "bold"))))
 (define $Sigma:italic
-  (set-attr* $Sigma 'mathvariant "italic"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "italic"))))
 (define $Sigma:bold-italic
-  (set-attr* $Sigma 'mathvariant "bold-italic"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "bold-italic"))))
 (define $Sigma:double-struck
-  (set-attr* $Sigma 'mathvariant "double-struck"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "double-struck"))))
 (define $Sigma:bold-fraktur
-  (set-attr* $Sigma 'mathvariant "bold-fraktur"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Sigma:script
-  (set-attr* $Sigma 'mathvariant "script"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "script"))))
 (define $Sigma:bold-script
-  (set-attr* $Sigma 'mathvariant "bold-script"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "bold-script"))))
 (define $Sigma:fraktur
-  (set-attr* $Sigma 'mathvariant "fraktur"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "fraktur"))))
 (define $Sigma:sans-serif
-  (set-attr* $Sigma 'mathvariant "sans-serif"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "sans-serif"))))
 (define $Sigma:bold-sans-serif
-  (set-attr* $Sigma 'mathvariant "bold-sans-serif"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Sigma:sans-serif-italic
-  (set-attr* $Sigma 'mathvariant "sans-serif-italic"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Sigma:sans-serif-bold-italic
-  (set-attr* $Sigma 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Sigma:monospace
-  (set-attr* $Sigma 'mathvariant "monospace"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "monospace"))))
 (define $Sigma:initial
-  (set-attr* $Sigma 'mathvariant "initial"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "initial"))))
 (define $Sigma:tailed
-  (set-attr* $Sigma 'mathvariant "tailed"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "tailed"))))
 (define $Sigma:looped
-  (set-attr* $Sigma 'mathvariant "looped"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "looped"))))
 (define $Sigma:stretched
-  (set-attr* $Sigma 'mathvariant "stretched"))
+  (Mi "&Sigma;" #:attr* '((mathvariant "stretched"))))
 (define $Tau:normal
-  (set-attr* $Tau 'mathvariant "normal"))
+  (Mi "&Tau;" #:attr* '((mathvariant "normal"))))
 (define $Tau:bold
-  (set-attr* $Tau 'mathvariant "bold"))
+  (Mi "&Tau;" #:attr* '((mathvariant "bold"))))
 (define $Tau:italic
-  (set-attr* $Tau 'mathvariant "italic"))
+  (Mi "&Tau;" #:attr* '((mathvariant "italic"))))
 (define $Tau:bold-italic
-  (set-attr* $Tau 'mathvariant "bold-italic"))
+  (Mi "&Tau;" #:attr* '((mathvariant "bold-italic"))))
 (define $Tau:double-struck
-  (set-attr* $Tau 'mathvariant "double-struck"))
+  (Mi "&Tau;" #:attr* '((mathvariant "double-struck"))))
 (define $Tau:bold-fraktur
-  (set-attr* $Tau 'mathvariant "bold-fraktur"))
+  (Mi "&Tau;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Tau:script
-  (set-attr* $Tau 'mathvariant "script"))
+  (Mi "&Tau;" #:attr* '((mathvariant "script"))))
 (define $Tau:bold-script
-  (set-attr* $Tau 'mathvariant "bold-script"))
+  (Mi "&Tau;" #:attr* '((mathvariant "bold-script"))))
 (define $Tau:fraktur
-  (set-attr* $Tau 'mathvariant "fraktur"))
+  (Mi "&Tau;" #:attr* '((mathvariant "fraktur"))))
 (define $Tau:sans-serif
-  (set-attr* $Tau 'mathvariant "sans-serif"))
+  (Mi "&Tau;" #:attr* '((mathvariant "sans-serif"))))
 (define $Tau:bold-sans-serif
-  (set-attr* $Tau 'mathvariant "bold-sans-serif"))
+  (Mi "&Tau;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Tau:sans-serif-italic
-  (set-attr* $Tau 'mathvariant "sans-serif-italic"))
+  (Mi "&Tau;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Tau:sans-serif-bold-italic
-  (set-attr* $Tau 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Tau;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Tau:monospace
-  (set-attr* $Tau 'mathvariant "monospace"))
+  (Mi "&Tau;" #:attr* '((mathvariant "monospace"))))
 (define $Tau:initial
-  (set-attr* $Tau 'mathvariant "initial"))
+  (Mi "&Tau;" #:attr* '((mathvariant "initial"))))
 (define $Tau:tailed
-  (set-attr* $Tau 'mathvariant "tailed"))
+  (Mi "&Tau;" #:attr* '((mathvariant "tailed"))))
 (define $Tau:looped
-  (set-attr* $Tau 'mathvariant "looped"))
+  (Mi "&Tau;" #:attr* '((mathvariant "looped"))))
 (define $Tau:stretched
-  (set-attr* $Tau 'mathvariant "stretched"))
+  (Mi "&Tau;" #:attr* '((mathvariant "stretched"))))
 (define $Upsilon:normal
-  (set-attr* $Upsilon 'mathvariant "normal"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "normal"))))
 (define $Upsilon:bold
-  (set-attr* $Upsilon 'mathvariant "bold"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "bold"))))
 (define $Upsilon:italic
-  (set-attr* $Upsilon 'mathvariant "italic"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "italic"))))
 (define $Upsilon:bold-italic
-  (set-attr* $Upsilon 'mathvariant "bold-italic"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "bold-italic"))))
 (define $Upsilon:double-struck
-  (set-attr* $Upsilon 'mathvariant "double-struck"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "double-struck"))))
 (define $Upsilon:bold-fraktur
-  (set-attr* $Upsilon 'mathvariant "bold-fraktur"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Upsilon:script
-  (set-attr* $Upsilon 'mathvariant "script"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "script"))))
 (define $Upsilon:bold-script
-  (set-attr* $Upsilon 'mathvariant "bold-script"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "bold-script"))))
 (define $Upsilon:fraktur
-  (set-attr* $Upsilon 'mathvariant "fraktur"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "fraktur"))))
 (define $Upsilon:sans-serif
-  (set-attr* $Upsilon 'mathvariant "sans-serif"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "sans-serif"))))
 (define $Upsilon:bold-sans-serif
-  (set-attr* $Upsilon 'mathvariant "bold-sans-serif"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Upsilon:sans-serif-italic
-  (set-attr* $Upsilon 'mathvariant "sans-serif-italic"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Upsilon:sans-serif-bold-italic
-  (set-attr* $Upsilon 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Upsilon:monospace
-  (set-attr* $Upsilon 'mathvariant "monospace"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "monospace"))))
 (define $Upsilon:initial
-  (set-attr* $Upsilon 'mathvariant "initial"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "initial"))))
 (define $Upsilon:tailed
-  (set-attr* $Upsilon 'mathvariant "tailed"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "tailed"))))
 (define $Upsilon:looped
-  (set-attr* $Upsilon 'mathvariant "looped"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "looped"))))
 (define $Upsilon:stretched
-  (set-attr* $Upsilon 'mathvariant "stretched"))
+  (Mi "&Upsilon;" #:attr* '((mathvariant "stretched"))))
 (define $Phi:normal
-  (set-attr* $Phi 'mathvariant "normal"))
+  (Mi "&Phi;" #:attr* '((mathvariant "normal"))))
 (define $Phi:bold
-  (set-attr* $Phi 'mathvariant "bold"))
+  (Mi "&Phi;" #:attr* '((mathvariant "bold"))))
 (define $Phi:italic
-  (set-attr* $Phi 'mathvariant "italic"))
+  (Mi "&Phi;" #:attr* '((mathvariant "italic"))))
 (define $Phi:bold-italic
-  (set-attr* $Phi 'mathvariant "bold-italic"))
+  (Mi "&Phi;" #:attr* '((mathvariant "bold-italic"))))
 (define $Phi:double-struck
-  (set-attr* $Phi 'mathvariant "double-struck"))
+  (Mi "&Phi;" #:attr* '((mathvariant "double-struck"))))
 (define $Phi:bold-fraktur
-  (set-attr* $Phi 'mathvariant "bold-fraktur"))
+  (Mi "&Phi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Phi:script
-  (set-attr* $Phi 'mathvariant "script"))
+  (Mi "&Phi;" #:attr* '((mathvariant "script"))))
 (define $Phi:bold-script
-  (set-attr* $Phi 'mathvariant "bold-script"))
+  (Mi "&Phi;" #:attr* '((mathvariant "bold-script"))))
 (define $Phi:fraktur
-  (set-attr* $Phi 'mathvariant "fraktur"))
+  (Mi "&Phi;" #:attr* '((mathvariant "fraktur"))))
 (define $Phi:sans-serif
-  (set-attr* $Phi 'mathvariant "sans-serif"))
+  (Mi "&Phi;" #:attr* '((mathvariant "sans-serif"))))
 (define $Phi:bold-sans-serif
-  (set-attr* $Phi 'mathvariant "bold-sans-serif"))
+  (Mi "&Phi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Phi:sans-serif-italic
-  (set-attr* $Phi 'mathvariant "sans-serif-italic"))
+  (Mi "&Phi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Phi:sans-serif-bold-italic
-  (set-attr* $Phi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Phi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Phi:monospace
-  (set-attr* $Phi 'mathvariant "monospace"))
+  (Mi "&Phi;" #:attr* '((mathvariant "monospace"))))
 (define $Phi:initial
-  (set-attr* $Phi 'mathvariant "initial"))
+  (Mi "&Phi;" #:attr* '((mathvariant "initial"))))
 (define $Phi:tailed
-  (set-attr* $Phi 'mathvariant "tailed"))
+  (Mi "&Phi;" #:attr* '((mathvariant "tailed"))))
 (define $Phi:looped
-  (set-attr* $Phi 'mathvariant "looped"))
+  (Mi "&Phi;" #:attr* '((mathvariant "looped"))))
 (define $Phi:stretched
-  (set-attr* $Phi 'mathvariant "stretched"))
+  (Mi "&Phi;" #:attr* '((mathvariant "stretched"))))
 (define $Chi:normal
-  (set-attr* $Chi 'mathvariant "normal"))
+  (Mi "&Chi;" #:attr* '((mathvariant "normal"))))
 (define $Chi:bold
-  (set-attr* $Chi 'mathvariant "bold"))
+  (Mi "&Chi;" #:attr* '((mathvariant "bold"))))
 (define $Chi:italic
-  (set-attr* $Chi 'mathvariant "italic"))
+  (Mi "&Chi;" #:attr* '((mathvariant "italic"))))
 (define $Chi:bold-italic
-  (set-attr* $Chi 'mathvariant "bold-italic"))
+  (Mi "&Chi;" #:attr* '((mathvariant "bold-italic"))))
 (define $Chi:double-struck
-  (set-attr* $Chi 'mathvariant "double-struck"))
+  (Mi "&Chi;" #:attr* '((mathvariant "double-struck"))))
 (define $Chi:bold-fraktur
-  (set-attr* $Chi 'mathvariant "bold-fraktur"))
+  (Mi "&Chi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Chi:script
-  (set-attr* $Chi 'mathvariant "script"))
+  (Mi "&Chi;" #:attr* '((mathvariant "script"))))
 (define $Chi:bold-script
-  (set-attr* $Chi 'mathvariant "bold-script"))
+  (Mi "&Chi;" #:attr* '((mathvariant "bold-script"))))
 (define $Chi:fraktur
-  (set-attr* $Chi 'mathvariant "fraktur"))
+  (Mi "&Chi;" #:attr* '((mathvariant "fraktur"))))
 (define $Chi:sans-serif
-  (set-attr* $Chi 'mathvariant "sans-serif"))
+  (Mi "&Chi;" #:attr* '((mathvariant "sans-serif"))))
 (define $Chi:bold-sans-serif
-  (set-attr* $Chi 'mathvariant "bold-sans-serif"))
+  (Mi "&Chi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Chi:sans-serif-italic
-  (set-attr* $Chi 'mathvariant "sans-serif-italic"))
+  (Mi "&Chi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Chi:sans-serif-bold-italic
-  (set-attr* $Chi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Chi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Chi:monospace
-  (set-attr* $Chi 'mathvariant "monospace"))
+  (Mi "&Chi;" #:attr* '((mathvariant "monospace"))))
 (define $Chi:initial
-  (set-attr* $Chi 'mathvariant "initial"))
+  (Mi "&Chi;" #:attr* '((mathvariant "initial"))))
 (define $Chi:tailed
-  (set-attr* $Chi 'mathvariant "tailed"))
+  (Mi "&Chi;" #:attr* '((mathvariant "tailed"))))
 (define $Chi:looped
-  (set-attr* $Chi 'mathvariant "looped"))
+  (Mi "&Chi;" #:attr* '((mathvariant "looped"))))
 (define $Chi:stretched
-  (set-attr* $Chi 'mathvariant "stretched"))
+  (Mi "&Chi;" #:attr* '((mathvariant "stretched"))))
 (define $Psi:normal
-  (set-attr* $Psi 'mathvariant "normal"))
+  (Mi "&Psi;" #:attr* '((mathvariant "normal"))))
 (define $Psi:bold
-  (set-attr* $Psi 'mathvariant "bold"))
+  (Mi "&Psi;" #:attr* '((mathvariant "bold"))))
 (define $Psi:italic
-  (set-attr* $Psi 'mathvariant "italic"))
+  (Mi "&Psi;" #:attr* '((mathvariant "italic"))))
 (define $Psi:bold-italic
-  (set-attr* $Psi 'mathvariant "bold-italic"))
+  (Mi "&Psi;" #:attr* '((mathvariant "bold-italic"))))
 (define $Psi:double-struck
-  (set-attr* $Psi 'mathvariant "double-struck"))
+  (Mi "&Psi;" #:attr* '((mathvariant "double-struck"))))
 (define $Psi:bold-fraktur
-  (set-attr* $Psi 'mathvariant "bold-fraktur"))
+  (Mi "&Psi;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Psi:script
-  (set-attr* $Psi 'mathvariant "script"))
+  (Mi "&Psi;" #:attr* '((mathvariant "script"))))
 (define $Psi:bold-script
-  (set-attr* $Psi 'mathvariant "bold-script"))
+  (Mi "&Psi;" #:attr* '((mathvariant "bold-script"))))
 (define $Psi:fraktur
-  (set-attr* $Psi 'mathvariant "fraktur"))
+  (Mi "&Psi;" #:attr* '((mathvariant "fraktur"))))
 (define $Psi:sans-serif
-  (set-attr* $Psi 'mathvariant "sans-serif"))
+  (Mi "&Psi;" #:attr* '((mathvariant "sans-serif"))))
 (define $Psi:bold-sans-serif
-  (set-attr* $Psi 'mathvariant "bold-sans-serif"))
+  (Mi "&Psi;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Psi:sans-serif-italic
-  (set-attr* $Psi 'mathvariant "sans-serif-italic"))
+  (Mi "&Psi;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Psi:sans-serif-bold-italic
-  (set-attr* $Psi 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Psi;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Psi:monospace
-  (set-attr* $Psi 'mathvariant "monospace"))
+  (Mi "&Psi;" #:attr* '((mathvariant "monospace"))))
 (define $Psi:initial
-  (set-attr* $Psi 'mathvariant "initial"))
+  (Mi "&Psi;" #:attr* '((mathvariant "initial"))))
 (define $Psi:tailed
-  (set-attr* $Psi 'mathvariant "tailed"))
+  (Mi "&Psi;" #:attr* '((mathvariant "tailed"))))
 (define $Psi:looped
-  (set-attr* $Psi 'mathvariant "looped"))
+  (Mi "&Psi;" #:attr* '((mathvariant "looped"))))
 (define $Psi:stretched
-  (set-attr* $Psi 'mathvariant "stretched"))
+  (Mi "&Psi;" #:attr* '((mathvariant "stretched"))))
 (define $Omega:normal
-  (set-attr* $Omega 'mathvariant "normal"))
+  (Mi "&Omega;" #:attr* '((mathvariant "normal"))))
 (define $Omega:bold
-  (set-attr* $Omega 'mathvariant "bold"))
+  (Mi "&Omega;" #:attr* '((mathvariant "bold"))))
 (define $Omega:italic
-  (set-attr* $Omega 'mathvariant "italic"))
+  (Mi "&Omega;" #:attr* '((mathvariant "italic"))))
 (define $Omega:bold-italic
-  (set-attr* $Omega 'mathvariant "bold-italic"))
+  (Mi "&Omega;" #:attr* '((mathvariant "bold-italic"))))
 (define $Omega:double-struck
-  (set-attr* $Omega 'mathvariant "double-struck"))
+  (Mi "&Omega;" #:attr* '((mathvariant "double-struck"))))
 (define $Omega:bold-fraktur
-  (set-attr* $Omega 'mathvariant "bold-fraktur"))
+  (Mi "&Omega;" #:attr* '((mathvariant "bold-fraktur"))))
 (define $Omega:script
-  (set-attr* $Omega 'mathvariant "script"))
+  (Mi "&Omega;" #:attr* '((mathvariant "script"))))
 (define $Omega:bold-script
-  (set-attr* $Omega 'mathvariant "bold-script"))
+  (Mi "&Omega;" #:attr* '((mathvariant "bold-script"))))
 (define $Omega:fraktur
-  (set-attr* $Omega 'mathvariant "fraktur"))
+  (Mi "&Omega;" #:attr* '((mathvariant "fraktur"))))
 (define $Omega:sans-serif
-  (set-attr* $Omega 'mathvariant "sans-serif"))
+  (Mi "&Omega;" #:attr* '((mathvariant "sans-serif"))))
 (define $Omega:bold-sans-serif
-  (set-attr* $Omega 'mathvariant "bold-sans-serif"))
+  (Mi "&Omega;" #:attr* '((mathvariant "bold-sans-serif"))))
 (define $Omega:sans-serif-italic
-  (set-attr* $Omega 'mathvariant "sans-serif-italic"))
+  (Mi "&Omega;" #:attr* '((mathvariant "sans-serif-italic"))))
 (define $Omega:sans-serif-bold-italic
-  (set-attr* $Omega 'mathvariant "sans-serif-bold-italic"))
+  (Mi "&Omega;" #:attr* '((mathvariant "sans-serif-bold-italic"))))
 (define $Omega:monospace
-  (set-attr* $Omega 'mathvariant "monospace"))
+  (Mi "&Omega;" #:attr* '((mathvariant "monospace"))))
 (define $Omega:initial
-  (set-attr* $Omega 'mathvariant "initial"))
+  (Mi "&Omega;" #:attr* '((mathvariant "initial"))))
 (define $Omega:tailed
-  (set-attr* $Omega 'mathvariant "tailed"))
+  (Mi "&Omega;" #:attr* '((mathvariant "tailed"))))
 (define $Omega:looped
-  (set-attr* $Omega 'mathvariant "looped"))
+  (Mi "&Omega;" #:attr* '((mathvariant "looped"))))
 (define $Omega:stretched
-  (set-attr* $Omega 'mathvariant "stretched"))
+  (Mi "&Omega;" #:attr* '((mathvariant "stretched"))))
+
