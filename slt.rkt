@@ -17,9 +17,15 @@
         (((default) *preorder* ,handler) handler)
         (((default) ,handler)
          (lambda (tag attr* . xml*)
-           (apply handler tag attr* (map transform xml*)))))))
+           (apply handler tag attr* (map transform xml*))))
+        (,else
+         (lambda (tag attr* . xml*)
+           `(,tag ,attr* . ,(map transform xml*)))))))
   (define text-handler
-    (cadr (assoc '(text) style*)))
+    (let ((text-binding (assoc '(text) style*)))
+      (if text-binding
+          (cadr text-binding)
+          (lambda (str) str))))
   (define Style*
     (map
      (lambda (binding)
@@ -42,21 +48,40 @@
              (apply default-handler tag attr* xml*))))
       (,str (text-handler str))))
   transform)
-(define (attr*-set attr* x v)
-  (cond ((null? attr*)
-         (list (list x v)))
-        ((eq? (caar attr*) x)
-         (cons (list x v) (cdr attr*)))
-        (else
-         (cons (car attr*)
-               (attr*-set (cdr attr*) x v)))))
-(define (set-attr* xml x v)
+;; (define (attr*-set attr* x v)
+;;   (cond ((null? attr*)
+;;          (list (list x v)))
+;;         ((eq? (caar attr*) x)
+;;          (cons (list x v) (cdr attr*)))
+;;         (else
+;;          (cons (car attr*)
+;;                (attr*-set (cdr attr*) x v)))))
+(define (attr*-set attr* . xv*)
+  (define (s a* x v)
+    (cond ((null? a*)
+           (list (list x v)))
+          ((eq? (caar a*) x)
+           (cons (list x v) (cdr a*)))
+          (else
+           (cons (car a*)
+                 (s (cdr a*) x v)))))
+  (if (null? xv*)
+      attr*
+      (let iter ((x (car xv*))
+                 (v (cadr xv*))
+                 (xv* (cddr xv*))
+                 (a* attr*))
+        (if (null? xv*)
+            (s a* x v)
+            (iter (car xv*) (cadr xv*) (cddr xv*)
+                  (s a* x v))))))
+(define (set-attr* xml . xv*)
   (match xml
     ((,tag ,attr* . ,xml*)
-     `(,tag ,(attr*-set attr* x v) . ,xml*))
+     `(,tag ,(apply attr*-set attr* xv*) . ,xml*))
     (,str
      (guard (string? str))
-     (error 'set-attr* "does not apply to string ~s" str))))
+     `(div ,(apply attr*-set '() xv*) ,str))))
 (define (symbol-append . x*)
   (string->symbol
    (apply string-append
