@@ -2,11 +2,13 @@
 (provide (all-defined-out))
 (require "match.rkt")
 ;<xml> ::= <string>
-;       |  (<symbol> (<attr>*) <xml>*)
+;       |  (<tag> (<attr>*) <xml>*)
+;<tag> ::= <symbol> | <a scheme value other than symbol>
 ;<attr> ::= (<symbol> <string>)
 ;<binding> ::= (<symbol> <handler>)
 ;           |  (<symbol> *preorder* <handler>)
 ;           |  ((default) <handler>)
+;           |  ((default) *preorder* <handler>)
 ;           |  ((text) <text-handler>)
 ;<handler> : <symbol> * <attr>* * <xml>* -> <xml>
 ;<text-handler> : <string> -> <string>
@@ -25,7 +27,7 @@
     (let ((text-binding (assoc '(text) style*)))
       (if text-binding
           (cadr text-binding)
-          (lambda (str) str))))
+          identity)))
   (define Style*
     (map
      (lambda (binding)
@@ -58,13 +60,16 @@
 ;;                (attr*-set (cdr attr*) x v)))))
 (define (attr*-set attr* . xv*)
   (define (s a* x v)
-    (cond ((null? a*)
-           (list (list x v)))
-          ((eq? (caar a*) x)
-           (cons (list x v) (cdr a*)))
-          (else
-           (cons (car a*)
-                 (s (cdr a*) x v)))))
+    (if (eq? v #f)
+        a*
+        (let s ((a* a*) (x x) (v v))
+          (cond ((null? a*)
+                 (list (list x v)))
+                ((eq? (caar a*) x)
+                 (cons (list x v) (cdr a*)))
+                (else
+                 (cons (car a*)
+                       (s (cdr a*) x v)))))))
   (if (null? xv*)
       attr*
       (let iter ((x (car xv*))

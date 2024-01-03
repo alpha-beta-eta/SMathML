@@ -2,7 +2,8 @@
 (provide Xml)
 (require "match.rkt")
 ;<xml> ::= <string>
-;       |  (<symbol> (<attr>*) <xml>*)
+;       |  (<tag> (<attr>*) <xml>*)
+;<tag> ::= <symbol> | <a scheme value other than symbol>
 ;<attr> ::= (<symbol> <string>)
 (define (Attr* attr*)
   (for-each
@@ -12,6 +13,7 @@
 (define (Xml xml)
   (match xml
     ((,tag ,attr* . ,xml*)
+     (guard (symbol? tag)) ;emmm
      (if (null? xml*)
          (begin
            (printf "<~s" tag)
