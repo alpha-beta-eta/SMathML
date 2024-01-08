@@ -67,20 +67,6 @@
   (define id (%heading-id %heading))
   (define href (string-append "#" id))
   `(a ((href ,href)) ,id))
-;<cite> ::= (<%cite> (<attr>*) <xml>*)
-(define (%cite? x)
-  (and (vector? x) (= (vector-length x) 2) (eq? (vector-ref x 0) '%cite)))
-(define (make-%cite present) (vector '%cite present))
-(define (%cite-present %cite) (vector-ref %cite 1))
-(define (set-%cite-present! %cite present) (vector-set! %cite 1 present))
-(define (build-%cite #:present [present default-cite-present])
-  (make-%cite present))
-(define (fenced xml*)
-  (add-between
-   xml* '(", ") #:splice? #t
-   #:before-first '("[") #:after-last '("]")))
-(define (default-cite-present %cite attr* . xml*)
-  `(cite ,attr* . ,(fenced xml*)))
 ;henv auxiliaries
 (define (make-compatible henv level)
   (define len (length henv))
@@ -159,23 +145,16 @@
                 (iterate henv section genv lenv rest (cons current result)))))
             (,else (iterate henv section genv lenv rest (cons current result))))))))
 ;pass1
-(define (make-Tc citation-table)
-  (define (reify id)
-    (cdr (assoc id citation-table)))
-  (define cite-style*
-    `(((default)
-       *preorder*
-       ,(lambda (tag attr* . xml*)
-          (if (%cite? tag)
-              (apply (%cite-present tag) tag attr* (map reify xml*))
-              `(,tag ,attr* . ,(map Tc xml*)))))))
-  (define Tc (T cite-style*))
-  Tc)
+(define (Ref id) `(ref () ,id))
 (define (pass1 exp)
   (define citation-table (car exp))
+  (define (reify id)
+    (cond ((assoc id citation-table) => cdr)
+          (else (error 'pass1 "unknown id ~s" id))))
+  (define Tr
+    (T `((ref ,(lambda (ref empty id) (reify id))))))
   (define xml* (cdr exp))
-  (define Tc (make-Tc citation-table))
-  (map Tc xml*))
+  (map Tr xml*))
 ;automatic numbering
 (define numbering-style*
   `((body
@@ -184,3 +163,8 @@
         `(,tag ,attr* . ,(pass1 (pass0 xml*)))))))
 (define Tn
   (T numbering-style*))
+;other utils
+(define (fenced xml*)
+  (add-between
+   xml* '(", ") #:splice? #t
+   #:before-first '("[") #:after-last '("]")))
