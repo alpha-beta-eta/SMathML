@@ -1,4 +1,5 @@
-当前参考: https://alpha-beta-eta.github.io/smathml.html  
+# SMathML
+Current Reference: https://alpha-beta-eta.github.io/smathml.html  
 Now SMathML has supported automatic numbering for heading and other entries such as theorem, definition or example, though how to use such a mechanism is tricky.
 ![图片](https://github.com/alpha-beta-eta/SMathML/assets/95096031/09ff1779-f46b-458f-8b84-938728c2e739)
 ![image](https://github.com/alpha-beta-eta/SMathML/assets/95096031/c0ff7a82-3424-4908-80c6-1a060cc38a0f)
