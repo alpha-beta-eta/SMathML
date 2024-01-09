@@ -1,4 +1,5 @@
 #lang racket
+(provide (all-defined-out))
 (define (escape s)
   (define l (string-length s))
   (let iter ((i 0))
@@ -15,4 +16,3 @@
   (escape (read-line))
   (newline)
   (escape*))
-(escape*)
