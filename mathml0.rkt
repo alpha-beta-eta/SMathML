@@ -445,8 +445,8 @@
     (error id "~s" x)))
 (define (make-infix op id)
   (make-op op
-    (err0 id)
-    (err1 id)))
+           (err0 id)
+           (err1 id)))
 (define-syntax define-infix*
   (syntax-rules ()
     ((_ (id op) ...)
@@ -455,16 +455,16 @@
        ...))))
 (define &cm
   (make-op $cm
-    (lambda () $)
-    (lambda (x) x)))
+           (lambda () $)
+           (lambda (x) x)))
 (define &+
   (make-op $+
-    (err0 '&+)
-    (lambda (x) (Mrow $+ x))))
+           (err0 '&+)
+           (lambda (x) (Mrow $+ x))))
 (define &-
   (make-op $-
-    (err0 '&-)
-    (lambda (x) (Mrow $- x))))
+           (err0 '&-)
+           (lambda (x) (Mrow $- x))))
 (define $-1 (&- $1))
 (define $-2 (&- $2))
 (define $-3 (&- $3))
@@ -476,16 +476,16 @@
 (define $-9 (&- $9))
 (define &+-
   (make-op $+-
-    (lambda () (err0 '&+-))
-    (lambda (x) (Mrow $+- x))))
+           (lambda () (err0 '&+-))
+           (lambda (x) (Mrow $+- x))))
 (define &-+
   (make-op $-+
-    (lambda () (err0 '&-+))
-    (lambda (x) (Mrow $-+ x))))
+           (lambda () (err0 '&-+))
+           (lambda (x) (Mrow $-+ x))))
 (define &*
   (make-op $*
-    (lambda () (err0 '&*))
-    (lambda (x) (Msup x $*))))
+           (lambda () (err0 '&*))
+           (lambda (x) (Msup x $*))))
 (define $oplus
   (Mo "&oplus;"))
 (define-infix*
@@ -591,6 +591,21 @@
   (syntax-rules ()
     ((_ (x ...) ...)
      (choice (list (list x ...) ...)))))
+(define (choice0 l)
+  (Mrow
+   $lc
+   (apply
+    Mtable
+    (map (lambda (r)
+           (Mtr (Mtd (car r))
+                (keyword-apply
+                 Mtd '(#:attr*) '(((columnalign "left")))
+                 (cdr r))))
+         l))))
+(define-syntax Choice0
+  (syntax-rules ()
+    ((_ (x ...) ...)
+     (choice0 (list (list x ...) ...)))))
 (define (mat l)
   (brac (&table l)))
 (define-syntax Mat
@@ -779,8 +794,8 @@
              (cdr M*))))
 (define (&split n)
   (make-op (&space n)
-    (lambda () $)
-    (lambda (x) x)))
+           (lambda () $)
+           (lambda (x) x)))
 (define $sharp (Mi "&sharp;"))
 (define $::= (Mo "&Colone;"))
 (define $Prime (Mo "&Prime;"))
