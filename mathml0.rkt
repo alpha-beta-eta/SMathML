@@ -445,8 +445,8 @@
     (error id "~s" x)))
 (define (make-infix op id)
   (make-op op
-           (err0 id)
-           (err1 id)))
+    (err0 id)
+    (err1 id)))
 (define-syntax define-infix*
   (syntax-rules ()
     ((_ (id op) ...)
@@ -455,16 +455,16 @@
        ...))))
 (define &cm
   (make-op $cm
-           (lambda () $)
-           (lambda (x) x)))
+    (lambda () $)
+    (lambda (x) x)))
 (define &+
   (make-op $+
-           (err0 '&+)
-           (lambda (x) (Mrow $+ x))))
+    (err0 '&+)
+    (lambda (x) (Mrow $+ x))))
 (define &-
   (make-op $-
-           (err0 '&-)
-           (lambda (x) (Mrow $- x))))
+    (err0 '&-)
+    (lambda (x) (Mrow $- x))))
 (define $-1 (&- $1))
 (define $-2 (&- $2))
 (define $-3 (&- $3))
@@ -476,16 +476,16 @@
 (define $-9 (&- $9))
 (define &+-
   (make-op $+-
-           (lambda () (err0 '&+-))
-           (lambda (x) (Mrow $+- x))))
+    (lambda () (err0 '&+-))
+    (lambda (x) (Mrow $+- x))))
 (define &-+
   (make-op $-+
-           (lambda () (err0 '&-+))
-           (lambda (x) (Mrow $-+ x))))
+    (lambda () (err0 '&-+))
+    (lambda (x) (Mrow $-+ x))))
 (define &*
   (make-op $*
-           (lambda () (err0 '&*))
-           (lambda (x) (Msup x $*))))
+    (lambda () (err0 '&*))
+    (lambda (x) (Msup x $*))))
 (define $oplus
   (Mo "&oplus;"))
 (define-infix*
@@ -701,8 +701,12 @@
   (keyword-apply
    Div '(#:attr*) '(((class "exercise")))
    (B (format "练习~a." n)) " " x*))
+(define $FilledSmallSquare
+  (Mo "&FilledSmallSquare;"))
+(define $EmptySmallSquare
+  (Mo "&EmptySmallSquare;"))
 (define Q.E.D.
-  (Div (B "Q.E.D.") #:attr* '((class "qed"))))
+  (Div $EmptySmallSquare #:attr* '((class "qed"))))
 (define ((proof #:n [n ""]) . x*)
   (keyword-apply
    Div '(#:attr*) '(((class "proof")))
@@ -794,8 +798,8 @@
              (cdr M*))))
 (define (&split n)
   (make-op (&space n)
-           (lambda () $)
-           (lambda (x) x)))
+    (lambda () $)
+    (lambda (x) x)))
 (define $sharp (Mi "&sharp;"))
 (define $::= (Mo "&Colone;"))
 (define $Prime (Mo "&Prime;"))
@@ -815,3 +819,11 @@
                 j (car j*))
              (cdr j*))))
 (define $top (Mi "&top;"))
+(define (@+ x . x*)
+  (@ (apply &+ x x*)))
+(define (@- x . x*)
+  (@ (apply &- x x*)))
+(define (@i* . x*)
+  (@ (apply &i* x*)))
+(define (mref A i j)
+  (_ A (&cm i j)))
