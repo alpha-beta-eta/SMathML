@@ -5,8 +5,8 @@ Now SMathML has supported automatic numbering for heading and other entries such
 ![图片](https://github.com/alpha-beta-eta/SMathML/assets/95096031/09ff1779-f46b-458f-8b84-938728c2e739)
 ![image](https://github.com/alpha-beta-eta/SMathML/assets/95096031/c0ff7a82-3424-4908-80c6-1a060cc38a0f)
 ## Example2
-![image](https://github.com/alpha-beta-eta/SMathML/assets/95096031/76105b05-8b22-49d6-ad94-95eb3a6be0a2)
-![image](https://github.com/alpha-beta-eta/SMathML/assets/95096031/6eefbea7-da01-46c9-b572-0563dcb15d19)
+![image](https://github.com/alpha-beta-eta/SMathML/assets/95096031/2f9ba914-b6ad-4f05-9068-59971bf7185d)
+![image](https://github.com/alpha-beta-eta/SMathML/assets/95096031/91a8337b-22ac-4de9-92b9-3b80471e2a9e)
 ## Example3
 ![图片](https://github.com/alpha-beta-eta/SMathML/assets/95096031/abe8b42b-30d0-4190-991a-18ea39d8e3ea)
 ![图片](https://github.com/alpha-beta-eta/SMathML/assets/95096031/e9946cdf-7204-42e3-aef8-431c9804cf69)
