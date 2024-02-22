@@ -97,6 +97,7 @@
         '()
         (cons (f (car l) i)
               (m (+ i 1) (cdr l))))))
+#;
 (define (Ttable Td)
   (define (Tt table)
     (match table
@@ -108,6 +109,16 @@
        `(mtr ,attr* .
              ,(mapi (lambda (d j) (Td d i j)) d*)))))
   Tt)
+(define (Ttable Td)
+  (define (Tt tag attr* . r*)
+    `(mtable ,attr* . ,(mapi Tr r*)))
+  (define (Tr r i)
+    (apply
+     (lambda (tag attr* . d*)
+       `(mtr ,attr* .
+             ,(mapi (lambda (d j) (Td d i j)) d*)))
+     r))
+  (T `((mtable ,Tt))))
 (define Ttle
   (Ttable (lambda (d i j)
             (if (even? j)
