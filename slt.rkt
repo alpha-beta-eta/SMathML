@@ -1,7 +1,7 @@
 #lang racket
 (provide (all-defined-out))
 (require "match.rkt")
-;<xml> ::= <string>
+;<xml> ::= <string> | <symbol> | <number> | <boolean> | <vector>
 ;       |  (<tag> (<attr>*) <xml>*)
 ;<tag> ::= <symbol> | <a scheme value other than symbol>
 ;<attr> ::= (<symbol> <string>)

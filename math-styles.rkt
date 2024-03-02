@@ -1,6 +1,11 @@
 #lang racket
 (provide Tm)
 (require "mathml.rkt" "slt.rkt")
+(define (Mnum n) (Mn (number->string n)))
+(define (Mint n)
+  (if (< n 0)
+      (&- (Mnum (- n)))
+      (Mnum n)))
 (define math-style*
   `(((default)
      *preorder*
@@ -12,7 +17,12 @@
                                   msup mtable mtd mtext mtr munder
                                   munderover))
                (Math (Tx `(,tag ,attr* . ,xml*))))
-              (else `(,tag ,attr* . ,(map Tm xml*))))))))
+              (else `(,tag ,attr* . ,(map Tm xml*))))))
+    ((text) ,(lambda (text)
+               (cond ((string? text) text)
+                     ((integer? text) (Math (Mint text)))
+                     (else (error 'Tm "unknown element ~s" text)))))
+    ))
 ;token elements: mtext mi mn mo mspace ms
 (define mtext-style*
   `(((default)
@@ -20,6 +30,9 @@
      ,(lambda (tag attr* . xml*)
         (cond ((memq tag '(mtext mi mn mo mspace ms)) `(,tag ,attr* . ,xml*))
               (else `(,tag ,attr* . ,(map Tx xml*))))))
-    ((text) ,(lambda (str) (% str)))))
+    ((text) ,(lambda (text)
+               (cond ((string? text) (% text))
+                     ((integer? text) (Mint text))
+                     (else (error 'Tm "unknown element ~s" text)))))))
 (define Tm (T math-style*))
 (define Tx (T mtext-style*))
