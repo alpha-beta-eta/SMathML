@@ -6,6 +6,12 @@
   (if (< n 0)
       (&- (Mnum (- n)))
       (Mnum n)))
+(define (Mrat n)
+  (let* ((a (numerator n))
+         (b (denominator n)))
+    (if (< a 0)
+        (&- (~ (Mnum (- a)) (Mnum b)))
+        (~ (Mnum a) (Mnum b)))))
 (define math-style*
   `(((default)
      *preorder*
@@ -21,6 +27,7 @@
     ((text) ,(lambda (text)
                (cond ((string? text) text)
                      ((integer? text) (Math (Mint text)))
+                     ((rational? text) (Math (Mrat text)))
                      (else (error 'Tm "unknown element ~s" text)))))
     ))
 ;token elements: mtext mi mn mo mspace ms
@@ -33,6 +40,7 @@
     ((text) ,(lambda (text)
                (cond ((string? text) (% text))
                      ((integer? text) (Mint text))
+                     ((rational? text) (Mrat text))
                      (else (error 'Tm "unknown element ~s" text)))))))
 (define Tm (T math-style*))
 (define Tx (T mtext-style*))
