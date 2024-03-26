@@ -1,6 +1,7 @@
 #lang racket
 (provide Tm)
 (require "mathml.rkt" "slt.rkt")
+(define (Mid id) (Mi (symbol->string id)))
 (define (Mnum n) (Mn (number->string n)))
 (define (Mint n)
   (if (< n 0)
@@ -26,6 +27,7 @@
               (else `(,tag ,attr* . ,(map Tm xml*))))))
     ((text) ,(lambda (text)
                (cond ((string? text) text)
+                     ((symbol? text) (Math (Mid text)))
                      ((integer? text) (Math (Mint text)))
                      ((rational? text) (Math (Mrat text)))
                      (else (error 'Tm "unknown element ~s" text)))))
@@ -39,6 +41,7 @@
               (else `(,tag ,attr* . ,(map Tx xml*))))))
     ((text) ,(lambda (text)
                (cond ((string? text) (% text))
+                     ((symbol? text) (Mid text))
                      ((integer? text) (Mint text))
                      ((rational? text) (Mrat text))
                      (else (error 'Tm "unknown element ~s" text)))))))

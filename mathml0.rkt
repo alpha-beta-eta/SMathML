@@ -594,8 +594,9 @@
 (define (choice0 l)
   (Mrow
    $lc
-   (apply
+   (keyword-apply
     Mtable
+    '(#:attr*) '(((displaystyle "true")))
     (map (lambda (r)
            (Mtr (Mtd (car r))
                 (keyword-apply
