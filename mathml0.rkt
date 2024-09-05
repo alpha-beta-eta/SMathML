@@ -625,6 +625,7 @@
   (syntax-rules ()
     ((_ (x ...) ...)
      (det (list (list x ...) ...)))))
+#;
 (define (deriv x y . z*)
   (keyword-apply
    Mtable
@@ -634,6 +635,15 @@
                 (Mtr (Mtd $) (Mtd $=)
                      (Mtd #:attr* '((columnalign "left")) z)))
               z*))))
+(define (make-row . x*)
+  (apply Mtr (map Mtd x*)))
+(define (deriv x y . z*)
+  (keyword-apply
+   Mtable
+   '(#:attr*) '(((displaystyle "true") (columnalign "right center left")))
+   (cons (make-row x $= y)
+         (map (lambda (z) (make-row $ $= z)) z*))))
+#;
 (define (deriv0 x -> y . z*)
   (define (make-line -> e)
     (Mtr (Mtd $) (Mtd ->)
@@ -651,6 +661,12 @@
    '(#:attr*) '(((displaystyle "true")))
    (cons (Mtr (Mtd x) (Mtd ->) (Mtd #:attr* '((columnalign "left")) y))
          line*)))
+(define (deriv0 x -> y . z*)
+  (keyword-apply
+   Mtable
+   '(#:attr*) '(((displaystyle "true") (columnalign "right center left")))
+   (cons (make-row x -> y)
+         (map2 (lambda (-> w) (make-row $ -> w)) z*))))
 (define (tup . x*)
   (pare (apply &cm x*)))
 (define (tu0 . x*)
