@@ -544,10 +544,46 @@
   (Mrow (Munder (Mo "lim")
                 (Mrow x $->0 a))
         e))
+#;
 (define (sum u o e)
   (Mrow (Munderover (Mo "&sum;") u o) e))
+(define $sum (Mo "&sum;"))
+#;
+(define sum
+  (case-lambda
+    ((u o e) (Mrow (Munderover $sum u o) e))
+    ((u e) (Mrow (Munder $sum u) e))
+    ((e) (Mrow $sum e))))
+#;
 (define (prod u o e)
   (Mrow (Munderover (Mo "&prod;") u o) e))
+(define $prod (Mo "&prod;"))
+#;
+(define prod
+  (case-lambda
+    ((u o e) (Mrow (Munderover $prod u o) e))
+    ((u e) (Mrow (Munder $prod u) e))
+    ((e) (Mrow $prod e))))
+(define (make-bigop op)
+  (case-lambda
+    ((u o e) (Mrow (Munderover op u o) e))
+    ((u e) (Mrow (Munder op u) e))
+    ((e) (Mrow op e))))
+(define-syntax define-bigop*
+  (syntax-rules ()
+    ((_ (id op) ...)
+     (begin
+       (define id (make-bigop op))
+       ...))))
+(define-bigop*
+  (sum $sum)
+  (prod $prod)
+  (Union $Union)
+  (Cup $Union)
+  (Intersect $Cap)
+  (Cap $Cap)
+  
+  )
 (define (integral a b e x)
   (Mrow (_^ $int a b) e
         ;(Mi "d" #:attr* '((mathvariant "normal")))
