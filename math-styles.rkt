@@ -47,3 +47,10 @@
                      (else (error 'Tm "unknown element ~s" text)))))))
 (define Tm (T math-style*))
 (define Tx (T mtext-style*))
+(define (set-compact op)
+  (set-attr* op 'lspace "0" 'rspace "0"))
+(define-syntax-rule (eqn* (x ...) ...)
+  (MB (set-attr*
+       (&Table (x ...) ...)
+       'columnalign "right center left"
+       'displaystyle "true")))

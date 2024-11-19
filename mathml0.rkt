@@ -544,26 +544,8 @@
   (Mrow (Munder (Mo "lim")
                 (Mrow x $->0 a))
         e))
-#;
-(define (sum u o e)
-  (Mrow (Munderover (Mo "&sum;") u o) e))
 (define $sum (Mo "&sum;"))
-#;
-(define sum
-  (case-lambda
-    ((u o e) (Mrow (Munderover $sum u o) e))
-    ((u e) (Mrow (Munder $sum u) e))
-    ((e) (Mrow $sum e))))
-#;
-(define (prod u o e)
-  (Mrow (Munderover (Mo "&prod;") u o) e))
 (define $prod (Mo "&prod;"))
-#;
-(define prod
-  (case-lambda
-    ((u o e) (Mrow (Munderover $prod u o) e))
-    ((u e) (Mrow (Munder $prod u) e))
-    ((e) (Mrow $prod e))))
 (define (make-bigop op)
   (case-lambda
     ((u o e) (Mrow (Munderover op u o) e))
@@ -679,24 +661,6 @@
    '(#:attr*) '(((displaystyle "true") (columnalign "right center left")))
    (cons (make-row x $= y)
          (map (lambda (z) (make-row $ $= z)) z*))))
-#;
-(define (deriv0 x -> y . z*)
-  (define (make-line -> e)
-    (Mtr (Mtd $) (Mtd ->)
-         (Mtd #:attr* '((columnalign "left")) e)))
-  (define line*
-    (if (null? z*)
-        '()
-        (let iter ((-> (car z*)) (e (cadr z*)) (z* (cddr z*)) (r '()))
-          (if (null? z*)
-              (reverse (cons (make-line -> e) r))
-              (iter (car z*) (cadr z*) (cddr z*)
-                    (cons (make-line -> e) r))))))
-  (keyword-apply
-   Mtable
-   '(#:attr*) '(((displaystyle "true")))
-   (cons (Mtr (Mtd x) (Mtd ->) (Mtd #:attr* '((columnalign "left")) y))
-         line*)))
 (define (deriv0 x -> y . z*)
   (keyword-apply
    Mtable
@@ -906,11 +870,25 @@
   (apply appl $max x*))
 (define (setEnum a b)
   (setE a $..h b))
+(define $->-> (Mo "&rrarr;"))
+(define $@-> (Mo "&rarrhk;"))
+(define $<- (Mo "&larr;"))
+(define $->> (Mo "&Rarr;"))
+(define $>-> (Mo "&rarrtl;"))
+(define $! (Mi "!"))
+(define $=> (Mo "&Implies;"))
+(define $exist (Mo "&exist;"))
+(define $forall $=>)
+(define $exists $exist)
 (define-infix*
   (&\; $\;)
   (&equiv $equiv)
   (&t* $t*)
   (&: $:)
+  (&->> $->>)
+  (&>-> $>->)
+  (&->-> $->->)
+  (&@-> $@->)
   
   )
 (define (func:def f A B x fx)
