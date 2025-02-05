@@ -36,25 +36,29 @@
   `(a ((href ,href)) ,id))
 ;<heading> ::= (<%heading> (<attr>*) <xml>*)
 (define (%heading? x)
-  (and (vector? x) (= (vector-length x) 7) (eq? (vector-ref x 0) '%heading)))
-(define (make-%heading level id auto? section present cite)
-  (vector '%heading level id auto? section present cite))
+  (and (vector? x) (= (vector-length x) 8) (eq? (vector-ref x 0) '%heading)))
+(define (make-%heading level id auto? section present cite switch?)
+  (vector '%heading level id auto? section present cite switch?))
 (define (%heading-level %heading) (vector-ref %heading 1))
 (define (%heading-id %heading) (vector-ref %heading 2))
 (define (%heading-auto? %heading) (vector-ref %heading 3))
 (define (%heading-section %heading) (vector-ref %heading 4))
 (define (%heading-present %heading) (vector-ref %heading 5))
 (define (%heading-cite %heading) (vector-ref %heading 6))
+(define (%heading-switch? %heading) (vector-ref %heading 7))
 (define (set-%heading-level! %heading level) (vector-set! %heading 1 level))
 (define (set-%heading-id! %heading id) (vector-set! %heading 2 id))
 (define (set-%heading-auto?! %heading auto?) (vector-set! %heading 3 auto?))
 (define (set-%heading-section! %heading section) (vector-set! %heading 4 section))
 (define (set-%heading-present! %heading present) (vector-set! %heading 5 present))
 (define (set-%heading-cite! %heading cite) (vector-set! %heading 6 cite))
+(define (set-%heading-switch?! %heading switch?)
+  (vector-set! %heading 7 switch?))
 (define (build-%heading #:level [level 1] #:id [id #f] #:auto? [auto? #t] #:section [section #f]
                         #:present [present default-heading-present]
-                        #:cite [cite default-heading-cite])
-  (make-%heading level id auto? section present cite))
+                        #:cite [cite default-heading-cite]
+                        #:switch? [switch? #t])
+  (make-%heading level id auto? section present cite switch?))
 (define (default-heading-present %heading attr* . xml*)
   (define level (%heading-level %heading))
   (define id (%heading-id %heading))
@@ -114,13 +118,16 @@
                 (define auto? (%heading-auto? tag))
                 (define present (%heading-present tag))
                 (define cite (%heading-cite tag))
+                (define switch? (%heading-switch? tag))
                 (cond (auto? (define section (henv-next henv level))
                              (set-%heading-section! tag section)
                              (when id (extend-table! id (cite tag)))
-                             (iterate section section genv '() rest
+                             (iterate section section genv
+                                      (if switch? '() lenv) rest
                                       (cons (apply present tag attr* xml*) result)))
                       (else (when id (extend-table! id (cite tag)))
-                            (iterate henv (%heading-section tag) genv '() rest
+                            (iterate henv (%heading-section tag) genv
+                                     (if switch? '() lenv) rest
                                      (cons (apply present tag attr* xml*) result)))))
                ((%entry? tag)
                 (define local? (%entry-local? tag))
@@ -203,12 +210,15 @@
 (define (H1. #:attr* [attr* '()] #:id [id #f] . html*)
   `(,(build-%heading #:present heading-present #:level 1 #:id id)
     ,attr* . ,html*))
-(define (H2. #:attr* [attr* '()] #:id [id #f] . html*)
-  `(,(build-%heading #:present heading-present #:cite heading-cite #:level 2 #:id id)
+(define (H2. #:attr* [attr* '()] #:id [id #f] #:switch? [switch? #t] . html*)
+  `(,(build-%heading #:present heading-present #:cite heading-cite
+                     #:level 2 #:id id #:switch? switch?)
     ,attr* . ,html*))
-(define (H3. #:attr* [attr* '()] #:id [id #f] . html*)
-  `(,(build-%heading #:present heading-present #:cite heading-cite #:level 3 #:id id)
+(define (H3. #:attr* [attr* '()] #:id [id #f] #:switch? [switch? #t] . html*)
+  `(,(build-%heading #:present heading-present #:cite heading-cite
+                     #:level 3 #:id id #:switch? switch?)
     ,attr* . ,html*))
-(define (H4. #:attr* [attr* '()] #:id [id #f] . html*)
-  `(,(build-%heading #:present heading-present #:cite heading-cite #:level 4 #:id id)
+(define (H4. #:attr* [attr* '()] #:id [id #f] #:switch? [switch? #t] . html*)
+  `(,(build-%heading #:present heading-present #:cite heading-cite
+                     #:level 4 #:id id #:switch? switch?)
     ,attr* . ,html*))
