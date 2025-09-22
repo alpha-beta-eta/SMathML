@@ -224,6 +224,7 @@
   `(video ,attr* . ,html*))
 (define (Wbr #:attr* [attr* '()] . html*)
   `(wbr ,attr* . ,html*))
+#;
 (define (Prelude #:title [title "index"] #:css [css #f] . body*)
   (Html
    (Head
@@ -232,6 +233,16 @@
     (if css
         (Link #:attr* `((href ,css) (rel "stylesheet")))
         ""))
+   (apply Body body*)))
+(define (Prelude #:title [title "index"] #:css [css '()] . body*)
+  (Html
+   (apply
+    Head
+    (Meta #:attr* '((charset "utf-8")))
+    (Title title)
+    (map (lambda (stylesheet)
+           (Link #:attr* `((href ,stylesheet) (rel "stylesheet"))))
+         (if (string? css) (list css) css)))
    (apply Body body*)))
 (define (CodeB . str*)
   (Pre (apply Code str*)))
