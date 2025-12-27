@@ -85,6 +85,9 @@
   (cons (add1 (car henv)) (cdr henv)))
 (define (henv-next henv level)
   (henv-inc (make-compatible henv level)))
+(define (henv-* henv level)
+  (define comp (make-compatible henv level))
+  (cons '* (cdr comp)))
 ;g/lenv auxiliaries
 (define (extend-g/lenv class index g/lenv)
   (cons (cons class (box index)) g/lenv))
@@ -125,8 +128,10 @@
                              (iterate section section genv
                                       (if switch? '() lenv) rest
                                       (cons (apply present tag attr* xml*) result)))
-                      (else (when id (extend-table! id (cite tag)))
-                            (iterate henv (%heading-section tag) genv
+                      (else (define section (henv-* henv level))
+                            (set-%heading-section! tag section)
+                            (when id (extend-table! id (cite tag)))
+                            (iterate henv section genv
                                      (if switch? '() lenv) rest
                                      (cons (apply present tag attr* xml*) result)))))
                ((%entry? tag)
