@@ -740,6 +740,10 @@
   (keyword-apply
    Div '(#:attr*) '(((class "convention")))
    (B (format "约定~a." n)) " " x*))
+(define ((tcomment #:n [n ""]) . x*)
+  (keyword-apply
+   Div '(#:attr*) '(((class "tcomment")))
+   (B (format "译者注记~a." n)) " " x*))
 (define (disR a b c)
   (&= (&i* a (@ (&+ b c)))
       (&+ (&i* a b)
@@ -889,6 +893,8 @@
   (&>-> $>->)
   (&->-> $->->)
   (&@-> $@->)
+  (&conj $conj)
+  (&disj $disj)
   
   )
 (define (func:def f A B x fx)
