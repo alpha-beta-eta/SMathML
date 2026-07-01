@@ -1,5 +1,6 @@
 #lang racket
 (provide (all-defined-out))
+(require "svg.rkt")
 (struct pt (x y) #:transparent)
 (struct vec (x y) #:transparent)
 (define (vec+ u v)
@@ -26,3 +27,42 @@
   (vec* (/ 1 (vec-len v)) v))
 (define (pt-lerp p q t)
   (pt+ p (vec* t (pt- q p))))
+(define (n2s n)
+  (~r n #:precision 2))
+(define stroke-width
+  (make-parameter "1px"))
+(define (:line start end)
+  (define x1 (n2s (pt-x start)))
+  (define y1 (n2s (pt-y start)))
+  (define x2 (n2s (pt-x end)))
+  (define y2 (n2s (pt-y end)))
+  `(line ((x1 ,x1)
+          (y1 ,y1)
+          (x2 ,x2)
+          (y2 ,y2)
+          (stroke-width
+           ,(stroke-width)))))
+(define arrow-head
+  (Marker
+   #:attr*
+   '((id "arrow-head")
+     (viewbox "0 0 10 10")
+     (refX "5")
+     (refY "5")
+     (markerWidth "6")
+     (markerHeight "6")
+     (orient "auto-start-reverse"))
+   (Path #:attr* '((d "M 0 2 L 6 5 L 0 8 z")))))
+(define (:arrow start end)
+  (define x1 (n2s (pt-x start)))
+  (define y1 (n2s (pt-y start)))
+  (define x2 (n2s (pt-x end)))
+  (define y2 (n2s (pt-y end)))
+  `(line ((x1 ,x1)
+          (y1 ,y1)
+          (x2 ,x2)
+          (y2 ,y2)
+          (stroke-width
+           ,(stroke-width))
+          (marker-end
+           "url(#arrow-head)"))))
